@@ -1,0 +1,130 @@
+Mt Kilimanjaro is Africa’s highest mountain, and an icon for a country famous for its mammalian fauna.
+The distribution and abundance of small mammals on the mountain are poorly known.
+Here we document the distribution of shrews and rodents along an elevational gradient on the southeastern versant of Kilimanjaro.
+Five sites were sampled with elevational center points of 2000, 2500, 3000, 3500 and 4000 m, using a systematic methodology of standard traps and pitfall lines, to inventory the shrews and rodents of the slope.
+Sixteen species of mammal were recorded, including 6 shrew and 10 rodent species, and the greatest diversity of both was found at 3000 m, the elevational midpoint of the transect.
+No species previously unrecorded on Kilimanjaro were observed.
+Two genera of rodents that occur in nearby mountains (Hylomyscus and Beamys) were not recorded.
+Myosorex zinki, the only mammal endemic to Mt. Kilimanjaro, which previously was known by only a few specimens collected in the ericaceous or moorland habitat, was found in all but one (the lowest) of the sites sampled, and was one of the most widespread species of small mammal along the gradient.
+Two shrews (Crocidura allex and Sylvisorex granti) and one rodent (Dendromus insignis) were found throughout the entire transect, with Dendromus being observed at our highest trap point (4240 m).
+As in similar faunal surveys on other mountains of Tanzania, rainfall influenced the sample success of shrews, but not rodents.
+Trap success for rodents at 3500 m was notably low.
+This study contributes further justification for the conservation of the forest habitat of Mt. Kilimanjaro.
+During the survey, we accumulated 11,562 sample-nights (8361 trap-nights and 3201 bucket-nights) and trapped 612 small mammals, including 319 shrews representing 6 species, and 293 rodents representing 10 species (Tables 2, 3, 4).
+Sampling success for shrews was significantly greater in buckets than in traps (X 2 = 695.2, P<0.05), and significantly more rodents were caught in traps than in buckets (X 2 = 44.8, P<0.05), a pattern observed in past studies on small mammals of Tanzania [8], [23], [24].
+In 8361 trap-nights, 283 mammals were captured for an overall trap success of 3.4%.
+Of the mammals caught in traps, 263 were rodents (3.1% trap success for rodents) and 20 were shrews (0.2% trap success).
+In the 3201 bucket-nights, 329 mammals were captured for a total bucket success of 10.3%.
+Of these, 299 were shrews (9.3% success) and 30 were rodents (0.9% success).
+This striking pattern was evident not only across the entire survey, but also at each of the five sites sampled (Table 2).
+Shrew species caught in traps included Crocidura allex, C. monax, C. olivieri, and Myosorex zinki (weighing between 3.6–51.0 g).
+While most of the rodents caught in buckets were relatively small (i.e. Dendromus insignis; 7–20 g), both specimens of Tachyoryctes daemon (240–290 g) were captured in buckets.
+Other rodent species captured in buckets included Grammomys dolichurus, Graphiurus murinus, Praomys taitae, and Rhabdomys dilectus.
+The number of captures (and overall sample success) at each elevational site ranged from 54 [2.4%] at 3500 m to 151 [6.8%] at 2000 m (Table 2).
+For shrews alone, the lowest values were observed at the 4000 m site (34 [1.5%]) and the highest values at the 3000 m site (88 [3.6%]; Tables 2, 3).
+For rodents, the lowest (6 [0.3%]) and highest (87 [3.9%]) values were observed at the 3500 m and 4000 m sites, respectively (Tables 2, 4).
+The cumulative number of species trapped reached an asymptote at all sites except 2500 m site (Figure 2), where Dendromus insignis and Otomys angoniensis were captured on the last day of trapping.
+We examined the relationship of four daily capture parameters (number of individuals, number of species, number of new species [i.e. previously unsampled at a given site], and cumulative number of species) with cumulative sample-nights for both type of trapping methodology (Table 5) and mammalian order (Table 6).
+We chose cumulative sample-nights instead of day of sampling period because of the differences in sampling effort among sites (Table 2).
+Based on correlation analysis, there was a significant positive correlation between cumulative sample-nights and cumulative species across all sites for trap lines, bucket lines and both sampling methods combined (Table 5).
+The same pattern was generally evident at each site, although, in some cases, correlation values were high, but not significant.
+The correlation of the cumulative number of shrew species caught in buckets with cumulative number of bucket nights was significant at the 2500 m site, and high at all other sites.
+For both shrews and rodents, there was generally a negative correlation between cumulative sampling effort and new species captured.
+Notable exceptions include trap lines at the 3000 and 3500 m sites.
+There was no notable correlation between the number of species and cumulative sampling effort across the entire transect or at each site, with the exception of shrew species captured in buckets at the 2000 m site.
+The correlation between number of individuals and sampling effort varied among sites.
+There was a significantly negative pattern exhibited by pitfall lines and both trap and pitfall lines combined at the 3500 m site, but no such relationship exhibited at the 3000 and 4000 m sites.
+Table 6 presents the same analyses as Table 5, but is focused on the taxonomic groups sampled, and the patterns are similar.
+The effect of rainfall on captures is presented in Table 7. Generally, there was a stronger and more positive correlation between rainfall and daily captures of shrews, than there was for rodents.
+Over the entire transect, the capture of individual shrews in both buckets and traps was significantly correlated with the amount of rainfall each day, but the capture of individual rodents was not.
+A graphic representation of the differences between shrew and rodent captures with respect to rainfall amount is presented in Figure 3. The overall relationship between rainfall and captures of shrews was not as strong as in other elevational surveys of mammals in Tanzania [8].
+There was a significantly negative relationship between elevation and the total number of shrew species collected (Table 8).
+Additionally, elevation was negatively correlated with total number of individual shrews collected and sample success for shrews, with r values high, but not significant.
+Rodents showed no such notable pattern.
+The relationship between elevation and total sample success, number of individual mammals, and number of species collected for shrews and rodents combined was generally negative, but not significant.
+The least number of mammals, and species collected was at the 3500 m site.
+The greatest number of individuals noted was at the lowest site (2000 m), and the highest species diversity was observed at the 3000 m site.
+In most cases, the forested sites showed greater abundance and species diversity than the habitats above tree line (Tables 2, 3, 4).
+Captures in any individual trap or bucket were rare events.
+Although there was a 10.3% bucket success for all mammals captured, and 329 animals (299 shrews and 30 rodents) were collected in 385 buckets (77 buckets installed at each of five sites), most buckets captured no animals.
+Over the entire survey, 203 buckets caught nothing, 100 took one animal, 43 trapped two, 26 captured three, 7 caught four animals, 3 collected five animals, 2 trapped six animals, and ten animals were found in one bucket.
+Traps showed a similar pattern with 3.4% trap success in 1040 individual traps, and 283 captures (263 rodents and 20 shrews), but 834 traps caught nothing, 148 one, 42 two, 13 three and 3 four.
+To test for “trap competition” and to determine if captures were independent with respect to each other, we compared the observed distribution of captures by bucket and by trap to the Poisson distribution.
+Neither captures by buckets or traps followed the Poisson distribution (G-test for goodness of fit = 84.0 for buckets, 10.0 for traps; p<0.01) suggesting a lack of trap or bucket independence.
+Significantly fewer traps or buckets caught one individual than would have been expected based on the assumption that the frequency of captures follows a Poisson distribution, and significantly more caught 2, or more, than expected [7].
+Sixteen species of mammal (6 shrews and 10 rodents) were recorded along an elevational transect from roughly 2000 to 4000 m on the southeastern slope of Mt. Kilimanjaro (images of select taxa are presented in Figure 4).
+Only one of these (Myosorex zinki) is endemic to the massif, and none were introduced taxa.
+The other species have broader distributions, to varying degrees.
+For example, among the soricomorphs, Crocidura monax has been recorded in neighboring mountains within the Eastern Arc Mountains to the southeast of Kilimanjaro, including the North Pare and West Usambara Mountains.
+Crocidura allex is known from other mountains of the northern highlands of Tanzania (Meru, Ngorongoro) and the highlands of Kenya (Kenya, Aberdares).
+Crocidura hildegardeae and Sylvisorex granti are distributed across Kenya and the montane habitats of the Albertine Rift.
+Finally, Crocidura olivieri is broadly distributed across much of the African continent [32].
+Among the ten species of rodents recorded, most are variably distributed across eastern Africa, and some range over larger regions of Africa.
+For example, Tachyoryctes daemon is restricted to northern Tanzania, but murines such as Grammomys dolichurus and Rhabdomys dilectus range across much of eastern and southern Africa, as does the dormouse, Graphiurus murinus [31], [33].
+However, many taxonomists have cautioned that some of these soricomorph and rodent taxa are almost certainly species complexes, and work in progress may alter our taxonomic understanding of these groups [31], [32], [33].
+We found no species not previously documented on the mountain.
+There are several published faunal lists for Kilimanjaro, the most complete being that of Grimshaw et al. [13], who evaluated the accuracy of previous published records, and developed a working list of likely residents of the mountain.
+While this list includes every species we documented, there are other small mammals listed by Grimshaw et al. [13] that we did not document.
+For example, among shrews, we have no record of Crocidura luna.
+This species was listed by Grimshaw et al. [13] based on voucher specimens at the FMNH, collected at 1400 m, an elevation below our lowest sampling site (2000 m).
+Similarly, many rodent species listed by Grimshaw et al. [13] occur at elevations lower than the range of this study.
+Examples include genera such as Aethomys, Arvicanthis, Lemniscomys, Mastomys, Pelomys and Tatera.
+One rodent historically recorded in our elevation sampling range but absent from animals we captured is Otomys typus ( = O. orestes zinki; [35]).
+The holotype of O. zinki Bohmann 1943 was collected at Horombo Hut [36], [37], but the only two species of Otomys we documented were O. angoniensis and O. tropicalis.
+Two other rodents are notably absent from our inventory: Beamys hindei and Hylomyscus arcimontensis.
+Both are residents in forests of the Eastern Arc (including the North Pare Mountains roughly 50 km SE of Kilimanjaro) and Southern Highlands [38], [39], but no voucher specimen is known for either species from Kilimanjaro, or other northern highland sites.
+The type locality of Beamys hindei is Taveta, Kenya [40], and Dieterlen [41] identified a skull collected by C.G.
+Schillings in 1903 at Moshi as Beamys.
+Both localities are at, or near the base of Mt. Kilimanjaro.
+While this is not the most common species recorded in recent surveys of montane habitats of Tanzania across the elevational range from 600 to 2000 m [8], [19], given the number of trap nights expended during this survey, we anticipate the capture of Beamys if it occurs in the forests of southeastern Kilimanjaro.
+Records of Hylomyscus on Meru [42] and Ngorongoro [43] are now attributed to Praomys taitae [30], [38].
+Recent surveys of both Meru and Ngorongoro using techniques identical to this study did not record either Beamys or Hylomyscus (Stanley, unpubl.
+data).
+All of this leads us to the conclusion that neither Beamys nor Hylomyscus currently occur in the forests of Mt. Kilimanjaro.
+The trap success for rodents was highest at 4000 m and lowest at the 3500 m site (Table 4).
+The very low number of rodent captures at 3500 m (three in 1600 trap nights; Table 2) was striking, and is the lowest trap success recorded in similar surveys in montane habitats of Tanzania [8], [19], [24], [39].
+Shore & Garbett [14] trapped at 3500 m, roughly the same elevation as our fourth site, but on the Shira Plateau on the western slopes of Kilimanjaro.
+The species they documented (Crocidura allex, Myosorex blarina zinki [ = M. zinki], Dendromus mesomelas kilimandjari [ = D. insignis] and Rhabdomys pumilio diminutus [ = R. dilectus] were the same as in our study at the 3500 m site.
+One species (Otomys tropicalis) recorded by Shore & Garbett at 3500 m was not trapped by us at that elevation, but was collected at sites both lower and higher than 3500 m. Notably, their trap success for small mammals (2.7%; 81 captures in 2995 trap nights) was much higher that of the 3500 m site in this study (0.2%; 3 captures in 1600 trap nights), although the period of the surveys (mid-July to early August) was similar in both studies and trapping extended over several days at each site.
+The bait used by Shore & Garbett [14] included fried coconut and peanut butter (as in our procedure) but also fish, nuts and oats.
+However, the 3500 m site in our study was in stark contrast to lower and higher sites along the same transect, leading us to hypothesize that different bait is not the explanation for the lower rodent trap success at 3500 m in this study compared to the patterns documented by Shore & Garbett [14].
+One potential explanation might be the proximity of Horombo Hut (3°8'20"S, 37°26'18"E) which was approximately 600 m from our trap lines (no other sites in this study were close to human habitation).
+The buildings and discarded flour and other foodstuffs generated by people occupying this touristic camp provide shelter and food for rodents.
+Indeed, while visiting Horombo on 8 and10 August, we saw many Rhabdomys moving between buildings.
+Both repeating our sampling methodology at our site, and sampling with the same techniques at, and at increasing distances from Horombo would be illustrative of the influence of human habitation on the abundance of native rodents in the environs of Kilimanjaro.
+Mulungu et al. [15] published the results of two elevational transects of Kilimanjaro (along the Shira and Marangu routes) that focused on shrews and rodents.
+While total trapping effort was less than half of the current study (3600 vs 8361 trap nights), the recorded trap success was much higher (up to 36%).
+We attribute the higher success of Mulungu et al. [15] to the fact that traps were in place for only two nights at each site, and thus a reduction in capture rates typical of longer periods of time was not observed.
+The soricomorph and rodent species documented by Mulungu et al. [15] were identical to this study, with the exception of Mus triton, which they recorded at 2300 and 3270 m. Lophuromys aquilus was recorded at 3200 and 3590 m by Mulungu et al. [15] but our study did not record this rodent above 3000 m. However, one Lophuromys was brought to us by a Tanzanian National Parks employee who captured it at Horombo Hut (3760 m).
+The presence of other species at various elevations documented by Mulungu et al. [15] mirrored patterns observed during this study.
+As in past studies within Tanzania, the combination of traps and pitfall lines were effective in sampling non-volant small mammal communities at different elevations on Mt. Kilimanjaro [8].
+In general, species accumulation curves reached a plateau at each site, with the exception of the 2500 site where we captured Dendromus insignis and Otomys angoniensis for the first time during the last 24-hours of trapping.
+Notwithstanding the 2500 m pattern, we are confident that we documented almost all of the species of shrews and small rodents occurring at each site, and thus feel justified in comparing results among different elevational sites of this transect, as well as to results of similar surveys within Tanzania [8].
+There was a significantly negative correlation between elevation and shrew species diversity at each site, and while not significant, there was generally lower abundance (as measured by sample success) for shrews as elevation increased (Table 8).
+However, rodents showed no notable correlation with elevation, either in diversity or abundance.
+This is in contrast to the patterns observed in the Udzungwa Mountains [8], where diversity and abundance of rodents were positively and significantly correlated with elevation.
+The same trends were not observed for shrews in the Udzungwas.
+Another difference between the Udzungwa and Kilimanjaro studies was seen in the overall measures of sample success in relation to elevation.
+Stanley & Hutterer [8] found either significant or high positive correlations between elevation and total sample success, number of individual mammals, and number of species collected for shrews and rodents combined.
+Such a relationship on Mt. Kilimanjaro was negative but not statistically significant.
+Whereas there was no mid-elevational peak (sensu McCain [10]) in the Udzungwa study, the greatest diversity of shrews and rodents on Kilimanjaro was at 3000 m, in the middle of our transect.
+Indeed, this site was situated at the ecotone between forest and heathland, and species typical of both habitats were present.
+For example, this was the highest, and lowest site where Praomys taitae and Rhabdomys dilectus, respectively, were documented and the only site where the two species were found together.
+In general, there was more species diversity for both shrews and rodents in forest habitats than above treeline (Tables 2,3,4).
+Rainfall generally influenced the capture of shrews, but not rodents as was observed in the faunal inventories in the Udzungwa Mountains [8].
+Thus, rainfall amounts while sampling shrew diversity or abundance should be considered.
+In addition, there was a lack of capture independence among traps and buckets across the entire transect and at each site.
+Stanley & Hutterer [8] documented similar results in the Udzungwa Mountains, and hypothesized that multiple captures are influenced by the placement of individual traps and buckets.
+More specifically, while traps cannot catch more than one animal, generally, buckets can capture more than one on a given bucket-night.
+The possibility exists that the presence of a captured animal in a bucket may attract other animals into that bucket.
+The only endemic mammal, as currently understood, on Mt. Kilimanjaro is Myosorex zinki [44].
+Until this survey, and that of Mulungu et al. [15], M. zinki was only known from a few specimens captured in the moorland habitats above tree line [14].
+This species was documented across the elevational range of 2500 to 4000 m in this survey [45] and between 2500 to 2600 m by Mulungu et al. [15].
+Thus, this endemic shrew extends across several different habitats on the mountain.
+Myosorex zinki was not observed at our lowest sampling site (2000 m).
+Stanley et al. [45] suggest that human impact on the forests at 2000 m on the Maua route may be responsible for the absence of this endemic mammal, but this hypothesis has not been adequately tested.
+Three species (2 shrews and 1 rodent) were found at all sites sampled and occur across the range from roughly 2000 to 4000 m: Crocidura allex, Sylvisorex granti, and Dendromus insignis.
+The latter was found in the highest trap set in the survey (3° 6.481’ S, 37° 25.312’ E, 4240 m, on the ridge leading to West Lava Hill), and four individuals of this species were collected in this single trap (a Museum Special).
+How high small mammals extend on Kilimanjaro remains unanswered.
+Wild dog (Lycaon pictus) is the only mammal (other than Homo sapiens) recorded at the summit (5895 m; [46]).
+However no small mammal surveys have been conducted above 4000 m, and such efforts would help elucidate the upper ranges of shrews and rodents on this unique and iconic mountain, and would further our understanding of its faunistic dynamics.

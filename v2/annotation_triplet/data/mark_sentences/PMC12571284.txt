@@ -1,0 +1,154 @@
+Tropical mountains such as Kilimanjaro are biodiversity hotspots providing ecosystem services for millions of people, but many are under great pressure.
+Effective policies to halt biodiversity loss require an understanding of which anthropogenic factors are the main direct causes.
+While previous research focused mainly on climate change and on the effects rather than the causes, we investigated the effects of multiple drivers on biodiversity.
+The focus is on floristic and vegetation diversity, as vegetation is closely related to the diversity of other taxa and plays a fundamental role in ecosystem functioning.
+We show that land-use change caused by rapid population growth was the main direct driver on Kilimanjaro between 1911 and 2022, when 75% of natural species per km2 disappeared from the lower slopes.
+Climate change, on the other hand, had no apparent influence on the observed trends in biodiversity.
+The significant increase in traditional and diverse agroforestry and the establishment of protected areas show possibilities for mitigation.
+Kilimanjaro is thus an example of the challenges of global change, but also of the prospects and opportunities for other tropical regions.
+The population around Kilimanjaro is experiencing rapid growth (Fig 4), rising from about 50,000 to over 1.4 million between 1889 and 2022 with an annual growth rate of 2.6%, and of 1.7% between 1976 and 2022 ([37,41], National Bureau of Statistics 1978, 2002, 2022 [49]).
+According to Otte et al (2016) consistently significant rainfall trends over the period 1973–2014 could not be found for the lowlands of Kilimanjaro.
+For the period 1974–2016 at the Kilimanjaro Airport there was a significant increase in mean temperature (GLS p < 0.001) with a mean annual increase of 0.027°C.
+Over this period there was no trend in maximum daily temperature, but a significant increase in daily minimum temperature (GLS p < 0.001) with a mean annual increase of 0.032°C.
+The spatial distribution of LULC classes for the four analysed time steps are shown in Fig 5A–D and Table 3, and the extent of each class for the period between 1976 and 2022 in Fig 6A.
+Areas of natural ecosystem types, including forest, regeneration, and savanna, decreased from 90% in 1911 to 19% in 2022 (Fig 4).
+In 1911 the extend of savanna was nearly at its natural maximum of 75%, with only 2% having been converted to agriculture in the lowlands.
+In 1976, the extent of savanna and agriculture were nearly identical, but agriculture then expanded to become the dominant LULC class.
+Similarly, agroforestry expanded to 26%, surpassing savanna, which declined to 18%, becoming the second-largest land-use class in 2022.
+Apart from savanna, the other two natural vegetation types (forest and regeneration), also showed a steady decline.
+Forest plantations exhibited only minor changes in their extent, while built-up areas increased twelvefold between 1976 and 2022 (Fig 4).
+The same patterns but from a different perspective can be seen in Fig 6B, which shows the net and gross changes across the period 1976–2022.
+From this figure, two key insights arise: Agriculture and savanna were the most dynamic classes.
+Furthermore, all anthropogenic LULC classes experienced a net gain, while natural vegetation experienced a net loss across all categories.
+The Sankey diagram (Fig 6C) provides further insights into LULC transitions by illustrating the relative changes between LULC classes across three time periods (1976, 2002, and 2022).
+The diagram highlights which LULC classes contributed to the expansion of specific categories.
+Notably, savanna conversion was the primary driver of agricultural expansion, with smaller contributions from other LULC classes.
+The number of all plant species per km2 (mean at ward level) exhibited only a slight decrease of approximately 10%, between 1976 and 2022 (Table 4).
+The decline in plant species of natural habitats, including forest, regeneration, and savanna, was much more pronounced, with a decrease of 46%.
+Conversely, there was an increase of approximately 25% in neophytes during the same period.
+This means that not only is species richness changing, but also species composition, i.e., there is an increase in partially invasive and widespread species at the expense of native species with partially restricted distribution.
+World population is projected to continue growing throughout the century, reaching between 9.6 billion and 12.3 billion at the end of the century, with Africa expected to experience at least a 3.5-fold increase in population.
+The current population of Africa, approximately 1.5 billion people in 2024, is projected to reach approximately 2.2 billion in 2054 [50].
+Tanzania’s population growth rate stands at about 3.0% annually.
+If this trend persists, Tanzania’s population is estimated to increase from about 65 million in 2022 to approximately 95 million in 2050 and over 300 million by the end of the century [49,51].
+The human population on Kilimanjaro, comprising Moshi Urban, Moshi Rural, Rombo, Siha, and Hai Districts, has multiplied 28 times over 133 years from about 50,000 in 1889 [41] and 100,000 in 1913 [37] to over 1.4 million in 2022 ([49], Fig 4).
+As a result, population density increased from 15 people/km2 in 1889–30 in 1913, 50 in 1948 [52], and 211 in 1978, eventually reaching 430 people/km2 in 2022.
+The local population density (outside the cities) rose to unprecedented levels of up to 1500 people/km2 in the most fertile highland area of the Chagga homegardens.
+This population growth resulted in a severe shortage of cultivable land and the subdivision of land into fragments too small to support a family and too numerous to allow for further expansion [25,53]).
+Consequently, many young people migrated from the highlands to urban centers such as Moshi, Arusha, and Dar es Salaam, or settled on the foothills of Kilimanjaro.
+This emigration from the highlands explains why the demographic growth rate on Kilimanjaro is lower than the national average in Tanzania and why the population growth rate in the lowlands (2.9%) was much higher than in the highland homegarden areas (0.9%) between 1976 and 2022.
+In 1976, approximately 30% of the population resided in the lowlands, a proportion that increased to about 50% by 2022.
+In the causal chain of factors affecting biodiversity, demography acts as an indirect driver via the direct drivers [7], at Kilimanjaro by controlling land use change as direct driver.
+In other regions of Tanzania, it was also the population growth that led to the expansion of cultivated land [54].
+The observed growing population density results in the overall reduction of natural habitats since 1911 (Fig 4), with increasing annual reduction rates from 1.0%, 1.9% and 2.4% between 1911 and 1976, 2002 and 2022.
+This can be shown in more detail for the period 1976–2022 at ward level (Fig 7).
+In addition to the clear correlation between increasing population density and decreasing natural vegetation, Fig 7 shows that not only the mean share of natural vegetation was higher in 1976 than in 2002 and 2022, as also seen in Fig 4, but also, that at a given population density, e.g., of 1000 people/km2, the natural vegetation share was approximately 18% in 1976, compared to 6% in 2002 and only 1% in 2022.
+This decline may be due to rapid economic development at an even higher rate than population growth increasing per capita demand for resources, e.g., via higher availability of machinery or pesticides, with this increasing land use intensity and reducing natural areas.
+Fig 3 gives an impression of the extent to which the vegetation at the southern foot of Kilimanjaro has been reshaped by humans.
+For the entire Kilimanjaro region, including the five study districts and the Pare Mountains, Gross Domestic Product (GDP) grew about 5.7 times from 1980 to 2020 [49].
+During this time, GDP per capita in Tanzania increased approximately 1.8 times [55], indicating that economic growth was much more rapid in Kilimanjaro.
+In our study area, reflected through construction activities as indicators of economic growth, Fig 4 shows an annual growth rate of built-up areas at 5.9% between 1976 and 2022, and 6.1% from 2002 to 2022, surpassing population growth.
+This aligns with global satellite-derived built-up area statistics named GHS-BUILT-S from the Global Human Settlement Layer (GHSL) project (see Supplementary Information S1 Text; Table 5).
+Trends post-2000 indicate significant expansion of built-up areas compared to the 1975–2000 period.
+This is also in line with trends on a continental level: Africa’s urban areas will more than double until 2025.
+The growth in urban area expansion is projected to outpace urban population growth, at 3.2% compared to 2.3% per year.
+The total urban footprint is projected to increase from 175 000 square kilometres to 450 000 square kilometres between 2020 and 2050 with an increasing number of urban agglomerations from 9,000 to over 11,000 [56].
+The trend of house building activities and the development of new town centers between 1990 and 2016, particularly in the lowlands of Hai and Siha districts on the southwestern side of Kilimanjaro, is illustrated in Fig 8. This aligns with GHS-BUILT-S (Table 5).
+The role of KINAPA as a barrier against encroachment by settlements is notable in Fig 8, highlighting the importance of governance through governmental protection of nature that delivers ecosystem services to Tanzania’s people.
+Demographic and socio-economic factors have driven many land-use changes at Kilimanjaro.
+By 2000, a corridor of submontane forest that once connected Kilimanjaro and Mt. Meru had been largely replaced by human settlements and agriculture (Fig 5B).
+This forest corridor was crucial for the dispersal of forest animals [21], but Kilimanjaro is now increasingly isolated, impacting biodiversity and endemism.
+On a positive note, the growth of Chagga homegardens – a sustainable land-use practice supporting various natural species [31,53,57] – has helped mitigate biodiversity loss, especially as these gardens have expanded at the expense of agricultural fields (Fig 5C).
+From 1976 to 2022, the area of homegardens more than doubled to 849 km2.
+A reanalysis of meteorological data for East Africa shows an approximate surface temperature increase of 0.95 K over the past 60 years (specifically between 2.5° to 5.0° South and 37.5° to 40.0° East).
+Additionally, the RCP6.0 scenario projects a further increase of 3 K by 2100 [58].
+However, such modeled climate data for tropical mountains is sometimes very unreliable [35].
+Beside increasing trends of temperature no consistently significant rainfall trends over the period 1973–2014 could be found for the lowlands of Kilimanjaro [36].
+Consequently, we conclude that climate change did not significantly influence observed biodiversity trends or land use in the lowlands.
+If it had been a primary driver of land use change, we would expect to see negative impacts on subsistence agriculture and agroforestry, yet these categories showed significant gains.
+However, this differs from the situation above the cultivation belt within the national park.
+There, signs such as glacier retreat [59] indicate a gradual decline in regional humidity and precipitation, and an interplay between increasing human activities and decreasing humidity leads to an increasing frequency and intensity of forest fires, affecting biodiversity especially in the upper montane forest zone and the subalpine ericaceous belt [20].
+Forest fires are also frequent in the humid lower montane forest zone near cultivated areas in the vicinity of larger anthropogenic clearings due to a changing microclimate with increasing air temperature and decreasing humidity [60].
+In the last 120 years, Kilimanjaro has lost about 50% of its forest area [23].
+This not only affects biodiversity, but also has far-reaching consequences for the regional climate.
+Deforestation leads to a significant increase in maximum air temperature and cloud base height [61], which on Kilimanjaro primarily affects the upper regions within the national park and even the glaciers [62] and impairs the area’s ability to provide vital NCPs, especially water.
+This interaction demonstrates that climate change is not always a challenge originating from outside but also a “homemade” problem caused by regional land-use change and boosting together biodiversity loss.
+However, such changes (e.g., the increase in wild fires) have not been observed in the lowlands of Kilimanjaro.
+Land use change and intensification are the main drivers of the decline of biodiversity and ecosystem services globally [3,5,63,64], exceeding the impact of climate change, particularly in tropical areas [11,14,65–67].
+For Kilimanjaro, Fig 9 illustrates the effects of population-induced natural habitat loss on species diversity.
+Species density of natural species (including endemics and Red List species) correlates closely with Fig 7, indicating that land-use change, notably ecosystem loss, is the primary cause of reduced species density (Fig 9A).
+The loss of about 40% of natural savanna habitats (76% since 1911) significantly threatens Kilimanjaro’s biodiversity, as savanna ecosystems are crucial for plant species diversity [17,68].
+This decline also affects traditional medicinal plants, primarily found in Kilimanjaro’s lowlands [69].
+This trend aligns with global patterns; over the last century, tropical savanna ecosystems have decreased by over 50% due to agricultural conversion [4].
+In Sub-Saharan Africa, around 20% of former savanna land is now cropland, with much of the remaining area used for livestock grazing [70].
+The FAO predicts further encroachment of subsistence agriculture into former savanna regions due to population growth [71].
+Forests ecosystems have also significantly declined, from over 500 km2 in 1911–60 km2 in 2022 (Table 3), particularly impacting endemic species (Fig 9B).
+This decrease varied over time and between wards.
+Between 1911 and 1976, many natural forest ecosystems on the western and northern slopes were converted to exotic tree plantations, while substantial forest areas on the southern slope became homegardens, and between 1976 and 2002 the Meru-Kilimanjaro forest corridor was destroyed (Fig 5).
+In parallel to the decreasing area of natural habitats, Fig 9A shows not only a similar negative trend over the study period, but also a similar decrease in the number of natural species at a given population density.
+For example, at an average population density of 1000 people/km2, 245 species per km2 were recorded in 1976, decreasing to 180 by 2003 and 115 in 2022.
+This decline seems linked to increasing land use intensity driven by economic development, similar to trends in natural vegetation (Fig 7).
+Peters et al. [68] identified land use intensity as a key factor influencing biodiversity on Kilimanjaro.
+Intensified land use, particularly pesticide application, significantly harms susceptible plant species, such as epiphytes in Kilimanjaro’s agroforestry systems.
+Chagga homegardens showed higher numbers of epiphytic mosses compared to intensively managed commercial coffee plantations [57].
+Like other high mountains in tropical East Africa and Ethiopia, Kilimanjaro’s alpine zone has a high proportion of endemic species, with numbers decreasing at lower elevations [72].
+Our dataset identified 35 endemic species, making up only 2% of the total species in Kilimanjaro’s lowlands.
+Fig 9B shows the declining trends of endemics in relation to population density over time.
+There was also a strong negative correlation between number of Red List species and population density, with a clear decreasing trend over time (Fig 9C), resulting in many wards without any endangered species in 2022.
+IUCN Red List species (26 species in the study area) occurred only in forest and savanna habitats (Table 2), which are ecosystems with a strong decrease since 1976 (Figs 5 and 6).
+The relatively high number of Red List species at the highest population density of 3500 people/km2 is due to the presence of Rau Forest Reserve located in Moshi Municipal.
+Introduced invasive species are significant threats to biodiversity worldwide [2] and in Tanzania [73], where 67 invasive species have severe negative impacts on local ecosystems habitats and native species.
+Our dataset records 180 introduced species on Kilimanjaro, including cultivated plants; however, only a few, such as Prosopis juliflora, Tecoma stans, Caesalpinia decapetala, Calliandra houstoniana, Parthenium hysterophorus (causing allergies) and Lantana camara, are invasive and problematic, particularly in disturbed savanna and submontane areas, whereas Acacia mearnsii affects the former half-mile forest strips.
+A preliminary study (Hemp unpub.
+data) documented the spread of Prosopis juliflora since 1990, which now occupies 7% of the area shown in Fig 10 and is spread by livestock [74].
+The other mentioned invasive species have (up to now) not significantly impacted Kilimanjaro’s ecosystems.
+Similarly, Jaureguiberry et al. [14] noted that, in recent decades, invasive alien species have been less important causes of global biodiversity loss, especially in Africa, compared to land-use change.
+In this study, neophytes are viewed not as a factor influencing biodiversity, but as a (partly negative) part of it as a consequence of land cover change.
+Fig 9D shows the positive correlation between population density and neophyte numbers per km2.
+Our dataset includes 180 introduced species, representing about 9% of the total species.
+At 1000 people/km2, neophytes numbered approximately 109 in 1976, rising to 117 by 2002 and 128 in 2022, reflecting a decline in natural vegetation (Fig 4).
+The very weak and non-significant correlation in 2022 may be due to more open agriculture being converted into homegardens, which hold the highest number of introduced species on Kilimanjaro, with over 100 cultivated plants originating from outside Africa [53] (Table 2).
+Therefore, the density of introduced species peaked in rural areas rather than densely populated urban areas in 2022.
+The increasing trend of neophytes may be stronger than reported, as our data cannot capture their immigration over time (see “critical remarks” in Supplementary Informations S1 Text).
+Increased tourism also raises the risk of introducing exotic plant species, especially in Kilimanjaro’s upper zones.
+One such species, Poa annua, a European-origin weed, is found on roadsides and pastures.
+Like most other neophytes on Kilimanjaro, Poa annua invades only anthropogenic or disturbed vegetation, occurring between about 1600 and 4000 m asl.
+along climbing routes or their vicinity.
+Its spread has paralleled the rise in climbing tourism over the past 30 years [32], though an invasion of natural vegetation types seems unlikely at present.
+The study area includes three forest reserves south of Moshi, with only Rau forest largely intact, while the others face near-total destruction, highlighting the importance of effective management in conservation to mitigate population growth’s negative effects on biodiversity.
+Rau Forest Reserve is increasingly attracting tourists, providing economic incentives for nature conservation in an area rich in endemic species that are found nowhere else.
+The value of such reserves is clear from Fig 10, based on Hurskainen et al. [75].
+In a 1300 km2 area on Kilimanjaro’s southern foothills (mainly within the study area, Fig 1), only 29% maintained semi-natural vegetation, with just 3% as forests in 2012.
+Fig 10, right panel shows species richness at 1-hectare grids; cultivated ecosystems have low species numbers, especially in high-intensity land use types like sugar cane plantations and rice fields.
+In contrast, Rau Forest and Namalok, a private nature reserve (see below) exhibit high species richness (84–100 species per hectare).
+Additionally, the critical role of riparian areas in connecting lowlands and highlands as biodiversity “blood vessels” is evident.
+Another large nature reserve is Namalok.
+Located in the southern part of the study area (Fig 1), this reserve covers 46 km2 and is owned by the semi-private/state-owned sugarcane company TPC.
+Initial efforts to conserve this area began in 2005 and it was fenced off in 2010.
+Due to its remoteness, in 1976 78% was still covered by natural vegetation (riverine forests, savanna woodlands and alkaline grasslands) and by 2022 this had increased to 100%.
+In recent years, antelopes and zebras have been reintroduced and the reserve is now open to tourists.
+The lack of plant abundance data in our approach limits the application of diversity indices such as Shannon and evenness metrics.
+Instead, we focus on species richness, the simplest and most appropriate measure of diversity [76,77], but also on species composition.
+We therefore address a very significant aspect of biodiversity.
+Climate change had no apparent impact on biodiversity trends in the densely populated lower regions of Kilimanjaro over the past 40 years.
+The primary factor negatively affecting biodiversity is land use change driven by rapid population growth and economic development that leads to increased land-use intensity replacing native biodiversity with agricultural species and ecosystems.
+To our knowledge, this study is the first to link human population densities with plant species densities at a 1 km2 scale in a tropical region, utilizing remote sensing data alongside a comprehensive dataset of the species on the ground.
+This approach enabled us to analyze various plant groups of different environmental importance and not only simple total species numbers for more ecologically meaningful diversity trends.
+We also cleaned our dataset to avoid multiple counts of species, requiring sufficient ground data on species composition across the different vegetation types present.
+For this approach, extensive ecological field data are crucial, often not considered or not available.
+This makes it difficult to transfer this approach to other tropical regions.
+Furthermore, it highlights the importance of biological collections, which enable the identification and storage of collected specimens.
+Without the collections and taxonomists of the herbaria in Nairobi, Kew, Paris, Vienna, Oslo, Copenhagen, Berlin, Stockholm, Uppsala and Arusha, this study would not have been possible.
+The declining trends in certain natural habitats would have been more pronounced if we could distinguish vegetation types at a finer scale; however, older remote sensing data limited this accuracy.
+For instance, wetlands – important habitats for birds on Kilimanjaro – have probably lost over 90% of their area in recent decades due to illegal water pumping and conversion to rice paddies, often abandoned after a few years due to salinization.
+Most lower slopes of Kilimanjaro were already converted to anthropogenic land use by 1976, at the start of our detailed evaluation.
+A century ago, when Kilimanjaro’s population was below 100,000, approximately 98% of its savanna vegetation remained intact, and natural vegetation covered 90% of the lower slopes.
+Although biodiversity data from that time is limited, extrapolating our population density and species richness trends suggests that in 1911, nearly 700 native plant species existed per km2, whereas today, this number has declined to approximately 180.
+If we consider population density and economic prosperity as indicators of human well-being [6,78] and the area of natural habitats and species counts as indicators of ecological well-being, we can see significant gains in human well-being alongside strong declines for environmental well-being at Kilimanjaro in recent decades.
+However, land degradation from poor management, such as wetland destruction and invasion by non-native species due to overgrazing former habitats of iconic animals such as elephants, giraffes and lions, threatens both the environment and long-term human well-being, despite current economic growth.
+For instance, asthma rates have reportedly increased on Kilimanjaro, possibly due to the replacement of permanent vegetation with fields, raising dust and allergen levels, especially during the dry seasons and exacerbated by the spread of allergenic invasive species such as Parthenium in disturbed areas.
+On the positive side, as a combination of ecological and human well-being, the development of sustainable traditional agroforestry through the conversion of degraded land, the protection of the Rau forest compared to poorly managed reserves and the establishment of protected areas like Namalok are potential strategies to mitigate drastic changes in land cover.
+Chagga homegardens stand out as a model for sustainable agricultural practices in tropical regions, showcasing land use without soil degradation or erosion for centuries.
+Furthermore, effective management of Kilimanjaro National Park, which provides essential ecosystem services, benefits the local population.
+The Namalok nature reserve, which is since 2010 protected from overgrazing by cattle, also provides space for large animals, while the local population benefits from the renewable forests as they are allowed to collect the now abundant firewood.
+Kilimanjaro remains a biodiversity hotspot, reflecting both the extraordinary diversity of its flora and vegetation and the challenges posed by demographic and ecological changes, exemplifying broader issues and opportunities for other tropical regions.

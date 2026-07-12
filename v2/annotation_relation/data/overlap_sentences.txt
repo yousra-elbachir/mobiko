@@ -1,0 +1,155 @@
+We find that centres of species richness correlate with areas of high temperatures, annual rainfall and topographic relief, supporting previous studies.
+We unveil additional links between mountain-building processes and biodiversity: species richness correlates with erosion rates and heterogeneity of soil types, with a varying response across continents.
+These additional links are prominent but under-explored, and probably relate to the interplay between surface uplift, climate change and atmospheric circulation through time.
+They are also influenced by the location and orientation of mountain ranges in relation to air circulation patterns, and how species diversification, dispersal and refugia respond to climate change.
+[results] Our results, combined with the current literature, support strong associations between mountains and biodiversity.
+The formation of mountains drastically transforms previously homogenous and geologically static landscapes, often characterized by having mature soils, low erosion rates, old relict species and low speciation rates (Fig.
+As land surfaces lift up due to rock uplift exceeding erosion, either through tectonic or volcanic processes, this leads to high and transient relief.
+Orographic rainfall may form on the windward side and create a rain shadow on the leeward side.
+Vegetation belts characterize elevational gradients and reflect local precipitation.
+Fine-scale habitat and soil heterogeneity develop, creating novel habitats and ecological niches.
+Range expansions and dispersals across vegetation belts often lead to local adaptations and speciation in resident lineages37,46.
+A large surface area and wide range of available habitats facilitate the establishment of immigrant lineages from surrounding lowlands and other mountains (for example, flying birds or bats and the seeds they carry), further increasing species richness5.
+Over millions of years, these processes generally lead to a concentration of species at low to middle elevations, and a decrease in species richness towards mountain peaks41 (Fig.
+When rock uplift is surpassed by erosion, mean elevation (and relief) begin to decrease, and so do species richness and the heterogeneity of the geological variables examined here.
+Erosion and relief formation is accelerated by global climatic fluctuations (including glacial–interglacial periods) that promote changes in glacier extent, river runoff and sediment evacuation.
+The formation of valleys and glaciers splits previously connected populations, which may go locally extinct or survive in refugia.
+The secondary contact of populations from previously isolated valleys increases with the resulting vegetation changes during interglacials47, leading to further in situ speciation48.
+Surface processes related to glaciations, especially those that characterize the Plio–Pleistocene period, may greatly reshape the overall relief13,49 (Fig.
+Finally, rock uplift completely ceases, mountains decay and montane habitats disappear due to continued erosion.
+This process is similar to what happens when volcanic islands and their biota subside50.
+Entire populations can also be annihilated by rapid stochastic events, such as landslides, which are particularly common during periods of deglaciation49.
+Many species go extinct, in particular those that are ecological specialists or confined to particular montane habitats (Fig.
+Large regional variation exists in how mountains and their biodiversity evolve.
+In some cases, mountainous topography can persist for hundreds of millions of years after the end of tectonic deformation51.
+[abstract] The Langbian Plateau, a biodiversity hotspot in the southern Annamites of Viet Nam, has undergone extensive hunting pressure.
+However, the limited information on the effects of overexploitation on the current status and community composition of wildlife hinders effective conservation efforts, including the implementation of targeted patrols to reduce snaring.
+In this study, we conducted a camera-trapping survey across the Langbian Plateau, consisting of a broadleaf evergreen and coniferous habitat mosaic.
+We recorded 46 ground-dwelling mammals and birds, including several threatened Annamite endemics.
+Using multi-species Royle-Nichols model and landscape covariates, we found higher richness in broadleaf evergreen forest located in more remote and less rugged areas.
+We then used species responses to covariates to predict species distribution and identify high-priority areas for conservation.
+Furthermore, we constructed diversity profiles that indicated higher biodiversity in broadleaf evergreen forest compared to the coniferous forest.
+Finally, we used a dissimilarity index to assess the level of defaunation, revealing 16% of the community had been lost, with higher levels of defaunation for threatened and larger-sized species.
+Our findings provide insights into the status, distribution, and occurrence of the ground-dwelling mammal and bird communities in the Langbian Plateau, and can help stakeholders design more effective conservation strategies to protect existing populations.
+[methods] 2.1 Study site We surveyed four contiguous protected areas in the core forest area of the southern Annamites: Bidoup—Nui Ba National Park, Phuoc Binh National Park, Da Nhim Protection Forest, and Dran Protection Forest (Figure 1).
+Historically, Bidoup—Nui Ba and Phuoc Binh National Park were a part of the Thuong Da Nhim Nature Reserve established in 1986 (Eames, 1995), but in 1992 the two areas were split into two forest units and managed separately (Southern Institute of Ecology, 2017).
+As national parks, both Bidoup Nui Ba and Phuoc Binh areas are assigned complete protection status (Law on Forestry, 2017).
+Da Nhim and Dran forests were also managed under a single administration authority from 1987 (Eames, 1995), but separated into two protection forests in the late 1990s, in which timber extraction and wildlife exploitation are not completely prohibited (Law on Forestry, 2017).
+National parks in Viet Nam also do generally receive higher investments and staffing compared to protection forests.
+The Da Nhim and Dran forests harbor some of the largest areas of natural coniferous forest in the southern Annamites region (Nguyen, 1966).
+The total surveyed area covered approximately 1100km2, with an elevational range from 200 to 2400m and an annual temperature range between 14.3 and 38.8°C.
+The survey sites have a typical tropical monsoon climate, with a rainy season occurring from May to October and an average annual precipitation of over 2000mm (Hoang et al., 2011; Southern Institute of Ecology, 2017).
+However, precipitation is unevenly distributed within the study sites due to the rain shadow effect, and this, combined with differences in soil type, contribute to two major habitat types: broadleaf evergreen forest and coniferous forest (Nguyen, 1966; Rundel, 1999).
+While broadleaf evergreen forest is distributed across a broad elevational range, coniferous forest, which is primarily dominated by Pinus kesiya, is mainly found between 1100 and 1700m in the southern Annamites (Champsoloix, 1958).
+The eastern and western slopes of Bidoup Nui Ba National Park, and the majority of Phuoc Binh National Park, receive high levels of rainfall and are dominated by evergreen broadleaf forests.
+In contrast, the central and southern parts of Bidoup Nui Ba National Park, as well as the majority of Da Nhim and Dran Protection Forests, receive less rainfall and are predominately coniferous.
+Within these coniferous forests, small patches of broadleaf evergreen forests may be found along rivers and streams.
+2.2 Camera-trapping and data management We carried out three camera-trap surveys from September 2019 to April 2021.
+In total, we set up 157 stations spanning all four protected areas and both main habitat types (Table 1, Figure 1).
+Elevation has been shown to be an important driver of species distribution in multiple areas within the Annamites (Alexiou et al., 2022; Nguyen et al., 2022; Tilker, Abrams, et al., 2020).
+In addition to these environmental factors, wildlife is directly impacted by hunting.
+Various studies in the Annamites have found the links between population density and species or snare occurrence, suggesting forest areas around high population villages or towns usually have high snaring level and high defaunation (Nguyen et al., 2022; Tilker, Abrams, et al., 2020; Tilker et al., 2023).
+We photographed at least 46 ground-dwelling mammal and bird species (Table S6).
+We recorded several threatened and endemic species, including Annamite striped rabbit Nesolagus timminsi, large-antlered muntjac, Owston's civet, Annamite crested argus, and collared laughingthrush Trochalopteron yersini.
+We also recorded a number of large mammals that are rare in the region, including gaur, sambar Rusa unicolor, and sun bear Helarctos malayanus, although the number of records was low (Table S6).
+We failed to detect large and medium size canids and felids.
+The Bayesian p-value was .75, suggesting that model fit to the data was adequate.
+Model results showed strong evidence of positive responses of mammal and bird communities to remoteness and NDVI, indicating that the majority of species had higher occupancies in more remote areas (seven species showed strong evidence of positive responses, 17 species showed moderate evidence of positive responses; Figure 2) and in forests with higher NDVI (five species showed strong evidence of positive responses, 30 species had moderate evidence of positive responses; Figure 2).
+At the same time, both communities showed a strong support for negative response to TRI, indicating that species occurred more often in flatter, less rugged terrain (39 species showed moderate to strong evidence of negative responses; Figure 2).
+The communities also showed moderate evidence of negative response to the human population density with 16 species (two species showed strong evidence and 14 species showed moderate evidence; Figure 2) preferring areas of low human density and only four species had the tendency to have higher occupancies (moderate evidence of positive response) in high human density areas.
+Species responses to elevation and homogeneity varied in direction, and thus there was no effect at the community level (Figure 2).
+For elevation, 11 species had strong or moderate evidence of negative responses, while 18 species had strong or moderate evidence of positive responses (Figure 2).
+For homogeneity, 13 species had strong or moderate evidence of negative responses, indicating that these species prefer more heterogeneous habitats, while 10 species had a strong or moderate evidence of positive responses and thus higher occupancies in more homogeneous forests (Figure 2).
+3.2 Diversity profiles and historical defaunation Diversity profiles showed strong evidence of higher diversity in the broadleaf evergreen forest compared to the coniferous forest (Figure 3a, 95% BCIs of the diversity profiles did not overlap).
+Diversity profiles started with higher species richness in broadleaf evergreen forest and the profiles declined less steeply than in coniferous forest, indicating a higher level of community evenness within broadleaf evergreen compared to coniferous forest.
+The defaunation index indicated that approximately 16% of species that historically occurred within the southern Annamites are now likely extinct in the study areas (Figure 3b; Table S7).
+The defaunation index showed higher levels of dissimilarity between current and historical assemblages when species were weighted by threatened status and body size.
+Defaunation indices were slightly higher in coniferous forest compared to evergreen forest, indicating that, proportionally, this habitat has lost a higher percentage of its ground-dwelling mammal and bird species (Figure 3b).
+3.3 Mapping priority areas Overall, the species richness maps showed similar patterns for all species (Figure 4a), threatened species (Figure 4b), and endemic species (Figure 4c).
+Two of these hotspots are located in the higher mountains in the west and east of Bidoup Nui Ba National Park, and are particularly important for endemic species (Figure 4c).
+The third area is located in a remote area in the north of Bidoup Nui Ba National Park (Figure 4a).
+The prediction map of threatened species also showed a higher richness in Phuoc Binh National Park compared to the Dran and Da Nhim Protection Forest areas (Figure 4b).
+[abstract] Crested gibbons are endemic to the Indochinese bioregion and occur only in Vietnam, Laos, Cambodia and southern China.
+Recent investigations divide crested gibbons into six species, namely Nomascus hainanus, N. nasutus, N. concolor, N. leucogenys, N. siki and N. gabriellae.
+However, there is evidence that gibbons in the range of N. siki represent two taxa.
+Based on genetic, acoustic and morphological data, a new gibbon species – Nomascus annamensis- is herein described.
+Here we show that a worldwide mid-elevation peak in bird richness is driven by wide-ranging species and disappears when we use a subsampling procedure that ensures even species representation in space and facilitates evolutionary interpretation.
+Instead, richness corrected for range size declines linearly with increasing elevation.
+We find that the more depauperate assemblages at higher elevations are characterized by higher rates of diversification across all mountain regions, rejecting the idea that lower recent diversification rates are the general cause of less diverse biota.
+Across all elevations, assemblages on mountains with high rates of past temperature change exhibit more rapid diversification, highlighting the importance of climatic fluctuations in driving the evolutionary dynamics of mountain biodiversity.
+While different geomorphological and climatic attributes of mountain regions have been pivotal in determining the remarkable richness gradients observed today, our results underscore the role of ongoing and often very recent diversification processes in maintaining the unique and highly adapted biodiversity of higher elevations.
+[abstract] The Sierra Nevada massif is a hotspot nested within a biodiversity hotspot in the Western Mediterranean (the Baetic-Rifian range, divided by the Strait of Gibraltar), which in turn is found within one the hottest spots in the World, the Mediterranean Basin.
+The geographic, geomorphological, geological and climatic history of Sierra Nevada places it at a unique biogeographical crossroads, which explains the high biodiversity levels found there.
+Based on data from more than 11,000 insects collected across a two-year period, we find a 71% reduction in insect emergence associated with an additional 3.6°C of water temperature in oligotrophic alpine lakes.
+While our work confirms prior findings that predator presence drives strong reductions in insect emergence, we find that the effects of predation are significantly weaker in warmer lakes (2% reduction in warmest lakes studied vs. 75% reduction in coldest).
+Combining our results with regional studies of predator communities to identify mechanisms suggests that the interaction effects between temperature and predator presence are likely due to changes in predator behavior across temperatures.
+Critically, to fully understand the multiple stressors that impact insect populations and predict their future effects, we must consider the interactions between stressors across spatial scales.
+[methods] The Sierra Nevada of California is a mountain range located near the western coast of North America, containing more than 4000 high-elevation lakes which provide an ideal laboratory to examine the interacting effects of multiple global changes.
+Much of the mountain range is protected as wilderness, preventing many direct impacts of anthropogenic development, but the system is still vulnerable to both local and regional stressors.
+Sierran lakes at high elevation lack endemic fish populations due to physical barriers to dispersal.
+Many of the lakes have been stocked over the past hundred years with trout species (Oncorhynchus mykiss and Salvelina fontinalis) to improve recreational fishing opportunities.
+This assumption was confirmed by clumped patterns in the residuals when a linear model was fit to the data.
+The vast majority (96.6%) of insects collected from emergence traps were Diptera (flies), while 0.8% were Trichoptera (caddisflies) and Ephemeroptera (mayflies).
+Within Diptera, 85% of total insects collected belonged to the Chironomidae, with 40% of traps capturing only Chironomidae.
+Other Diptera families collected included Culicidae, Tipulidae, and Simuliidae.
+Odonata (dragonflies and damselflies) were not captured and are generally absent from the Sierra above 3000m (Piovia-Scott et al., 2016).
+At each lake, emergence was low shortly after ice-off and at the end of the summer and peaked between 25 and 40days after ice-off in both years (Appendix S1: Figure S1).
+Abundance, biomass, and body size across lakes Across all temperatures, presence of an introduced predator (trout) was associated with 65% lower rates of emerging biomass (Table 1, Figure 2A).
+From the coolest lakes to the warmest lakes, we observed a 71% lower daily emerging biomass of insects that coincided with the 3.6°C increase in annual peak water temperature (Table 1, Figure 2A), contrary to our hypothesis.
+The interactive effect of temperature and predator presence on rates of emerging biomass approached significance (p=0.069, Table 1), suggesting that predator presence mattered more for insect biomass in cold lakes.
+Predator presence and peak water temperature were each also negatively associated with daily numerical abundance of emerging insects (Figure 2B).
+The lower abundances associated with higher temperatures were attributable to reduced numbers of emerging Diptera.
+There was a strong interactive effect of temperature and predator presence on the numerical abundance of emerging insects and of Diptera in particular (Figure 2D, Table 1).
+While predators always reduced the abundance of emerging Diptera, this effect size was larger in cold lakes than in warmer lakes (Figure 2B, Table 1).
+Because the largest effect size occurred in the lakes with lowest trout densities and biomass, the interaction between trout presence and temperature would likely have been even more pronounced if calculated for equivalent biomasses of fish.
+Predator presence was associated with reduced body size among Ephemeroptera and Trichoptera, but had no significant effect on the mean body size of Diptera.
+Peak water temperature was positively associated with larger individual body size for all measured insect groups (Table 1, Figure 2B,C).
+There were no interactive effects of temperature and predator presence on body size for any taxa.
+Species composition across lakes NMDS analysis followed by PERMANOVA revealed that predator presence and peak water temperature, but not their interaction, were significant correlates of emerging insect community composition (Figure 3).
+Lakes without fish tended to have fewer Simuliidae, but more Ephemeroptera.
+Warmer lakes had more Culicidae than cooler lakes.
+Cooler lakes had more medium-sized Chironomidae and more of the smallest size class of Diptera (≤1.5mm length, various taxa).
+Large Chironomidae were a small proportion of the insect community, but were more important in warmer lakes.
+In Argentina, the last remaining grassland remnants that persist are associated within the Pampean mountain systems, which act as crucial refuges for the species that inhabit them in the region.
+We identified potential corridors and least-cost paths for five carnivore species, obtaining multi-species corridors which highlight the importance of landscape connectivity for maintaining healthy populations.
+[abstract] Based on specimens collected during recent field surveys and re–examination of museum specimens, we critically reviewed the taxonomic status of several bat species occurring in the Western Himalayan states of Himachal Pradesh and Uttarakhand in India.
+A new species, Myotis himalaicus sp.
+frater complex is described based on multiple evidence of unique characters.
+insignis and report this species for the first time from India.
+We also detail the first occurrence of Rhinolophus nippon, Hypsugo savii and My.
+sicarius from the Western Himalayas.
+We conclusively delineate Pipistrellus babu occurring in the Western Himalayas as a species distinct from Pi.
+javanicus in Southeast Asia and draw attention to several species–complexes (i.e.
+Rhinolophus macrotis, Eptesicus pachyomus, Murina cyclotis or Mu.
+huttonii) where further material and analyses are needed to clarify the species boundaries.
+[abstract] Hosting 1460 plant and 126 vertebrate endemic species, the Great Escarpment (hereafter, Escarpment) forms a semi-circular “amphitheater” of mountains girdling southern Africa from arid west to temperate east.
+We investigated patterns of speciation and micro-endemism from modeled past, present, and future distributions in six clades of southern African bats from three families (Rhinolophidae, Cistugidae, and Vespertilionidae) having different crown ages (Pleistocene to Miocene) and biome affiliations (temperate to arid).
+In horseshoe bats (Rhinolophidae), both the western and eastern “arms” of the Escarpment have facilitated dispersals from the Afrotropics into southern Africa.
+Pleistocene and pre-Pleistocene “species pumps” and temperate refugia explained observed patterns of speciation, intraspecific divergence and, in two cases, mtDNA introgression.
+The Maloti-Drakensberg is a center of micro-endemism for bats, housing three newly described or undescribed species.
+Vicariance across biogeographic barriers gave rise to 29 micro-endemic species and intraspecific lineages whose distributions were congruent with those identified in other phytogeographic and zoogeographic studies.
+Although Köppen–Geiger climate models predict a widespread replacement of current temperate ecosystems in southern Africa by tropical or arid ecosystems by 2070–2100, future climate Maxent models for 13 bat species (all but one of those analyzed above) showed minimal range changes in temperate species from the eastern Escarpment by 2070, possibly due to the buffering effect of mountains to climate change.
+[abstract] Endemic medicinal plants that grow at altitudes in northern Chile have been traditionally used for therapeutic applications by Aymara doctors.
+The aim was to characterize at molecular and biochemical levels the bacteria that live in the rhizosphere and roots from endemic medicinal plants that grow between 3681–5104 m.a.s.l.
+in the province of Parinacota.
+A phylogenetic study revealed the presence of three major phyla, Actinomycetota (46.2%), Bacillota (43.6%), and Pseudomonadota (10.3%).
+The rhizobacteria strains associated with the Aymara medicinal plant exhibited several interesting biological activities, such as hydrolytic enzymes, plant-growth-promoting traits, and antibacterial and antifungal properties, indicating their potential for developing new bio-based products for agricultural or clinical applications.
+Microbial communities in mountain glaciers are unique as first colonizers and nutrient enrichment drivers for downstream ecosystems.
+However, mountain glaciers have been distinctively sensitive to climate perturbations and have suffered a severe retreat over the past 40 years, compelling us to understand glacier ecosystems before their disappearance.
+This is the first study in an Andean glacier in Ecuador offering insights into the relationship of physicochemical variables and altitude on the diversity and structure of bacterial communities.
+We found (1) effects of altitude on diversity and community structure, (2) the presence of few significantly correlated nutrients to community structure, (3) sharp differences between glacier soil and glacier ice in diversity and community structure, where, as quantified by the Shannon γ-diversity distribution, the meta-community in glacier soil showed more diversity than in glacier ice; this pattern was related to the higher variability of the physicochemical distribution of variables in the former substrate, and (4) significantly abundant genera associated with either high or low altitudes that could serve as biomarkers for studies on climate change.
+In northern South America, tepuis are table-top mountains with elevations above 1000 m and high biodiversity and endemism levels.
+In this study, we assessed the effect of elevation on dung beetle (Coleoptera: Scarabaeidae: Scarabaeinae) assemblage structure (species richness, abundance, and biomass) in Tepequém, a tepui located in northern Brazil.
+Dung beetles were sampled with pitfall traps within seven elevational bands from 250 to 850 m. A total of 83 individuals from 14 species were collected, Oxysternon festivum (Linnaeus, 1758) and an unidentified Onthophagus species being the most abundant.
+Elevation did not affect beetle species richness and biomass.
+However, species composition from 750 to 850 m differed statistically from that recorded at lower elevations.
+Our results suggest that beetle assemblages possess a bimodal distribution along an altitudinal gradient on the Tepequém.
+The contrasting vegetation structure of tepuis between highlands (shrubland savannah vegetation) and lowlands (tropical rainforest) explains the different composition of the assemblages.
+Using qualitative and quantitative data from semi-structured household surveys, we investigated people's perception of nature's contribution to their perceived well-being along an elevational gradient in eastern Nepal.
+We found nuanced and context-specific relationships between people and nature in Nepal, emphasising how geographic location, formal education, socio-economic factors and gender shape perceptions of how nature contributes to well-being.
+Participants provided examples of a variety of material, non-material and regulating NCP that are crucial for multiple aspects of their well-being, underscoring the need for integrated conservation approaches that extend beyond prioritising habitat maintenance to also encompass enhancing material and non-material NCP.
+While conservation interventions may be informed by global conceptual frameworks and policy agreements such as the IPBES Conceptual Framework, the Kunming-Montreal Global Biodiversity Framework and the Sustainable Development Agenda, they must be rooted in the collective perspectives and experiences of the local context in which conservation actually happens.
+Prioritizing protected areas is the pragmatic and applicable management measure under the pressure of ongoing climate change and limited resources to conserve species at risk of extinction.
+We applied this CI to Atlas cedar, an endemic and threatened species whose populations are scattered throughout the Moroccan mountains.
+This index provided a scale for 33 populations studied and suggests that genetically diverse populations located in rugged areas where future local climate may overlap with their current climatic niche should receive a higher conservation priority.
+Our comparative assessment of literature pertained to the Andes, the East African mountains, the European Alps, and the Hindu Kush Himalaya.

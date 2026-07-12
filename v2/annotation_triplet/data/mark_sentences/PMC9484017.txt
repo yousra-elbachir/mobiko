@@ -1,0 +1,139 @@
+Abstract Rodent diversity and community assemblages are affected by several biotic and abiotic factors such as vegetation structure and seasonality.
+Vegetation structure particularly ground cover influences rodent diversity and community assemblages through provision of food resources and protection from predators.
+Such information is important for understanding species–habitat relationships for management and conservation.
+This study was conducted to determine the influence of vegetation structure, seasonality, and soil properties on species richness, abundance, community assemblages, and habitat association of rodents in west Mt Kilimanjaro.
+Rodent trapping was conducted using removal and capture–mark–recapture (CMR) methods with medium‐sized Sherman's live traps, snap, and Havarhart traps.
+Rodents were trapped during wet and dry seasons for three consecutive nights at 4 weeks intervals from April 2020 to March 2021.
+Environmental variables including vegetation structure, soil physical properties, and disturbance levels were recorded for each habitat type.
+Fourteen species of rodents were trapped in 25,956 trap nights.
+Rhabdomys pumilio, Praomys delectorum, and Lophuromys verhageni were the most dominant species across all habitats and seasons.
+L.verhageni occurred in all habitats while R.pumilio was restricted from occurring in montane forests.
+Moreover, species richness and abundance were influenced by habitat types, seasonality, soil type, and ground cover.
+Generally, both species richness and abundance were higher in fallows and montane forests and significantly lower in plantation forest and agricultural fields.
+In addition, rodent diversity was highest in fallows, followed by montane forests, and lowest in agricultural fields.
+Furthermore, rodents were associated with habitat types and vegetation structure forming two major community assemblages that significantly differed between habitats.
+Our study conclude that, community assemblages of rodents on Mt. Kilimanjaro were affected by functional spatial heterogeneity of the habitats occupied.
+Therefore, use of different habitats by rodents may be indicative of the landscape integrity and ecosystem changes based on species assemblages.
+A total of 1393 individuals from 14 species of rodents were trapped on 25,956 trap nights.
+Rhabdomys pumilio, Praomys delectorum, and Lophuromys verhegeni were the most dominant species contributing to 69.35% of the total captures.
+P. delectorum predominated both higher and lower montane forests with 55.32% and 56.84%, respectively (Table 1).
+Whereas, Rhabdomys pumilio predominated the moorland and agricultural fields with 70.33% and 46.46%, respectively.
+R.pumilio was restricted from occurring in montane forests.
+However, two individuals were unexpectedly trapped in the lower montane forest.
+On the contrary, Lophuromys verhegeni occurred across all habitats and seasons predominantly in ecotone.
+Mastomys natalensis was the fourth dominant species occurring predominantly in agricultural fields.
+Other species such as Aethomys kaiseri, Arvicanthis niloticus, and Pelomys fallax had the lowest percentage composition of total captures; with 0.14%, 0.07%, and 0.36%, respectively.
+Moreover, most species occurred across both habitats and seasons (Tables 1 and 2); however, Chi‐square test indicated that percentage composition (occurrence) of only three species varied significantly across habitats and seasons (Table 3).
+For example, P. delectorum (χ2 = 200.38, df = 5, p < .001), L.verhegeni (χ2 = 15.03, df = 6, p = .02), and R. pumilio (χ2 = 377.72, df = 5, p < .001).
+The percentage composition of other species did not statistically differ across habitats and seasons (Table 3).
+Rodent species diversity H (Shannon Wiener diversity Index) was highest in fallow FLW habitat (H = 1.92), followed by lower montane forest DSF (H = 1.64), and lowest in agricultural fields AGR (H = 1.06).
+From GLM models, rodent species richness was influenced by both habitat types, seasonality, ground cover, and soil type as they were included in the best model (F11,1396 = 95.78, p = .001, R 2 = .43).
+However, the influence of seasonality was not significant (p = .632), and species richness did not significantly differ between dry and wet seasons.
+Species richness differed significantly between habitats.
+Whereby, it was highest in fallow but not significant (13 species) followed by both montane forests (higher MFR and lower DSF) (each with eight species) and significantly lower in both moorland and agricultural fields (each with four species, p < .001).
+It was significantly highest in clay soil CLY (0.839 ± 0.165, p < .001) and lowest in clay loam soil CLYLM (−1.458 ± 0.205, p < .001).
+Moreover, species richness was positively correlated and increased with increasing ground cover (0.051 ± 0.003, p < .001) (Table 4).
+The GLM model indicated that, rodent abundance was influenced by the variations in habitat type (p = .001), seasonality (p = .01), soil type (p < .001), ground cover (p < .001), and soil bulk density; however, the effect of soil bulk density was not significant (p = .06).
+Rodent abundance differed across habitats and seasons.
+Abundance (Estimate ± SE, p‐value) was highest in fallow FLW but not significant (0.151 ± 0.183, p = .408) followed by higher montane forest MFR (−0.031 ± 0.206, p = .879) and was significantly lowest in plantation forest PLF (−1.475 ± 0.151, p < .001).
+Moreover, rodent abundance differed between seasons whereby it was significantly higher in the dry season (1.222 ± 0.258, p < .001) than in wet season (−0.157 ± 0.067, p = .019).
+Moreover, rodent abundance differed between soil types whereby it was significantly highest in clay soil CLY (1.222 ± 0.258, p < .001) and lowest in clay loam soil CLYLM (−1.183 ± 0.172, p < .001) than in other soil types.
+In addition, rodent abundance had a significantly linear relationship with ground cover (0.024 ± 0.002, p < .001) and a linear relationship with bulk density (Table 5).
+From cluster analysis based on the Bray–Curtis dissimilarity index, there was evidence of genuine structuring of rodent samples forming two major community assemblages/clusters at 99% efficiency (Figure 2).
+Community assemblage one (C1) predominated in forested habitats mainly in ecotone, montane (higher and lower), and plantation forests.
+Whereas, the second community assemblage (C2) predominated in the moorland, fallow, and agricultural fields (Figure 2).
+The SIMPROF test showed a statistically significant difference between and within the two clusters with sample statistic (pi) of 2.483, p = .002 at 999 permutations.
+Furthermore, the ANOSIM test showed statistically significant differences in community assemblages between pairs of habitats at sample statistic (Global R) = .05, p = .01 at 999 permutations (Table 6).
+For example, agricultural fields AGR were completely distant and significantly different from both lower DSF and higher MFR montane forests (Global‐R statistic = 1, p = .029) and not significantly different from fallow FLW (Global‐R statistic = .218, p = .119).
+Moorland MLD was significantly different from both lower and higher montane forests (Global‐R statistic = .833, p = .005) (Table 6).
+In addition, CCA canonical correspondence analysis explained about 80% of the variations in two axes (Figure 3).
+Axis 1 (CCA 1) explained 59.4% of the variation.
+Praomys delectorum, Graphiurus murinus, and Cricetomys ansorgei loaded positively to canopy cover, leaf litter, tree and herbs density, higher (MFR) and lower (DSF) montane forests.
+While R. pumilio and moorland habitat (MLD) loaded negatively.
+Indicating that, P. delectorum, G. murinus, and C.ansorgei are more associated with montane forests and their abundance increased with increasing tree and herb density, leaf litter, and canopy cover.
+While R. pumilio was more associated with moorland habitat.
+Axis 2 (CCA 2) explained 20.47% of the variations with Dendromus spp, soil moisture and shrub density loading negatively.
+While M. natalensis loaded positively to disturbance level and agricultural fields.
+Indicating that, Dendromus was more associated with shrub density and soil moisture and their abundance increased with increasing shrub density.
+Whereas, M. natalensis was more associated with agricultural fields and disturbance (Figure 3).
+Results indicated that, 14 species of rodents were recorded across habitats and seasons.
+Out of the captured species, two major community assemblages with different composition were formed.
+Community assemblage one mainly comprised of forest‐adapted species such as Praomys delectorum, Graphiurus murinus, and Cricetomys ansorgei.
+Whereas, the second community assemblage was mainly comprised of habitat generalists such as Rhabdomys pumilio, Lophuromys verhageni, Mastomys natalensis, Mus musculoides, and Dendromus spp.
+The observed community assemblages were probably a result of the variations in vegetation structure across the habitats.
+Montane forests were characterized by dense and homogenous vegetation which favors forest specialists.
+Fallow and ecotone were dense and heterogeneous supporting habitat generalists.
+Whereas, agricultural fields and moorland were homogeneous with sparse vegetation favoring opportunistic species.
+It is reported that community assemblage of rodents is determined by the coexistence of species which depends on species‐specific traits such as nesting, food availability, and predation risk (Cramer & Willig, 2002).
+Consistently, in this study, rodents were associated not only with distinct habitat types but also with vegetation attributes.
+For example, in community assemblage one, Praomys delectorum and Graphiurus murinus were more dominant in montane forests than in plantation forest.
+The species were positively associated with tree and herb density, leaf litter, and canopy cover probably because they are habitat specialists and typical forest‐adapted species that prefer areas with dense canopy and vegetation cover.
+Dense herbs and leaf litter provide enough food, protection from predators, and nesting grounds for the species.
+Canopy cover maintains humidity and soil moisture which creates suitable microclimate for P. delectorum (Bantihun & Bekele, 2015).
+Similarly, P. delectorum has been reported a closed forest dweller that forages on deep leaf litter (Happold, 2013) and builds its nest from litter and other vegetative materials (Monadjem et al., 2015).
+Moreover, P. delectorum has been previously reported as the dominant species in montane forests of Mt Kilimanjaro (Mulungu et al., 2008; Stanley et al., 2014), Mt Elgon in Kenya and Uganda (Clausnitzer et al., 2001) and other mountains including the Eastern Arc Mountains (Ademola et al., 2021; Chidodo et al., 2020; Makundi et al., 2007; Stanley et al., 1998).
+In addition, P. delectorum is reported to inhabit both intact and disturbed forests (Ademola et al., 2021; Gitonga et al., 2016; Monadjem et al., 2015; Mulungu et al., 2008) as well as edges between forest and ecotone (Mulungu et al., 2008).
+On the contrary, low percentage composition of P. delectorum in plantation forest (despite it is a forest‐adapted species) was probably due to high levels of disturbance from anthropogenic activities including cultivation, logging, and firewood collection.
+These activities result into habitat destruction and fragmentation which adversely affects the survival of native species.
+Rhabdomys pumilio, L. verhageni, M. natalensis, and Dendromus spp were the most abundant species in the second community assemblage.
+R. pumilio predominated in the moorland and agricultural fields and was moderately associated with ground cover, probably because it is most important and preferred food is grass and seeds hence commonly named the grass rat (Clausnitzer et al., 2001; Shore & Garbett, 1991; Happold, 2013).
+Moreover, R. pumilio occurred in all habitats except in montane forests (however, we unexpectedly caught two individuals in the lower montane forest).
+This was probably because, R. pumilio prefers areas with dry conditions while montane forests of Mt. Kilimanjaro remains wet throughout the year.
+Consistently, Clausnitzer et al. (2001) reported that R. pumilio prefers drier areas with sparse vegetation and bare soil which creates suitable microclimate.
+Clausnitzer et al. (2001) added that, the species is adapted to cold weathers in the moorland habitat (which gets harsh during the night) by being active during the day.
+In contrast, Grimshaw et al. (1995) and Stanley et al. (2014) revealed that R. pumilio is rarely found in higher montane forests near human habitations with Stanley et al. (2014) trapping few individuals near Horombo tourist huts along the Marangu route of Mt. Kilimanjaro.
+Among the captured rodents in this study, Lophuromys verhageni was the only endemic species in west Mt Kilimanjaro (Verheyen et al., 2007).
+It occurred across all habitats and seasons hence termed a habitat generalist.
+Similarly, species of the same genus have been reported to occur in moist places of montane forests (from 500 m s.a.l in lowland forests) and highland habitats up to 4500 m a.s.l in the Afro‐alpine zone (Bantihun & Bekele, 2015; Happold, 2013).
+They are widely distributed in bushlands, fallows, plantation forests, montane forests, heath lands, and alpine zones in East, Central, and South Africa (Bantihun & Bekele, 2015; Clausnitzer et al., 2001, 2003; Happold, 2013; Mulungu et al., 2008; Ssuuna et al., 2020; Stanley et al., 1998, 2014; Stanley & Kihaule, 2016).
+Mastomys natalensis predominated in the agricultural fields (mostly maize, potato, and carrot farms) and was positively associated with disturbance.
+It was more abundant in the dry season than in wet season.
+This observation coincides with crop harvest in Kilimanjaro region which is mostly conducted in dry season.
+Crop remains from harvesting provide supplementary food to M. natalensis and other rodents inhabiting the agricultural fields.
+Similarly, M. natalensis is reported as the most common crop pest predominating in agro ecosystems (Mulungu et al., 2013, 2014; Mulungu, 2017).
+As a habitat generalist and opportunist, M. natalensis takes advantage of human disturbance due to the available food resources from cultivation (Happold, 2013; Lema & Magige, 2018; Mulungu et al., 2013, 2014).
+Mastomys natalesnsis together with Mus musculoides and Arvicanthis niloticus have been reported to prefer agricultural fields and fallows close to human habitation (Admas & Yihune, 2016; Bantihun & Bekele, 2015; Makundi et al., 2010; Mulungu et al., 2006).
+Dendromus spp were associated with fallow and moorland habitats and positively correlated with shrub density and soil moisture.
+More individuals of Dendromus spp were trapped in dense patches of Erica bushes.
+Similarly, Happold (2013) reported that Dendromus spp is among the species occurring in high abundance above the tree line preferably in dense shrubs and moist places.
+On the contrary, species such as Aethomys kaiseri, Arvicanthis niloticus, and Pelomys fallax were underrepresented across both habitats and seasons.
+This observation could be attributed to trapping in higher altitudes from 1500 a m.s.l and above while the species are said to be widely distributed in low‐elevation grasslands and bushes (Grimshaw et al., 1995; Stanley et al., 1998).
+Generally, most of the trapped species in this study have been previously captured on both sides of Mt. Kilimanjaro and their distribution and conservation status are well known (Grimshaw et al., 1995; Mulungu et al., 2008; Stanley et al., 2014).
+However, Pelomys fallax has never been previously reported along the Shira route, and therefore, its distribution and conservation status is poorly known.
+The smaller number of individuals trapped in the current study (n = 5) is consistent with Happold (2013) who suggested that Pelomys fallax is neither a rare nor an abundant species.
+Similarly, Mlyashimbi et al. (2019) reported smaller number of Pellomys fallax in semiarid areas of Tanzania.
+However, our results are contrary to Admas and Yihune (2016) who reported similar species of genus Pelomys (Pelomys harringtoni) among the most abundant species across habitats of east Gojjam, Ethiopia.
+Furthermore, in this study, most species have been captured in higher numbers compared with previous studies by Mulungu et al. (2008) and Stanley et al. (2014) in the same study area.
+This was probably because our study had an extensive sampling period throughout the year covering a relatively large area with a combination of methods and traps.
+Fallow was the most diverse habitat probably due to high ground cover and shrub density which provide niches for many species (Cramer & Willig, 2002).
+Fallows are intermediates between agricultural fields and montane forests that serve as refuge to other rodents providing alternative food resources and protection from predators (Cramer & Willig, 2002; Makundi et al., 2010).
+Montane forests (both higher MFR and lower DSF) were the next diverse habitats with high rodent species richness and abundance.
+This was probably due to high canopy and ground cover, high vegetation density, and plant species diversity (particularly in the higher montane) forest which provides food and protection to rodents.
+Lower montane forest on the other hand, had high species diversity and abundance despite the fact that it was less dense than higher montane forest.
+This was due to moderate disturbance which provided microhabitats to habitat generalists such as L. verhegeni, G. dolichurus and Mus musculoides (Ademola et al., 2021; Mulungu et al., 2008).
+Similarly, a study by Mulungu et al. (2008) reported maximum rodent abundance in montane forests that decreased above the tree line forming a hump‐shaped distribution, due to maximum rainfall at mid‐elevation (Hemp, 2006).
+Montane forests receive maximum amount of rainfall which increases primary productivity hence improves vegetation structure and food availability (Clausnitzer & Kityo, 2001).
+Similar patterns of rodent abundance in montane forests have been reported in the Mabira central forest reserve in Uganda and the Ukaguru Mountains of Tanzania (Ademola et al., 2021; Ssuuna et al., 2020).
+On the contrary, agricultural fields, plantation forest, and moorland were the least diverse among the seven habitats with lower species richness and abundance.
+This observation was linked to high disturbance from anthropogenic activities in the agricultural fields and plantation forest which affect the integrity of habitats and reduce diversity of most rodents (Bennett, 1990).
+In addition, poor vegetation structure and adverse environmental conditions in the moorland affect the survival and distribution of Afro‐alpine rodents (Clausnitzer et al., 2001).
+Afro alpine environments are characterized by extreme cold weather which restricts movement and activity pattern of rodents forcing them to take cover inside burrows and grasses.
+In addition to habitat type and ground cover, seasonality influenced rodent species richness and abundance.
+However, the influence of seasonality on rodent species richness was not significant probably because most species occurred across both dry and wet seasons.
+Rodent abundance was relatively higher in the dry season than in wet season.
+This was probably due to that most species start breeding 1 month after the long rains until the end of wet season.
+During this period, there is high cover and green foliage which triggers breeding in most rodents (Mlyashimbi et al., 2018).
+Therefore, rodent population tends to peak 2–4 months later (Mulungu et al., 2013).
+Similarly, it is reported that the variation in rainfall distribution influence rodents' diet (Mulungu et al., 2011) and breeding patterns (Leirs et al., 1994; Mlyashimbi et al., 2018; Mulungu et al., 2014) through resource availability which in turn affect population abundance (Leirs et al., 1997; Makundi et al., 2007).
+Moreover, the observed high abundance in dry season could be a result of crop remains in agricultural fields which ensures continuous food supply to rodents inhabiting them.
+Furthermore, soil type and microclimate have been reported to influence the distribution, population abundance, and survival of rodents elsewhere (Massawe et al., 2008; Meliyo et al., 2014; Mlyashimbi et al., 2019).
+In this study, clay soil had higher rodent species richness and abundance than other soils probably because of its good texture.
+Clay soil hardens during the rainy season allowing the survival of rodents (Meliyo et al., 2014).
+While other volcanic ash soils of Mt. Kilimanjaro have low bulk density and poor structure that can easily collapse or shrink during rainy season making them unsuitable for most rodents (Nanzyo et al., 1993).
+However, our results are contrary to those by Mlyashimbi et al. (2019) and Massawe et al. (2008) who reported low abundance and survival of Mastomys natalensis and other rodents in clay soils.
+Results from this study indicated that rodent species richness and abundance in west Mt. Kilimanjaro were a result of several factors including habitat types in synergy with vegetation structure, seasonality, and soil physical properties.
+Rodent community assemblages reflected the variation in habitat types, vegetation structure, and disturbance level along the altitudinal gradient.
+Moreover, Mt. Kilimanjaro has heterogeneous habitats that support high diversity of rodents with fallows and montane forests being the most diverse habitats supporting complex communities.
+However, increasing cultivation and forest plantation in unprotected areas of Mt Kilimanjaro results in habitat destruction and fragmentation.
+Habitat destruction and fragmentation simplifies vegetation structure favoring the abundance and survival of the habitat generalists and opportunists at the expense of forest‐adapted species.
+Therefore, the development of ecologically sound strategies is crucial for management and conservation of the rodent communities in Mt Kilimanjaro.

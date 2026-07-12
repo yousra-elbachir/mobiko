@@ -1,0 +1,33 @@
+# ============================================================================
+# This repo publishes ONLY these project folders (everything else stays private):
+#   - annotation_app/            (Streamlit tool for Mark & Davnah)
+#   - v2/annotation_triplet/     (shared with mobiko coworkers)
+#   - v2/annotation_relation/    (shared with mobiko coworkers)
+# ============================================================================
+/*
+!/.gitignore
+!/annotation_app/
+!/v2/
+/v2/*
+!/v2/annotation_triplet/
+!/v2/annotation_relation/
+
+# Defense-in-depth: never publish secrets or venvs from ANY included folder.
+# (data/ and outputs/ ARE published for the v2 folders, on request.)
+**/tokens/
+**/__pycache__/
+**/.venv/
+**/.ipynb_checkpoints/
+*.rtf
+*.pem
+*.key
+.env
+.env.*
+.DS_Store
+
+# Excluded on request (may contain notebook cell outputs)
+v2/annotation_relation/relation_extraction.ipynb
+
+# Run artifacts (per-paper "done" markers)
+*.done
+.*.done

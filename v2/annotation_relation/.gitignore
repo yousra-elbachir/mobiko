@@ -1,0 +1,21 @@
+# --- Secrets / API tokens: NEVER commit ---
+tokens/
+*_key*.rtf
+*token*.rtf
+.env
+*.pem
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- macOS ---
+.DS_Store
+
+# --- Run artifacts ---
+*.log
+.*.done
+*.tmp

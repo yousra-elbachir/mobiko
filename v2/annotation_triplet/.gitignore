@@ -1,0 +1,12 @@
+# --- Secrets — never commit ---
+tokens/
+*.key
+.env
+.env.*
+
+# --- Python / notebook / OS cruft ---
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store

@@ -1,0 +1,119 @@
+Tropical forests represent the largest store of terrestrial biomass carbon (C) on earth and contribute over-proportionally to global terrestrial net primary productivity (NPP).
+How climate change is affecting NPP and C allocation to tree components in forests is not well understood.
+This is true for tropical forests, but particularly for African tropical forests.
+Studying forest ecosystems along elevation and related temperature and moisture gradients is one possible approach to address this question.
+However, the inclusion of belowground productivity data in such studies is scarce.
+On Mt. Kilimanjaro (Tanzania), we studied aboveground (wood increment, litter fall) and belowground (fine and coarse root) NPP along three elevation transects (c.
+1800–3900 m a.s.l.) across four tropical montane forest types to derive C allocation to the major tree components.
+Total NPP declined continuously with elevation from 8.5 to 2.8 Mg C ha−1 year−1 due to significant decline in aboveground NPP, while fine root productivity (sequential coring approach) remained unvaried with around 2 Mg C ha−1 year−1, indicating a marked shift in C allocation to belowground components with elevation.
+The C and N fluxes to the soil via root litter were far more important than leaf litter inputs in the subalpine Erica forest.
+Thus, the shift of C allocation to belowground organs with elevation at Mt. Kilimanjaro and other tropical forests suggests increasing nitrogen limitation of aboveground tree growth at higher elevations.
+Our results show that studying fine root productivity is crucial to understand climate effects on the carbon cycle in tropical forests.
+Supplementary Information The online version contains supplementary material available at 10.1007/s00442-021-04860-8.
+Total NPP (NPP-aboveground plus NPP-belowground) decreased from the lower montane forest at 1800–2040 m a.s.l.
+(17.8 ± 1.4 Mg ha−1 year−1) to the subalpine Erica forest at 3500–3910 m (5.8 ± 0.4 Mg ha−1 year−1) (Table 2, Fig. 1).
+All NPP components except fine root productivity decreased continuously with elevation in size, with the steepest slope detected for NPP-aboveground litterfall (reduction to less than 10%), a moderate slope in NPP-aboveground wood (reduction to about a quarter), and the slightest slope in NPP-coarse roots (Table 2, Fig. 2).
+The relative proportion of NPP-aboveground litterfall and NPP-aboveground wood changed only little between 1800 and 3200 m to drop sharply toward the subalpine Erica forest (Table 2).
+In contrast, fine root productivity calculated with the sequential coring approach remained relatively constant across the elevation transect with 3.6–4.7 Mg ha−−1 year−1.
+In the lower montane, the Ocotea and the Podocarpus forest, 35–45% of total NPP was contributed by aboveground litter production (mostly leaves, twigs < 20 mm, and fruits), 25–30% by NPP-fine roots, and 20–25% by NPP-aboveground wood.
+NPP partitioning was different in the Erica forest at the highest elevation, where about 70% of total NPP referred to fine root productivity, while aboveground NPP (NPP-wood and NPP-litter fall) contributed only c. 25% (Fig. 1).
+Consequently, the proportion of NPP-fine roots to total NPP increased greatly at the transition from the Podocarpus to the Erica forest upslope, indicating a large belowground shift in carbohydrate allocation above 3000 m (Fig. 3).
+This shift was associated with a dramatic increase in the fine root:leaf litter ratio, as leaf litterfall was very small and fine root productivity relatively high in the Erica forest (Table 2).
+Fine root productivity estimated with the ingrowth core method gave three to four times (in case of the Erica forest even eight times) smaller annual productivity values than the corresponding sequential coring data (Table S2).
+As for the sequential coring data, no change with elevation was visible for the NPP-fine roots (IC) data (1.1.–1.4 Mg ha−1 year−1), but a reduction to the half occurred in the Erica forest (Table 2).
+Total NPP and its components aboveground litter, aboveground wood and coarse root productivity showed a tight positive relation to mean annual temperature (and negative one to elevation; Table 3).
+The positive relation to MAP was also tight and in NPP-aboveground wood and NPP-coarse roots even closer than the relation to temperature.
+Total NPP and NPP-aboveground litterfall were negatively related to soil C:N ratio, which was not the case in the other NPP components.
+In contrast, fine root productivity was related neither to elevation, climatic or soil factors nor to aboveground biomass or basal area (Table 3).
+Some of the biotic and abiotic factors were strongly correlated (Table S3).
+Carbon residence time (CRT) as the quotient of productivity and biomass in an NPP component ranged between 48 and 134 years in the aboveground biomass (wood) fraction, and between 33 and 82 years in the coarse root fraction (Table 2).
+CRT was highest in the conifer-dominated Podocarpus forest, and lowest in the Erica forest, resulting in a humped-shaped relation with elevation (r2adj = 0.80, P ˂ 0.001) (Fig. S1).
+We determined CRT values (mean lifespans) for the fine root fraction of 0.36–1.19 years with a peak in the Podocarpus forest and a minimum in the Ocotea forest.
+Nitrogen use efficiency of productivity (NUE) was relatively similar for aboveground litter and fine root productivity in a given forest type (Table 2).
+Both efficiencies remained on a similar level in all forest types except in the Erica forest, which showed 50 to 120% higher values (Fig. 4).
+NUE reached its highest value in the fine root productivity of the Erica forest (145 g g−1).
+The NUE values were negatively related to NPP across the four forest types (Table S4).
+The leaf- and root-derived carbon and nitrogen fluxes were of similar size in the lower to upper montane forests, while the root litter flux greatly exceeded the leaf-born flux in the Erica forest (195.1 ± 9.7 g C m−2 year−1 and 2.8 ± 0.3 g N m−2 year−1 from fine roots vs.
+0.5 ± 0.2 g C m−2 year−1 and 0.01 ± 0.005 g N m−2 year−1 from leaves) (Table 4).
+Our replicated study of key productivity components in four mountain forest types along a 2000-m elevation gradient in tropical East Africa shows a continuous decline of total NPP with increasing elevation, that was associated with a marked belowground shift in carbon allocation toward the fine root system.
+With a decrease in mean annual temperature from 14.7 to 9.3 °C, total NPP and its aboveground components NPP-aboveground litterfall and NPP-aboveground wood decreased by roughly 30% from the lower montane forest to the montane Podocarpus forest, contradicting the conclusions of Luyssaert et al. (2007) and Michaletz et al. (2014) who reported minor or no temperature effect on forest productivity in warm-temperate to tropical climates with MAT > 10 °C.
+Total NPP values recorded in the four montane forest types on Mt. Kilimanjaro (2.8–8.5 Mg C ha−1 year−1) were in the lower range of data from pantropical surveys of forest productivity (3.1–21.7 Mg C ha−1 year−1) (e.g. Clark et al. 2001b; Kitayama and Aiba 2002; Aragão et al. 2009), but similar to figures from tropical montane forests in Rwanda (9.2 ± 2.1 Mg C ha−1 year−1) (Nyirambangutse et al. 2017) and the Ecuadorian and Peruvian Andes (3.9–6.4 and 4.1–7.1 Mg C ha−1 year−1, respectively; Moser et al. 2011; Girardin et al. 2010).
+The subalpine Erica forest at the tree line (2.8 Mg C ha−1 year−1) had a 30% lower NPP than the corresponding upper montane forest at high elevations in the Ecuadorian Andes (3060 m a.s.l.) (4.1 Mg C ha−1 year−1) (Moser et al. 2011) and almost 65% lower NPP than the tree line forest in the Peruvian Andes (3500 m a.s.l.) (7.9 Mg C ha−1 year−1) (Malhi et al. 2017).
+Several factors may have contributed to this difference, among them the local species composition and related differences in stand structure, but also the regional climatic and edaphic conditions.
+The Ecuadorian upper montane forest has a larger stem density, basal area and mean tree height than the Erica forest in East Africa.
+The total NPP estimates in the Peruvian forest include measurements of small tree (2–10 cm DBH) productivity, leaf herbivory and carbohydrate transfer to the mycorrhiza (Malhi et al. 2017), which have not been quantified in our study.
+However, even when we increase our NPP value by 20% to account for these NPP components, the Peruvian tree line forest is still more productive than its counterpart in eastern Africa.
+Both Andean upper montane forests grow under higher precipitation and temperature levels than the Erica forest on Mt. Kilimanjaro (Moser et al. 2011; Malhi et al. 2017), demonstrating the transition to a high-elevation climate with relatively low precipitation on top of the volcano (1050 mm year−1), whereas the uplift of moist air masses proceeds to higher elevations in the Andes.
+Until recently, the change in forest productivity with elevation in tropical mountains was only studied with respect to aboveground NPP, while ignoring root productivity (Raich et al. 1997; Kitayama and Aiba 2002; Wang et al. 2003).
+Only the two studies from Peru and Ecuador by Girardin et al. (2010) and Moser et al. (2011) have investigated root production as well, allowing conclusions on elevational change in total NPP.
+The observed NPP trends differ between the three transects.
+While total NPP decreased more or less continuously from the lower montane to the upper montane forest in the Ecuadorian Andes (Moser et al. 2011; Leuschner et al. 2013), an abrupt productivity decline from the submontane (1500 m) to the cloud forest (1700 m) and nearly constant productivity higher upslope was found in the Peruvian Andes (Girardin et al. 2010; Malhi et al. 2017).
+In contrast, we found on Mt. Kilimanjaro a gradual NPP decline from the lower montane to the upper montane (Podocarpus) forest and an abrupt decrease toward the subalpine Erica forest.
+Carbon residence time in the wood increased from the more productive lower montane forest to the upper montane Podocarpus forest and sharply decreased to the Erica forest, revealing a hump-shaped curve along the slope.
+This pattern may partly be explained by the change from a forest with evergreen broadleaf trees to a conifer-dominated forest with Podocarpus latifolia and finally to an Erica trimera forest, which is exposed to more extreme minimum temperatures and of lower stature than the forests further downslope.
+The data from Tanzania and Ecuador suggest that a major driver of the NPP decline is the reduction in leaf area index (LAI).
+In both transects, LAI decreased by more than 50% over a 2000-m elevation gradient from lower montane to upper montane elevation (Leuschner et al. 2007; Rutten et al. 2015).
+A decreasing photosynthetic capacity (Asat) with elevation may also contribute to the productivity decline.
+According to a pan-tropical Asat database, the light-saturated net photosynthesis of trees at ambient temperature decreases on average by 1.3 µmol CO2 m−2 s−1 per 1 km altitude increase in tropical mountains (Wittich et al. 2012).
+The decrease is typically linked to an altitudinal decrease in mass-related foliar N content (Moser et al. 2011; Schellenberger Costa et al. 2017).
+The results from the elevation transect in the Andes and eastern Africa indicate that both leaf area and photosynthetic capacity are influenced by the N supply along the mountain slope with the consequence that local and regional differences in soil fertility may cause somewhat different elevational trends in LAI, Asat and total NPP.
+Soil chemical and biological analyses in the Tanzanian and Ecuadorian transects indicate that N availability decreases with elevation in tropical mountains.
+On Mt. Kilimanjaro, both soil and leaf C:N ratio increased with elevation toward the subalpine Erica forest, while fine root N content decreased, in conjunction with declining decomposition rate (Becker and Kuzyakov 2018).
+Moreover, we found a large increase in the N use efficiency of canopy and root productivity from the montane Podocarpus forest to the higher Erica forest on Mt. Kilimanjaro, linked to a pronounced shift in C allocation toward the root system.
+These findings explain the significant negative relation that exists between total NPP and soil C:N ratio in our four studied forest types.
+The elevational temperature decrease can influence N cycling through a negative impact on various processes, among them ammonification and nitrification, the diffusion of inorganic N compounds in the soil, the activity of mycorrhiza, and root N uptake (Chapin 1980; Pendall et al. 2004; Marschner 2012; Robertson and Groffman 2015).
+We assume that the temperature effect on N cycling and N supply and resulting reductions in leaf area (and possibly photosynthetic capacity) represent a major pathway through which elevation is acting on total C gain.
+In addition, tree growth was found to be stimulated by moderate nitrogen fertilization at the tree line ecotone in the Swiss Alps (Möhl et al. 2018), supporting our assumption of nutrient limitation of aboveground tree productivity at high elevations.
+The replacement of macrophyllous, broadleaved trees by southern hemispheric conifers at the upper montane zone and ericoid trees with more sclerophyllous leaves and their specialized ericoid mycorrhiza at the subalpine zone can also be interpreted as an indication of increasing nutrient limitation at higher elevations.
+There is a feedback between environmental conditions and functional composition.
+Of course, the species turnover with increasing elevation has an impact on forest productivity.
+It has been shown that the set of functional traits associated with a plant community is a strong driver of spatial variation in forest productivity (Fyllas et al. 2017).
+The plant species along the slope reflect in their traits the environmental change with elevation, which results from adaptation and acclimation to the local conditions (Chapin et al. 2011).
+We can see these adaptations along the slope of Mt. Kilimanjaro with the substitution of fast-growing species with high SLA as Macaranga kilimandscharica in the lower montane forest, where light is limiting, by slow-growing species as Podocarpus latifolius with lower SLA and nodules with mycorrhiza in the upper montane forest, with stronger N limiting conditions.
+Additionally, at the tree line, the sclerophyllous leaves and ericoid mycorrhiza, lower height and biomass of the monodominant Erica trimera are an adaptation to the extreme conditions (e.g. N limitation, strong wind, high irradiance, low temperature) at high elevations.
+Therefore, we focus our discussion on the change from light limiting conditions to N shortage along the slope, which result in lower LAI, lower photosynthetic capacity and thus, a decrease of total NPP.
+At the same time, the increasingly N limited conditions with elevation trigger a shift of the C allocation from aboveground to belowground organs in the woody plants.
+Clearly, other environmental factors besides N supply must be responsible for the elevational NPP decrease as well, notably thermal limitation of meristem activity (Körner 2012).
+However, there is no physiological reason to assume that low temperatures should constrain aboveground meristematic activity more than belowground meristematic activity.
+Thus, a direct thermal effect on meristematic activity cannot explain the pronounced allocation shift toward root growth.
+Another factor possibly limiting forest productivity at higher elevations is reduced irradiance due to persistent cloud cover at montane elevation, as it was assumed for the Peruvian transect (Malhi et al. 2017).
+However, on Mt. Kilimanjaro, cloudiness was highest in the Ocotea forest belt (Hemp 2006), where total NPP was still comparatively high with 6.4 Mg C ha−1 year−1, exceeding the NPP of the Erica forest higher up more than twofold.
+This makes it unlikely that enhanced light limitation in the cloud belt plays an important role in this transect.
+The regression coefficients suggest that precipitation (MAP) is influencing NPP, but to a lesser degree than temperature and related phenomena such as nutrient supply.
+Our results are in line with an analysis of large NPP data sets that revealed an increase in the NPP of tropical forests with MAP until fairly high values (˃ 2500 mm), followed by a decrease at even higher rainfall possibly due to reduced irradiance or reduced soil biological activity and N mineralization in wet soil (Schuur 2003; Del Grosso 2008).
+On Mt. Kilimanjaro MAP (not exceeding 2200 mm) seems to promote forest NPP across the entire sequence of forest belts present on this mountain.
+By including fine root production, our study is among the few that allows estimating the total NPP of tropical forest along elevation gradients and analyzing shifts in carbon allocation.
+These productivity data have to be interpreted with caution, however.
+The sequential coring and ingrowth core methods yielded largely different results, as has been found in other studies (Vogt et al. 1998; Hertel and Leuschner 2002; Moser et al. 2010).
+Both approaches have their shortcomings.
+The sequential coring technique with the minimum–maximum calculation approach is believed to underestimate fine root productivity when the seasonal variation in total fine root mass (live and dead) is larger than the difference between highest and lowest fine root mass count, and fine root decomposition is rapid (Vogt et al. 1998).
+The ingrowth core approach investigates root growth under more artificial conditions and starts from an injured root system.
+The growth rates estimated by this method may give an impression of the root system’s regeneration potential rather than reflecting root productivity under natural conditions.
+As in the study of Moser et al. (2010), our ingrowth core productivity values were several times smaller than those obtained from sequential coring, especially at high elevations.
+Based on the ingrowth core data, we calculated fine root productivities in the range of 0.2–0.7 Mg C ha−1 year−1 and a mean carbon residence time between 1.4 and 5.0 years for the fine root fraction in the four forest types (Table S2).
+This is higher than fine root longevities derived from mini-rhizotron observation in tropical montane forests in the Ecuadorian Andes (0.70–0.95 years; Graefe et al. 2008) and also exceeds the average fine root longevity of 1.32 years found by Gill and Jackson (2000) for tropical forests in a meta-analysis (mostly sequential coring studies).
+According to our sequential coring data, average fine root longevity was 0.4–1.2 years, which matches these figures better.
+We thus suggest that the sequential coring data may give a more realistic picture of fine root dynamics than the ingrowth core results, which have greater value for site comparison.
+Three main conclusions may be drawn from our fine root productivity (sequential coring) data: (1) Fine roots are the most dynamic component in the studied tropical mountain forests, exceeding even the leaf fraction.
+(2) With 26 to 72% of total NPP, fine root productivity consumes more carbon than wood production.
+(3) In contrast to the other productivity components, fine root growth seems to be controlled mostly by intrinsic factors (probably sink strength and carbohydrate availability), as significant relations to climatic, edaphic and stand structural parameters were lacking.
+With the resource balance hypothesis (Bloom et al. 1985), the pronounced shift in carbon allocation from leaf growth (NPP-aboveground litterfall) to fine root growth from the upper montane Podocarpus to the subalpine Erica forest is interpreted as a change from predominant light limitation to nutrient (or water) limitation of growth.
+In our study, decreasing N supply with elevation is a plausible explanation, but a deficiency in other elements such as phosphorus (P) or potassium is possible at tropical high-elevation sites (Graefe et al. 2010).
+Yet, leaf mass N:P ratios suggest primarily N limitation of growth on Mt. Kilimanjaro (Townsend et al. 2007).
+A belowground shift of C allocation has been concluded from studies on productivity or biomass changes along elevation transects in other tropical mountains (Leuschner et al. 2007, 2013; Girardin et al. 2010; Moser et al. 2011) and temperate mountains (Hertel and Schöling 2011; Mao et al. 2015) as well.
+Fine root studies at the alpine and arctic tree line also indicate that the C allocation preference of trees shifts belowground in cold environments (Ruess et al. 2003; Kubisch et al. 2017).
+As these studies were conducted mostly in humid climates, it is unlikely that water limitation is a possible driver of the allocation shift.
+Even though Mt. Kilimanjaro receives relatively low precipitation on its top, the amount in the Erica forest belt (1050 mm) seems to be high enough to exclude a main role of water shortage.
+Thus, we assume that high-elevation forests in tropical mountains are not only limited by low temperatures that restrict meristem activity, but their growth seems to be constrained by nutrient (in particular N) shortage as well.
+Whether reductions in N supply, N diffusion in the soil, or impaired N uptake and relocation in the plant are primarily limiting, has to be addressed in physiological and soil chemical studies that should include soil warming experiments.
+Fine roots are not only large sinks for photosynthates but also important sources of organic C and N which is transferred to the soil upon root death and via root exudation and transfer to the mycorrhiza (Rasse et al. 2005; Godbold et al. 2006).
+Our fine root productivity data suggest that the C and N flux to the soil with root litter is roughly of similar importance as the leaf litter flux in the lower montane and Ocotea forest, while it represents an important C and N source supplied by woody plants in the Erica forest.
+Comparable results have been obtained from Ecuadorian forests at high elevations (Röderstein et al. 2005).
+This highlights the need to include fine root dynamics in biogeochemical studies in forests of the tropics and elsewhere (Litton et al. 2007).
+To our knowledge, this is the first study on forest productivity and its main above- and belowground components along an elevation transect on a paleotropical mountain.
+In accordance with earlier studies in neotropical elevation transects, we found a more or less continuous decrease of total NPP with elevation, confirming a pronounced temperature influence on forest productivity also in the temperature interval between 10 and 15 °C.
+Comparison with other tropical and non-tropical elevation transect studies reveals that the pronounced belowground shift in carbon allocation with elevation is a characteristic feature of mountain forests worldwide, suggesting increasing growth impairment through N (nutrient) limitation toward higher elevations, which seems to act independently from direct low-temperature effects on meristem activity.
+Inherent bias in the fine root productivity data warrants caution in the interpretation of the calculated fine root production data.
+Nevertheless, from the remarkable constancy of root productivity along the slope and the fairly good agreement with earlier neotropical fine root studies, we assume that the observed patterns are mostly valid.
+Future direct observational studies with mini-rhizotrons could provide a welcome independent estimate of fine root productivity.
+We conclude that initiatives to measure all major components of forest productivity along elevation gradients can generate valuable additional insights into the climate dependence of carbon cycling in woodlands.

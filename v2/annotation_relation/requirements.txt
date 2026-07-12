@@ -1,0 +1,5 @@
+# Runtime dependencies for MoBiKo relation extraction.
+# Everything else it uses (json, os, re, time, typing, unicodedata) is in the
+# Python standard library. Python 3.9+.
+openai>=1.0
+httpx

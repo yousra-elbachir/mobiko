@@ -1,0 +1,126 @@
+Abstract Changes of abiotic and biotic conditions along elevational gradients represent serious challenges to organisms which may promote the turnover of species, traits and biotic interaction partners.
+Here, we used molecular methods to study cuticular hydrocarbon (CHC) profiles, biotic interactions and phylogenetic relationships of halictid bees of the genus Lasioglossum along a 2,900 m elevational gradient at Mt. Kilimanjaro, Tanzania.
+We detected a strong species turnover of morphologically indistinguishable taxa with phylogenetically clustered cryptic species at high elevations, changes in CHC profiles, pollen resource diversity, and a turnover in the gut and body surface microbiome of bees.
+At high elevations, increased proportions of saturated compounds in CHC profiles indicate physiological adaptations to prevent desiccation.
+More specialized diets with higher proportions of low‐quality Asteraceae pollen imply constraints in the availability of food resources.
+Interactive effects of climatic conditions on gut and surface microbiomes, CHC profiles, and pollen diet suggest complex feedbacks among abiotic conditions, ecological interactions, physiological adaptations, and phylogenetic constraints as drivers of halictid bee communities at Mt. Kilimanjaro.
+We caught 167 individuals of halictid bees between 830 and 3,780 m a. s. l. at the southern slopes of Mt. Kilimanjaro.
+The bees were not larger than 1 cm in size and the phylogenetic analysis of the COI revealed that individuals belonged to different genera: 98 Lasioglossum, 32 Halictus, eight Patellapis bees (Halictinae), 13 Lipotriches, and ten Pseudapis (both Nomiinae), one Nomioides (Nomiodinae), and five other halictid bees which could not be identified at genus level.
+We distinguished 26 phylospecies of Lasioglossum (Figure 1), eight Halictus, five Patellapis, one Lipotriches, and four Pseudapis.
+Lasioglossum was present along the whole gradient with highest diversity at lower elevations.
+At high elevations, our barcoding approach revealed four different Lasioglossum phylospecies, where previously only one morphospecies could be distinguished.
+The phylogenetic tree showed clear elevational patterns of species in their distribution range indicating strong phylogenetic clustering at high elevations and a more dispersed phylogenetic structure at low elevations (Figure 1).
+The Lasioglossum subgenera Ctenonomia, Dialictus, and Oxyhalictus occurred rather at lower elevations, while Evylaeus was rather found at mid to high elevations.
+To test whether CHC profiles change along the elevational gradient, particularly in compounds which act as a desiccation barrier, we analyzed the relative amounts of saturated compounds in relation to unsaturated compounds, mean chain length of compounds, and the compound richness.
+The ratio of saturated to unsaturated compounds increased with elevation (R 2 = 0.42, p < .001, Figure 2a), as well as mean chain length in saturated (R 2 = 0.13, p < .01, Figure 2b), but not in unsaturated compounds (R 2 = −0.02, p = .56).
+While up to 1,500 m n‐alkanes and unsaturated hydrocarbons accounted almost equally to overall composition, n‐alkanes accounted for up to seven times the relative amount of unsaturated hydrocarbons at highest elevations.
+At mid‐elevations, we found a high relative abundance of methyl‐branched alkanes, which were of minor importance at lower and higher elevations (Figure S3.2).
+Highest Shannon diversity of CHC compounds (GAM: ED = 34%, p < .001, Figure 3a) as well as highest richness of CHC compounds (R 2 = 0.50, p < .001, Figure S3.1a) occurred at mid‐elevations.
+To understand bee‐foraging patterns along the elevational gradient, we studied the richness and composition of pollen in bee guts using plant ITS2 metabarcoding.
+We obtained 615,552 sequences after merging and quality filtering.
+Individual samples yielded a mean of 10,433 sequences and 28 samples with less than 100 reads were removed to avoid throughput‐related underestimations in diversity.
+We detected in total 170 plant species from which pollen samples originated with on average 15 species per sample (range 3–26).
+Dominant plant families were Asteraceae, Ericaceae, and Fabacaeae (Figure S4.2).
+Shannon diversity of collected pollen decreased along the elevational gradient (R 2 = 0.07, p = .03, Figure 3c) as well as evenness (R 2 = 0.09, p = .03, Figure S4.1b), but not pollen richness (R 2 = −0.01, p = .46, Figure S4.1a).
+Asteraceae were the dominant pollen resource for bees along the whole elevational gradient, but especially at highest elevations, where they contributed up to 100% of the consumed pollen (Figure S4.2 and Figure S4.3).
+To investigate whether changing environmental conditions, cuticular chemistry, diet, and species identity along the elevational gradient at Mt. Kilimanjaro lead to a turnover in microbiome composition, we used 16S DNA metabarcoding to analyze gut and surface microbiomes.
+In total, we obtained 10,092,494 sequences after merging, quality filtering as well as mitochondria and chloroplast sequence removal.
+Individual samples had on average 26,093 reads, and samples with less than 1,000 reads were removed from the following analyses to avoid underestimations in diversity.
+Shannon diversity of OTUs in the gut microbiome increased with elevation (R 2 = 0.11, p < .001, Figure 3c), as well as OTU richness and evenness (richness: R 2 = 0.12, p < .001; evenness: R 2 = 0.09, p < .01, Figure S5.1a,b).
+The community composition also varied along the elevational gradient with Lactobacillaceae, Enterobacteriaceae, and Rickettsiaceae as the three dominant groups (Figure 4, Figure S5.2a).
+While Lactobacillaceae declined with elevation (ED = 21.5%, p < .001, Figure 4a), and Rickettsiaceae showed highest relative abundances at intermediate elevations (ED = 21.5%, p < .001, Figure 4c), the percentage of Enterobacteriaceae increased with elevation, mainly due to an increase in the genus Sodalis (ED = 12%, p < .01, Figure 4b).
+Surface microbiomes showed similar patterns, yet with general higher prevalence of Comamonadeaceae, Moraxellaceae, Oxalobacteraceae, Pseudomonaceae, and Xanthomonadaceae (Figure S5.2b).
+Our results reveal that multiple traits and interactions of Lasioglossum bees changed along the elevational gradient.
+In the next step, we analyzed how they were shaped by environmental conditions (temperature, relative humidity) and bee phylogeny and how traits and biotic interactions were linked.
+Best models, based on AICc selection, revealed that climate, CHC composition, pollen composition, gut, and surface microbiomes are correlated with relative humidity, while pollen and CHC composition additionally responded to increasing temperature.
+Changes in pollen and gut microbiome composition correlated with each other, but also pollen and CHC, as well as CHC and surface microbiome composition were correlated.
+Additionally, gut microbiomes and the CHCs were mostly specific for individual bee species (Figure 5, Table S6).
+In this study, we revealed cryptic species with elevation‐dependent phylogenetic relationships along Mt. Kilimanjaro, hidden biotic interactions, and chemical adaptations to changing environmental parameters.
+Above 3,000 m a.s.l., more Lasioglossum species were identified with DNA barcoding than previously morphologically identified (Classen et al., 2015).
+The strong elevational zonation of species implies niche formation and clustering of species with elevation‐dependent adaptations.
+The widespread of Lasioglossum along the whole gradient supports the great evolutionary adaptability known for the genus and the consequential distribution throughout many types of habitats (Gibbs et al., 2012).
+In line with the cuticula's function as a desiccation barrier, we found higher relative amounts of saturated compared with unsaturated CHC compounds, and increased chain lengths in saturated compounds with higher elevations.
+Higher relative amounts of unsaturated compounds (n‐alkenes) in a CHC profile lead to more water permeability than higher relative amounts of saturated CHCs (n‐alkanes and methyl‐branched alkanes) (Gibbs & Pomonis, 1995).
+However, waterproofing can be improved not only with higher portions of saturated CHC, but also by longer CHC chain lengths (Menzel et al., 2017).
+Mean annual relative humidity is lowest at the base of the mountain, peaks at about 2,500 m a. s. l. and slightly decreases towards the summit at Mt. Kilimanjaro (Figure S2), and the correlation between CHC composition and relative humidity confirms our hypothesis that the CHC profiles of the investigated bees are adapted to the abiotic environment.
+We also found CHC composition to be phylospecies‐specific, as also shown in other bees (Pokorny et al., 2014), which implies that Lasioglossum species are niched along the elevational gradient according to their cuticular desiccation resistance.
+An increase in desiccation resistance has also been found for Drosophila species at high elevations with very low relative humidity (Parkash et al., 2008).
+In our study, region relative humidity is, however, also low in savannah habitats at low elevations, and it is unclear why relative amounts of saturated CHC do not account for this.
+Possible explanations might be that bees at high elevations have to cope with lower relative amount of oxygen, thus keep the tracheae more open, and consequently lose more water by breathing (Chown & Gaston, 1999).
+Secondly, when bees loose water, they also cool down through evaporation enthalpy, which might be critical in environments with low ambient temperatures.
+We also found a correlation between temperature and CHC composition as shown by Michelutti et al. (2018).
+Therefore, probably temperature and relative humidity are both important drivers with regard to water loss.
+This might be reflected as well in behavioral adjustments, which bees might be able to afford at low, but not high elevations.
+At low elevations, with generally high temperatures, bees can easily hide in microhabitats rather than forage if the weather conditions are too dry for flying and have a potentially larger foraging window.
+However, at higher elevations, the bees must use every opportunity to uptake energy as soon as temperatures are high enough to fly (Classen et al., 2015), which coincides with low relative humidity.
+The turnover of the plant community along the elevational gradient (Hemp, 2006) was reflected in the bee's diet.
+We found different plant families with different abundances in the diet, as well as a decrease in the Shannon diversity along the elevational gradient.
+Asteraceae pollen dominated the Lasioglossum food throughout the entire gradient, even though there was no significant trend with elevation.
+Nevertheless, in some samples the Asteraceae pollen made up to 100% of the diet at highest elevations.
+This reflects the dominance of Asteraceae upward from the forest and Erica belt and the ability of Asteraceae to grow in open and dry habitats (Judd et al., 2016).
+Even though the Asteraceae offer an abundant pollen source (Goulson et al., 2005), they are avoided by most polylectic bee species or just visited for nectar (Müller & Kuhlmann, 2008).
+Possible explanations are that pollen of Asteraceae lacks essential nutrients and is hard to degrade (Praz et al., 2008), has very low protein content (Roulston et al., 2000), and often contains toxic compounds (Nicolson & Human, 2013).
+Bees foraging on such resources need special physiological adaptations, for example, detoxification abilities (Praz et al., 2008).
+The Lasioglossum species found along the whole gradient seem to be able to manage the mentioned particularities of Asteraceae pollen, which could be an advantage over other bees that are found only at lower regions.
+Pure Asteraceae diet has however also disadvantages for Asteraceae specialists, such as stunted growth (Williams, 2003) and delayed development (Praz et al., 2008; Williams, 2003).
+Pollen mixing and dilution is a strategy for bees to cope with unsuitable pollen diet (Eckhardt et al., 2014), a strategy, which we observed across all samples, throughout the entire elevational gradient, even though to a lesser degree at highest elevations.
+The benefits for plants are not far to seek: By chemically protecting their pollen, they avoid that unspecific pollinators collect pollen and thereby maximize pollen transfer to conspecifics (Müller & Kuhlmann, 2008).
+However, also bees foraging on Asteraceae pollen have an advantage through their diet: Asteraceae pollen usually has antimicrobial properties (Müller & Kuhlmann, 2008) and Asteraceae specialists are known to be less often parasitized than generalists (Spear et al., 2016).
+Beyond Lasioglossum however, other specialized wild bees visit Asteraceae (Müller et al., 2006).
+At Mt. Kilimanjaro for instance, we found Asteraceae in the diet of other halictids such as Halictus and Patellapis, which we did not detect though at higher elevations (data not shown in this manuscript).
+Concluding, the restricted resource diversity likely contributes to the limited bee diversity found at higher elevations, yet is not the sole explanation.
+We observed strong changes in the composition of bacterial microbiomes, with a general trend of diversity and evenness increasing with elevation.
+So far for bees, only honey bee microbiomes have been investigated along elevational gradients, whereby the microbial community changed between lower and higher elevations along a gradient of 2,270 m (Sudhagar et al., 2017).
+However, honey bees as highly eusocial insects are to a certain degree capable to compensate several factors changing with the gradient, foremost temperature, and temperature‐mediated food acquisition.
+Thus, they have greater control over shaping microbial conditions suitable for their associates.
+By contrast, wild bee microbiomes are generally assumed to be more influenced by environmental factors (Keller et al., 2013; Rothman et al., 2018; Voulgari‐Kokota et al., 2018), and the transitions of these factors along an elevational gradient might as well be of stronger fitness relevance than for honey bees.
+At Mt. Kilimanjaro, we found that some bacterial families became more prominent at higher elevations, while others decreased.
+Especially, the relative microbiome contribution of Lactobacillaceae strongly declined with increasing elevation.
+The family is well known to include important bee symbionts, which fulfill functions in nutrient allocation and pollen digestion (Vásquez & Olofsson, 2009), as well as for the immune system (Servin, 2004; Vásquez et al., 2012).
+For honey, bumble, and stingless bees, as well as for the solitary genera Osmia and Megachile, previous studies place Lactobacillaceae among the most abundant bacteria (McFrederick et al., 2017; Voulgari‐Kokota et al., 2018).
+This was also true in our study, but only at lower elevations.
+Lactobacillaceae are mostly moderately heat‐tolerant, but show inhibited growth at lower temperatures, with few specialized exceptions (Matejčeková et al., 2016; Niemand & Holzapfel, 1984).
+With a decrease in their contribution at higher elevations, we suggest that relevant strains are unable to maintain growth under extended cold conditions.
+They are thus reduced as associates at higher elevations and the functional consequences on nutrition and the immune system remain unknown.
+Nevertheless, if pathogens also decrease along the environmental gradient, the incremental loss of Lactobacillaceae at high elevations might not be as consequential for the host as at lower elevations.
+We also found that Enterobacteriaceae slightly increased with elevation, but with lowest relative abundances at mid‐elevations.
+They include also important insect symbionts, but are more known to occur on flowers (Junker & Keller, 2015) and bee‐collected pollen (Voulgari‐Kokota et al., 2018).
+High temperatures appear to be more limiting for their growth than lower temperatures (Ron, 1975; Verbarg et al., 2008), which fits to the higher relative abundances at higher elevations.
+Rickettsiaceae showed highest relative abundances at mid‐elevations.
+The most prominent taxon we found within this family, Wolbachia, is a well‐known genus associated with insects, with influences on host behavior or manipulations towards favorable host sex ratios for the bacterium (Zeh et al., 2005).
+Temperature‐dependent growth is also known for this group, reducing densities at very high and low temperatures (Bordenstein & Bordenstein, 2011; Jia et al., 2009).
+This is consistent with the appearance of the group at mid‐elevations.
+Concluding, our data suggest that elevation (and most likely ambient temperature as the direct driver) is a major contributor in structuring Lasioglossum microbiomes, with unknown consequences for symbiotic and antagonistic interactions.
+Because in nature many factors are connected, we also tested for interdependencies of (a) pollen diet and gut microbiome, (b) pollen diet and CHCs, and (c) CHCs and surface microbiome.
+We found correlations between the pollen diet and both, CHCs and gut microbiome.
+The influence of the pollen diet on CHCs has been already shown (Liang & Silverman, 2000; Otte et al., 2015).
+As well, it is known for many insects that the food influences the gut microbiome (Engel & Moran, 2013).
+We also found a correlation between CHCs and the surface microbiome.
+The correlation is plausible, because CHCs offer favorable and unfavorable substances for the growth of bacteria (Schaeffer et al., 1979).
+Additionally, CHCs display the first barrier to microbes and some CHCs seem to be more difficult for bacteria to assimilate, even inhibiting their growth (Pedrini et al., 2013).
+However, so far very little is known about the quality and quantity of CHC interactions with bacteria.
+If, however, factors such as diet and CHCs are more related to microbiota as previously thought, their influences, for example, on social behavior, could be much more complex than so far assumed.
+Halictids show a diverse spectrum of social behavior.
+Some species change between solitary and social lifestyle depending on time of the year, geographic location, elevation, and other unknown factors (Michener, 2007).
+Unfortunately, African halictine bees poorly known with regard to their sociality (Danforth et al., 2008).
+CHCs are used for the communication in social insects, predominantly n‐alkenes and methyl‐branched alkanes.
+These compounds either decreased with elevation or mostly occurred at mid‐elevations.
+The prioritization of a strong desiccation barrier at higher elevations with a high amount of saturated instead of unsaturated and methyl‐branched alkanes might therefore also interfere with or even preclude social behavior.
+Because likewise to parasitism, the complexity of chemical profiles for communication is in a trade‐off situation with its function for desiccation prevention, as a larger amount of saturated CHC compounds reduces the viscosity of the CHC layer and reduces the compounds which are used to encode information (Howard & Blomquist, 2005; Leonhardt et al., 2016).
+Therefore, the results of the cuticular analysis indicate that Lasioglossum might be solitary at higher elevations (Eickwort et al., 1996) and social at lower elevations at Mt. Kilimanjaro.
+Additional support comes from the microbiome assessment.
+Sodalis was the most dominant Enterobacteriaceae genus in our study and in a previous study identified as the most important group for distinguishing between solitary and social behavior in halictid bee (Rubin et al., 2018).
+At lower elevations, we found a higher diversity of Sodalis OTUs, which might reflect changes in social behavior in our system as well.
+A third restriction of sociality might come with the low protein content of Asteraceae (Praz et al., 2008), which is the main pollen source at high elevations.
+Low protein pollen leads to prolonged larval developmental times (Praz et al., 2008).
+However, sociality is strongly linked to season length, that is, the season needs to be long enough to permit two annual broods (Field et al., 2010).
+The poor pollen quality could therefore prevent more than one annual brood.
+The investigated traits thus suggest that sociality is unlikely at higher elevations at Mt. Kilimanjaro.
+Nevertheless, different subgenera of Lasioglossum bees, such as Ctenonomia, Dialictus, Evylaeus, and Oxyhalictus seem to inhabit different elevations which are known to potentially occur in solitary and social forms (Danforth et al., 2008).
+Therefore, to prove the hypothesis that CHCs, the microbiome, and/or the pollen diet restrict or favor social behavior, it would be necessary though to search for nests and queens and clarify, whether a change in sociality occurs along the gradient.
+Insects have to adapt to physiological and biotic constraints in order to occur in habitats with different climatic conditions, such as along elevational gradients.
+This requires multiple adaptations in (life‐history) traits and biotic interactions.
+Our findings reveal the multiple facets of Lasioglossum bee ecology along an elevational gradient at Mt. Kilimanjaro in Tanzania.
+We found strong changes in the surface profiles of the epicuticle, in collected food resources, as well as in associated bacterial communities, which seem to be functionally connected.
+Our approach with the intensive use of molecular tools help us to understand not only the direct, physical impact of elevation on bees, but also inherent physiological and phylogenetic constraints as well as changes in interactions with food resources and microbiota.
+The interplay among these factors directs to exciting new hypotheses and underpins the relevance of investigating biotic interactions on multiple levels to better understand species distributions and potential consequences of global climate change.

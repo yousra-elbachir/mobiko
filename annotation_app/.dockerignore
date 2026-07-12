@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.git/
+.gitignore
+Dockerfile
+.dockerignore
+deploy/
+DEPLOY.md
+README.md
+merge_papers.ipynb
+annotations/

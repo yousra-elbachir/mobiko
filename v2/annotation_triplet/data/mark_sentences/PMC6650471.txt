@@ -1,0 +1,146 @@
+Microbial communities have not been studied using molecular approaches at high elevations on the African continent.
+Here we describe the diversity of microbial communities from ice and periglacial soils from near the summit of Mt. Kilimanjaro by using both Illumina and Sanger sequencing of 16S and 18S rRNA genes.
+Ice and periglacial soils contain unexpectedly diverse and rich assemblages of Bacteria and Eukarya indicating that there may be high rates of dispersal to the top of this tropical mountain and/or that the habitat is more conducive to microbial life than was previously thought.
+Most bacterial OTUs are cosmopolitan and an analysis of isolation by geographic distance patterns of the genus Polaromonas emphasized the importance of global Aeolian transport in the assembly of bacterial communities on Kilimanjaro.
+The eukaryotic communities were less diverse than the bacterial communities and showed more evidence of dispersal limitations and apparent endemism.
+Cercozoa dominated the 18S communities, including a high abundance of testate amoebae and a high diversity of endemic OTUs within the Vampyrellida.
+These results argue for more intense study of this unique high-elevation “island of the cryosphere” before the glaciers of Kilimanjaro disappear forever.
+Bacterial richness (Chao 1) and Alpha Diversity (PD) were comparable for soil and ice samples (Table 2), whereas the eukaryotic community showed more diversity in ice compared to soils.
+The Shannon Index implied than evenness was similar in soils and ice for both bacterial and eukaryotic communities.
+The Berger Parker Index revealed relatively low dominance in both ice and soil bacterial communities, meaning that the most abundant OTUs in the samples are only represented by a small number of sequences.
+Eukaryotic communities in soil and ice displayed a higher Berger Parker Index than that seen for bacterial communities showing that the most abundant OTUs constitute 40–50% of total abundance.
+Rarefaction curves (Supp.
+Fig. 4) yielded similar patterns as those estimated by Chao1 index and were close to saturation at a 97% clustering level.
+The number of OTUs observed was ~3.5 times higher for Bacteria compared to Eukarya.
+Within the Eukarya, sampling coverage for ice communities was about twice as high as soil communities.
+Good’s coverage index demonstrated that the estimated proportion of phylotypes represented in our libraries was very high (>0.97), however, “species-level” sampling coverage was not complete as the observed number of OTUs was less than that estimated with the Chao1 richness.
+ANOSIM analysis revealed that there was a significant difference in composition (beta diversity) between ice and the soil samples for Bacteria (R = 0.8, P = 0.03), but there was not a significant difference between ice and soil eukaryotic assemblages, perhaps indicating that the soil Eukarya came from the ice.
+Interestingly both the bacterial and eukaryotic composition of the soil sample closest to the ice wall (N1) was more similar to that of ice samples compared to soil (Supp.
+Fig. 5).
+Ice assemblages showed a lower weighted UniFrac dissimilarity value to the soil sample closest to the glacier wall than the other soil samples for both Bacteria (0.13 vs 0.202) and Eukarya (0.212 vs 1.49).
+Bacterial OTUs from soil and ice were distributed among 18 phyla, including 4 candidate divisions and were dominated in both ice and soil by Proteobacteria, Bacteroidetes, Actinobacteria and Acidobacteria (Fig. 2).
+Betaproteobacteria represented the dominant fraction of the community in both ice (25%) and soil (22%) and most of these were in the Comamonadaceae (Polaromonas, Variovorax, Rhodoferax, Curvibacter, Methylibium) and Oxalobacteraceae in the soil and Rhodocyclales in the ice.
+Bacteroidetes accounted for 9 and 22% in ice and soil, respectively, with the majority in the Chitinophagaceae family (Ferruginibacter, Segetibacter and Sediminibacterium).
+Actinobacteria accounted for 5 and 8% of the total sequences in ice and soil, respectively, with most being in the Actinomycetales (Frigobacterium, Nocardioides and Pseudonocardia).
+Cyanobacteria only represented 4% of sequences in the soil, whereas they were more abundant in the ice (10%), with most sequences in the Oscillatoriales and Chroococcales.
+Overall soil communities harbored higher abundances of Actinobacteria, Bacteroidetes and Acidobacteria than ice, while sequences related to Betaproteobacteria, Alphaproteobacteria and Cyanobacteria displayed higher abundance within ice communities (Fig. 2).
+Illumina sequencing data revealed that both soil and ice 18S communities were limited to 9 phyla.
+Ice communities were heavily dominated by Cercozoa, representing 72% of total sequences (Fig. 3), while in the soil they were the most abundant taxonomic group together with green algae (Chlorophyta), at about 34% abundance each.
+The Chlorophyceae comprised about 9% and 34% of total sequences in the ice and soil respectively and were most closely related to the genera Chlamydomonas, Chloromonas and Stigeoclonium.
+Within the Cercozoa, most sequences fell within the Trinematidae and the Vampirellida.
+Longer reads from Sanger sequencing showed that the Trinematidae family clustered in very few OTUs closely related to the known organisms Trinema lineare and Trinema enchelis (Fig. 4).
+In contrast, long-read sequences within the Vampirellida order were very diverse and all fell into a previously undescribed clade (wedge in Fig. 4).
+A total of 15 archaeal Sanger sequences that clustered into 3 OTUs were also retrieved in one of the soil samples (N7) with closest relatives being uncultured Haloarchaea from alkaline-saline desert and Antarctic soils (Supp.
+Fig. 6), however we did not use Archaea-specific primers in this study.
+We used the approach of Herbold et al. to classify bacterial phylotypes into “endemic” and “non-endemic” and within the non-endemic whether they are “cryophilic”, “non-cryophilic” or “polythermal” (Supp.
+Table 1).
+Of the 60 non-endemic bacterial OTUs found on Mt. Kilimanjaro summit, 46 (77%) were found to be cosmopolitan, meaning that all database entries that matched the representative sequence for that OTU had been previously observed in both perennially cold and temperate environments.
+Only 6 bacterial OTUs appeared to be endemic, meaning that they were less than 97% identical to any phylotype in the NCBI database.
+Within the Bacteria and the Eukarya, two genera common to glacial and periglacial environments were selected to test their biogeographical distribution by comparison of genetic distance versus geographic distance.
+The analysis of the Polaromonas clade revealed that there was a slight (rM = 0.08) but significant (Mantel test, P = 0.002) increase in genetic distance with geographic distance, however spatial structuring was not evident for 11 out of 14 distance classes (Fig. 5).
+An expanded dataset of Darcy et al. 2011 was used (Supp.
+Table 2) including 96 long-read sequences from 25 geographically well separated glacial and periglacial environments (Supp.
+Fig. 2), which makes it the most inclusive long-read Polaromonas biogeographical analysis performed to date.
+The biogeographic analysis on the Chlamydomonas clade showed a slightly stronger (rM = 0.125, P = 0.001) increase in genetic distance with geographic distance, but spatial structuring was not evident for 8 out of 11 distance classes (Fig. 6).
+Soil moisture levels decreased with distance from the glacier wall (Table 1) and are comparable with other high elevation and periglacial sites.
+Soil pH did not show a trend and ranged from 7.5 to 7.9 across the transect (Table 1).
+DOC and TDN away from the glacier (>5 m) are similar to levels found for Antarctic bare, fell-field soils and high elevation sites in Peru and Colorado.
+In general, nutrient levels were higher in samples taken close to the glacier, especially TDN (Table 1).
+Despite their ecological importance to downstream ecosystems, the study of microbial diversity at high elevations has lagged behind the study of other ecosystems.
+In particular, no work, using modern molecular approaches, has been done at high elevations in Africa.
+The present study was initiated to probe the diversity of soil- and ice-dwelling microbes near the top of Mt. Kilimanjaro.
+To our knowledge, this is the first investigation of the microbial diversity on Mt. Kilimanjaro or the African continent at elevations above 5000 m. This investigation provides a reference for future studies of microbial community structure and function in this extreme environment and other high-elevation sites in Africa.
+Data from Illumina and Sanger libraries demonstrated that communities in both soil and ice are represented by a phylogenetically broad spectrum of microorganisms.
+Richness was high for both soil and ice communities for Bacteria (Table 2) and was close to that previously reported for other cold environments such as Antarctica and the Himalayas.
+Glaciers can support very active microbial communities that sequester nutrients from the atmosphere, which may explain the high diversity encountered in ice samples.
+The majority of bacterial OTUs were not closely related to cultured microorganisms and among the closest matching sequences were environmental sequences from cold (high-elevation and high-latitude), arid and heavy metal contaminated environments.
+These comprised putative psychrophilic, xerophilic, endolithic, radioresistant and halophilic microorganisms (Supp.
+Fig. 1).
+Diversity of Eukarya was a third of that for Bacteria according to the Shannon Index and Observed OTUs (Table 2), but was comparable to Eukaryotic diversity in polar waters and sea ice.
+Bacterial communities in ice and soil samples were significantly different (ANOSIM, P < 0.05).
+However, the soil sample closest to the ice wall harbored bacterial and eukaryotic communities closely resembling those of the ice samples.
+This may suggest that the main microbial input for the soils adjacent to the glaciers is the glacier itself and that these ice microbes are replaced by a soil community as the soils age.
+Ice microorganisms may not survive as well in soils because of exposure to environmental stressors such as freeze-thaw cycles and desiccation, stressors that are partially alleviated in the more constant ice environment.
+A likely consequence may therefore be the establishment in the soil of new phylotypes from the atmosphere.
+Overall, both Illumina and Sanger technologies yielded similar patterns of taxonomic diversity (Supp.
+Fig. 7) as has been noted in other studies with the taxonomic resolution achieved dependent on the abundance of reference sequences in the particular region of the rRNA tree of life.
+Sanger sequences were much longer (1345–1715 vs 150–250 bp) and were therefore used to identify sequences at a finer taxonomic level.
+Betaproteobacteria (especially members of the Comamonadaceae) are the dominant members of the community similar to other recently deglaciated soils.
+Comamonadaceae are phylogenetically similar in soil and ice (Supp.
+Fig. 1), indicating that ice may be seeding the youngest soils as previously seen in the High Andes of Peru.
+Many Comamonadaceae are heterotrophs that are able to metabolize both recalcitrant and more labile carbon sources and could therefore use multiple aeolian deposited carbon sources.
+It is still unclear if many Comamonadaceae (e.g. Polaromonas) are indigenous to ice or if they are transients from the upper atmosphere.
+They are found in almost all glacial habitats studied to date, perhaps indicating that they are being constantly deposited in glacial systems, but not necessarily growing there.
+The other most abundant bacterial OTUs in soil were in the Chitinophagaceae (Bacteroidetes) but these were in lower relative abundance in the ice.
+Closely related sequences have been previously retrieved from similar environments such as oligotrophic volcanic cave sediments from Mt. Erebus, Antarctica, fumarole soils at high elevation in the Andes, pyroclastic deposits in Alaska, and debris-covered glaciers in the Alps.
+Chitinophagaceae have the ability to degrade complex polymers such as chitin, which provides microbes with C and N. Chitin may come from Fungi and Arthropods, which often occur in recently deglaciated soils.
+Members of the Chitinophagaceae may be opportunists, relying on Aeolian inputs and some species have a dormant stage, which may allow them to persist in the atmosphere and survive in periglacial habitats once they are deposited.
+All cyanobacteria sequences retrieved in ice and soil are closely related to non-heterocystous nitrogen fixers (Oscillatoria, Microcoleus, Leptolyngbya) commonly found in cold ecosystems.
+Nitrogen is often a limiting nutrient in poorly developed early successional soils.
+Other sites at similar elevations in Peru and Nepal have also recently been shown to have similar cyanobacteria and cyanobacteria have long been known to colonize barren habitats in the Arctic and Antarctica.
+However, very dry, high-elevation sites like the stratovolcanoes in the Atacama Desert completely lack cyanobacteria, except in wet areas near active fumaroles.
+Cyanobacteria were more abundant in the ice wall and the soil adjacent to the glacier than soil, possibly indicating that they depend on access to a constant source of water (provided by meltwater of the glacier), which is not available in soils further from the glacier.
+Among the Alphaproteobacteria, the most abundant Hyphomicrobiaceae family was only found within ice samples and the soil closest to the ice wall and are known for being oligocarbophilic, thriving only in the presence of low carbon concentrations, which can explain their being restricted to the ice and soils near the ice.
+Sphingomonadaceae were the second most abundant family within the Alphaproteobacteria and were more abundant in soils.
+Sequences from this family are commonly detected in glacial habitats and have been reported in Arctic cryoconite, Antarctic ice sheet and Arctic glaciers.
+Members of the Deinococcus-Thermus group were present in our site, as well as Antarctica Dry Valleys and sites over 5400 meters in the Andes.
+Among the Eukarya, Cercozoa dominated the community and the most unexpected diversity found was in the order Vampyrellida (family Leptophryidae).
+These sequences are distinctly different from any taxa in Genbank (Fig. 4), suggesting that this unique environment harbors a previously unknown Vampyrellida community.
+Vampyrellida are only rarely recovered in environmental DNA surveys and have only been previously found at high elevations in soils from fumaroles on Volcán Socompa.
+Our sequences were however less than 95% identical to those found on Volcán Socompa suggesting high endemicity of this group on Kilimanjaro.
+Given the presence of fumarolic activity on Mt. Kilimanjaro, it is possible that this group is associated with thermal environments.
+The Vampyrellida are very diverse and are generally known from aquatic habitats and soil where they are predators of algae, fungi, protozoa and small metazoans.
+Vampyrellida have multiple nuclei, which could lead to a bias and overestimation in their relative abundance.
+However, our Sanger clone libraries showed many distinct OTUs suggesting that multiple representation of the same organism was minimal.
+Many Cercozoa (including some Vampyrellida) are very resistant to drought and can respond quickly to periods of transient nutrient and water availability, which may account for their abundance in the soils studied here.
+Food preferences may also be an important basis for lineage differentiation in Vampyrellida.
+Their relative abundance was significantly higher in the ice samples (Fig. 3 and Supp.
+Fig. 8), suggesting that those in the soil may have come from the ice.
+The most abundant OTU in the Eukarya was very closely affiliated with the known Cercozoans Trinema lineare and Trinema enchelis (order Euglyphida), common testatae amebae in moist environments.
+The same taxa of testatae amebae have recently been found for the first time in glaciers in the Andes and in glacier forefield soils in the Alps.
+Heterotrophic Cercozoa seem to be more abundant than their potential food sources in our samples.
+However, inverted trophic pyramids have been seen before at high elevation where producers are scarce or absent.
+The high abundance of these predatory microeukaryotes could be sustained by feeding on fungi and algae in addition to bactivory.
+These soils, like other even higher-elevation volcanoes, harbored some of the simplest fungal communities yet described compared to, for example the 15 lineages recovered in the Dry Valleys of Antarctica.
+Environmental extremes characteristic of high elevation, such as freeze-thaw cycles and high UV levels may limit fungal communities on Kilimanjaro compared to polar regions.
+Chytrids dominated our Sanger fungal libraries similar to previous studies of high-elevation and high-latitude soils.
+Most chytrids were in the Spizellomycetes, which are commonly found in harsh soil environments such as arid grasslands, and glacial till.
+They can resist extremes of temperature, pH, and desiccation and can decompose pollen or be parasitic.
+These features may explain their presence on Mt. Kilimanjaro and their wide geographical distribution.
+Green algae sequences found in ice and soils of Kilimanjaro are closely related to those found in similar environments such as alpine snow, Arctic glaciers and Antarctic snow.
+Their high relative abundance and the scarcity of cyanobacterial sequences in these soils suggests that they may play a significant role as primary producers in this habitat and in early stages of succession following glacial retreat as has been previously suggested for green algae in high-altitude ecosystems.
+Archaea sequences distantly related (92%) to the Haloarchaea class were only retrieved with Sanger sequencing in one of the soil samples (N7) (Supp.
+Fig. 6).
+Scarcity of liquid water at this elevation can drive the formation of salty pockets within the soils that can explain the presence of Haloarchaea but more work is needed to understand the true phylogenetic diversity of Archaea on the top of Mt. Kilimanjaro.
+It is known that Archaea are more difficult to detect in cold and hot deserts, which may explain our findings.
+Kilimanjaro is the most isolated high-altitude peak on Earth and approximately 5700 km from the closest mountain range with similar and higher elevation peaks (the Himalayas) (Google earth data, last accessed on 10 March 2018) making this site ideal for testing ideas related to microbial dispersal and biogeography.
+Despite being separated by large distances and climatic barriers, it has been proposed that cold high-elevation and high-latitude environments are connected through the upper atmosphere but data is lacking for Africa.
+Small microbes are easily dispersed over long distances, but their long-term survival requires a number of distinct adaptations, similar to those required to survive in icy environments.
+The top of Mt. Kilimanjaro may be an oasis where microbes in transit in the upper atmosphere persist, but more work is needed to determine if they can grow on Kilimanjaro.
+The present study is a first step towards gaining an understanding of the global dispersal of microbial phylotypes to high elevation sites in Africa.
+It is currently unknown how Aeolian deposition affects microbial composition and if Kilimanjaro’s great distance from similar environments is reflected in more speciation.
+Our survey showed that most bacterial diversity at our site is cosmopolitan, as defined by Herbold et al., with the vast majority of OTUs having close matches with sequences from very distant both cold and temperate environments showing little endemism in this cold isolated environment.
+More evidence of minimal endemism of this isolated site comes from the biogeographical analysis of one of the most abundant clades within the Bacteria, Polaromonas (Fig. 5).
+Our analysis showed remarkably little increase in genetic diversity with geographic distance, pointing towards a uniform distribution of Polaromonas phylotypes across the cryosphere.
+These results confirm the conclusion of previous work that Polaromonas phylotypes are globally distributed in the cryosphere.
+Interaction with local microbiota may drive microevolution and post-selection niche separation within Polaromonas on the top of Mt. Kilimanjaro.
+The finding in Kilimanjaro samples of both cosmopolitan and endemic microorganisms helps corroborate the hypothesis that the distribution of microbial species in the cryosphere is the outcome of the continuum between two opposing theories in microbial ecology: endemism and cosmopolitanism.
+Moreover, the closest matches of 14% of sequences retrieved from our samples were from heavy metal contaminated sites.
+Since our site is not known to contain relevant quantities of heavy metal, it may be possible that tolerance and resistance mechanisms to heavy metals overlap with those employed by microorganisms to cope with stresses found in extreme environments such as high radiation, freeze-thaw cycles, low nutrient and water levels.
+It is likely that larger eukaryotic microbes might be more dispersal limited than smaller Bacteria.
+Previous work in the cryosphere has shown that larger microbes like algae and zoosporic fungi show distinct biogeographic patterns at global and regional scales and this could be the case for the most abundant phylum retrieved from our samples, the Cercozoa, which showed a highly diverse new clade within the Vampyrellida.
+Successful dispersal of small microbes is due to their high abundance and long residence time in the atmosphere, which may not be the case for eukaryotic microorganisms due to their average larger size.
+Evidence of a pattern of genetic isolation by genetic distance was revealed by the phylo-geographic analysis of a highly abundant Chlamydomonas clade.
+However, despite the large distances, the pattern revealed was weak (Mantel rM = 0.125, P = 0.001) and it is in accordance with recent molecular studies that suggest that red snow algae may be readily dispersed across the Earth.
+Our analyses suggest that Chlamydomonas may be successful at global dispersal, however in a more limited fashion compared to most bacteria.
+Microbial diversity in the extreme environments on top of Mt. Kilimanjaro proved to be higher than expected compared to high volcanoes in drier regions, especially for the Bacteria.
+In addition, the ice bacterial community was significantly different from the soil community, suggesting that soils are predominately seeded by wind-transported terrestrial sources.
+The combination of cosmopolitan bacterial diversity and weak biogeographical patterns for the clades analyzed suggest that the effect of distance and local environmental conditions is overwhelmed by continuous dispersal.
+Taken together, considering the isolation of Mt. Kilimanjaro from other perennially cold environments, our results strongly support the concept of a global distribution of microbial ecotypes throughout the cold terrestrial biosphere as has been suggested by other studies of Bacteria.
+This finding suggests that there may be gene flow between the polar regions or that the rate of evolutionary divergence has been slow relative to the timescales of isolation.
+In depth molecular comparisons of microbial diversity with other distant high elevation sites could provide further insights into dispersal mechanisms and may help elucidate how microbes adapt and diversify in response to environmental pressures.
+Unravelling the full extent of diversity in these environments would provide a unique opportunity to investigate microbial endemism and evolution as well as roles of inoculum from the atmosphere, fumaroles and glaciers for microbial communities in recently deglaciated soils.
+As glacier recession continues unabated, understanding the biodiversity and function of organisms in these glaciers and periglacial soils is important, before these ecosystems are changed forever.
+One of the main concerns is the loss of biodiversity and potentially the loss from the biosphere of a pool of genes adapted to surviving and thriving in the cold.
+Our work adds to a growing body of knowledge about microbial diversity in high elevation ecosystems that are currently responding to a rapidly changing climate.
+The presence of high bacterial and eukaryotic diversity indicates that specific life forms have evolved to thrive in this extreme environment and may provide a model for viable habitats for life on early Mars since similar conditions may have existed or still exist in sediments adjacent to and beneath the Martian north polar ice cap.

@@ -1,0 +1,105 @@
+# MoBiKo Triplet Annotator — RunAI / Kubernetes manifests.
+#
+# Fill in the PLACEHOLDERs (confirm SDSC-specific values with @Albert / @Andrei):
+#   - <NAMESPACE>      your RunAI project namespace (often runai-<project>)
+#   - <IMAGE>          pushed image, e.g. registry.<sdsc>/mobiko/annotator:1.0
+#   - <STORAGE_CLASS>  a ReadWriteOnce storage class available on the cluster
+#   - <HOST>           ingress hostname, e.g. mobiko-annotator.<sdsc-domain>
+#
+# Apply with:  kubectl apply -n <NAMESPACE> -f k8s.yaml
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mobiko-annotator-data
+spec:
+  accessModes: ["ReadWriteOnce"]          # single replica -> RWO is enough
+  storageClassName: <STORAGE_CLASS>
+  resources:
+    requests:
+      storage: 1Gi                         # source doc + triplets + saves are small
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mobiko-annotator
+  labels: { app: mobiko-annotator }
+spec:
+  replicas: 1                              # MUST stay 1: per-session state + file saves
+  strategy: { type: Recreate }             # don't run two pods sharing the RWO volume
+  selector:
+    matchLabels: { app: mobiko-annotator }
+  template:
+    metadata:
+      labels: { app: mobiko-annotator }
+    spec:
+      securityContext:
+        fsGroup: 1000                      # let the container user write the PVC
+      containers:
+        - name: app
+          image: <IMAGE>
+          ports: [{ containerPort: 8501 }]
+          env:
+            - { name: ANNOTATION_DATA_DIR, value: /data/extracted_triplets }
+            - { name: ANNOTATION_SAVE_DIR, value: /data/saves }
+            # Shared access password, from a Secret (create it first, e.g.:
+            #   kubectl create secret generic mobiko-annotator \
+            #     --from-literal=password='<SHARED_PASSWORD>' -n <NAMESPACE>)
+            - name: ANNOTATION_PASSWORD
+              valueFrom:
+                secretKeyRef: { name: mobiko-annotator, key: password }
+          volumeMounts:
+            - { name: data, mountPath: /data }
+          readinessProbe:
+            httpGet: { path: /_stcore/health, port: 8501 }
+            initialDelaySeconds: 5
+          livenessProbe:
+            httpGet: { path: /_stcore/health, port: 8501 }
+            initialDelaySeconds: 15
+          resources:
+            requests: { cpu: "250m", memory: 512Mi }
+            limits:   { cpu: "1",    memory: 1Gi }
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: mobiko-annotator-data
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mobiko-annotator
+spec:
+  selector: { app: mobiko-annotator }
+  ports:
+    - { port: 80, targetPort: 8501 }
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: mobiko-annotator
+  annotations:
+    # Streamlit needs websockets; these are nginx-ingress defaults that keep them alive.
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
+    # --- ACCESS CONTROL ---------------------------------------------------
+    # The in-app annotator name is only a label, not auth. If the SDSC ingress
+    # does NOT already enforce SSO, gate it with nginx basic-auth: create a
+    # secret (htpasswd) and uncomment the two lines below.
+    #   kubectl create secret generic mobiko-basic-auth --from-file=auth=./htpasswd -n <NAMESPACE>
+    # nginx.ingress.kubernetes.io/auth-type: basic
+    # nginx.ingress.kubernetes.io/auth-secret: mobiko-basic-auth
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: <HOST>
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: mobiko-annotator
+                port: { number: 80 }
+  # tls:                                   # add if the cluster issues certs
+  #   - hosts: [<HOST>]
+  #     secretName: mobiko-annotator-tls

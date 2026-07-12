@@ -1,0 +1,110 @@
+The effect-response framework states that plant functional traits link the abiotic environment to ecosystem functioning.
+One ecosystem property is the body size of the animals living in the system, which is assumed to depend on temperature or resource availability, among others.
+For primary consumers, resource availability may directly be related to plant traits, while for secondary consumers the relationship is indirect.
+We used plant traits to describe resource availability along an elevational gradient on Mount Kilimanjaro, Tanzania.
+Using structural equation models, we determined the response of plant traits to changes in precipitation, temperature and disturbance with and assessed whether abiotic conditions or community-weighted means of plant traits are stronger predictors of the mean size of bees, moths, frugivorous birds, and insectivorous birds.
+Traits indicating tissue density and nutrient content strongly responded to variations in precipitation, temperature and disturbance.
+They had direct effects on pollination and fruit traits.
+However, the average body sizes of the animal groups considered could only be explained by temperature and habitat structure, not by plant traits.
+Our results demonstrate a strong link between traits and the abiotic environment, but suggest that temperature is the most relevant predictor of mean animal body size.
+Community-weighted means of plant traits and body sizes appear unsuitable to capture the complexity of plant-animal interactions.
+There were large differences in the individual relationships and effect sizes inferred from the structural equation models (Fig 1, see S4 Table unstandardized coefficients, individual P-values, and conditional R2 values).
+Overall, expectations concerning the abiotic environment and plant functional traits were confirmed by the analyses, but relationships between plant functional traits and body size were much weaker and not always according to the hypotheses.
+For individual variables, explained marginal R2, i.e. the proportion of variance explained by linear regressions, was between 0.16 and 0.58, while conditional R2 values expressing the summed effect of linear regressions and accounting for vegetation type-differences ranged from 0.16 to 0.89 (S4 Table).
+Overall model probability values ranged from 0.41 to 0.81.
+Exclusion of non-significant terms from the initial hypotheses (dotted lines in Fig 1, S4 Table) had a positive effect on model R2 values, especially for birds.
+Relationships between the abiotic environment and plant traits and biomass were the same for all models.
+Leaf economics and total plant biomass were positively related to precipitation.
+Disturbance had a negative effect on total plant biomass, but a positive one on leaf economics.
+The proportion of insect-pollinated plants was explained by total plant biomass and leaf economics, both with positive coefficients.
+Bird-dispersed fruit CWM was negatively related to leaf economics and positively to total plant biomass.
+Moth and frugivorous bird body size were explained by temperature alone, while body sizes of bees and insectivorous birds were also related to total plant biomass.
+Both moth and frugivorous bird body size decreased with increasing temperature (Fig 1A and 1C).
+As hypothesized, bee body size increased with disturbance, but decreased with temperature (Fig 1B).
+Contrary to our expectation, insectivorous bird body size was positively related to temperature (Fig 1D).
+Total plant biomass affected bee body size positively, but was negatively related to insectivorous bird body size, in line with our hypotheses.
+Resource availability had no positive effect on insectivorous bird body size, as indicated by the lack of a significant relationship with cumulative body size of moths and bees.
+Cumulative body size of moths in turn was positively related to temperature, while cumulative body size of bees decreased with increasing total plant biomass.
+In our study, we modeled the response of plant functional traits to environmental gradients and their effect on body sizes of different animal taxa.
+We assumed that body sizes depend directly on temperature and disturbance and indirectly on plant traits and total plant biomass as indicators of resource availability or habitat structure.
+Temperature affected the body size of all animal groups considered and total plant biomass affected body sizes of bees and insectivorous birds.
+Plant traits were unrelated to the body size of any of the groups, suggesting that either resource availability may not be the main driver of body size, or community-weighted means of plant traits did not reflect resource availability adequately.
+Precipitation and disturbance were linked to increases in leaf economics.
+This variable aggregated a suite of correlated traits such as specific leaf area, leaf nitrogen and phosphorus content, leaf dry matter content, and stem specific density.
+It indicates a gradient ranging from relatively slow growth and conservation of resources to fast growth and rapid turnover of resources in leaves termed the leaf economics spectrum [32].
+High values of leaf economics occurred in fast-growing plants with highly palatable tissues, while low values were found in slow-growing plants investing in long-lasting structural components.
+Whether traits indicating the leaf economics spectrum are linked to precipitation on global scales is still equivocal [60].
+At Mount Kilimanjaro, precipitation was the strongest driver of total plant biomass and leaf economics, whereas temperature had almost no effect, in contrast to findings on a global scale [60].
+The strong positive effect of disturbance (logging, grazing) on leaf economics is concordant with other studies worldwide (e.g. [31, 61]).
+The positive and negative relationships between leaf economics and the proportion of insect-pollinated plants and bird-dispersed fruit CWM, respectively, were expected due to the functional differences between undisturbed savanna and forests on the one hand and agricultural areas on the other.
+At Mount Kilimanjaro, grazed and ploughed habitats mostly harbor fast-growing dicotyledonous weeds with rather high leaf economics values.
+These weeds are pollinated by insects, but produce mostly wind-dispersed seeds, instead of bird-dispersed fruits.
+Seed dispersal by animals is often strongly affected by disturbance, but pollination is not [44, 62].
+Large differences between marginal and conditional R2 values were evident in total plant biomass, in the proportion of insect-pollinated plants, and in bird-dispersed fruit CWM.
+This could be caused by non-linear relationships of predictors and traits or factors not accounted for by the predictors [63].
+Bergmann's rule and its recent formulations in the framework of the metabolic theory of ecology [17] predict decreases in body size with increasing temperature.
+Moths and frugivorous birds were in accord with this expectation, in line with previous studies (e.g. [14, 20, 64]).
+Conversely, insectivorous bird size increased with temperature, contrary to most other studies on birds [65].
+Unlike patterns of body size along elevational gradients in the Alps [66], mean body size of bees at Kilimanjaro did not follow Bergmann's rule.
+Bees of smallest body size occurred in the alpine Helichrysum shrubland situated at highest elevations, suggesting increased extinction probabilities for large-bodied bee species in low-energy habitats [67].
+The only other variable found to increase bee body size was disturbance, probably because most wild bees that visit crops or ruderal plants in disturbed habitats nest in natural habitats [34] and isolated resources in disturbed habitats can better be exploited by large-bodied bees species with larger foraging ranges [35].
+However, for social species, which accounted for a small proportion of bee species richness, but for a considerable part of the specimens, Kaspari and Vargo [68] noted that colony size rather than individual body size should follow Bergmann's rule.
+Nevertheless, this could not be tested, as colony size data were not available.
+The food availability hypothesis [21] and the textural discontinuity hypothesis [10] justified the expectation of a strong influence of plant functional traits and total plant biomass on animal body size.
+However, we did not find any significant relationship between body size and CWMs of functional traits that indicate resource availability.
+Assuming the "resource availability hypothesis" were correct, a shortcoming of the approach presented here might be that the traits used were not precise enough indicators of the "true" food resources.
+We used leaf and stem traits, that indicated a gradient from carbon-rich, hard tissue to soft, nutrient-rich tissue as an indicator for moth food availability [69].
+This, however, may not adequately reflect the amount of palatable tissue for moths, as Lepidoptera tend to be specialized to particular host plants [70].
+In moths, a correlation between body size distributions and size distributions of floral resources has been observed [71], indicating that nectar quantity may have predictive potential for body size.
+Still, the CWM of insect-pollinated plants may be a too coarse estimate of the nectar actually available for bees and moths, as flower rewards, inflorescence sizes and nectar contents can vary strongly across plant species [72].
+Total plant biomass had a significant effect on the body size of bees.
+Rainforests were characterized by the highest structural complexity, indicating that larger distances to food sources select for larger bee species [28, 44].
+Moths however, did not respond in the same way, possibly because the caterpillar life stage exerts a strong influence on body size and leaves are a rather abundant resource, which do not force caterpillars to forage long distances in both open landscapes and forests.
+Insectivorous bird body size was not significantly related to resource availability, probably because the latter was approximated by the cumulative body sizes of all moth and bee individuals per plot.
+These measures should be good proxies of overall insect abundance in most vegetation types, but probably not at high elevations.
+Bee abundance in the alpine zone was high, but other insects were rather rare (pers.
+obs.).
+For leaf herbivores, this was evidenced by the virtual absence of damaged foliage at high elevations.
+Including other insect taxa in our study would likely change our estimate of the food availability pattern for insectivorous birds.
+Thus, a more precise measurement of cumulative insect body size should also include other relevant groups, e.g. Diptera and Coleoptera.
+In addition, the use of community-weighted means (CWMs) of body sizes may affect the result: While the unweighted body sizes of species may decrease, changes in abundances may result in increases of the body size CWMs [73].
+This is evidenced by the changes in moth and bee cumulative body size with temperature and with total plant biomass, which were opposed to those of the corresponding CWMs.
+Thus, increases or decreases in average body size can be counterbalanced by changes in overall abundance of large-bodied and small-bodied species.
+This could be another reason for the positive relationship between insectivorous bird body size and temperature, meaning that at higher elevations, small species may have more individuals than large ones, as compared to lower elevations.
+In addition, body size CWMs do not account for the dispersion of body sizes in habitats.
+Dispersion, rather than means, may likely respond to increasing structural complexity of habitats or increasing discontinuity of resource availability across scales [74–75].
+Body size distributions probably also depend on other factors not considered in our study [10].
+Large body size may be caused by sexual selection or elevated fecundity of large individuals [76].
+The interplay of sexual selection for larger individuals and natural selection for smaller ones can complicate patterns [77].
+Blanckenhorn [76] proposed selective forces favoring small body size: Larger individuals need more resources, may be preferred by parasites and predators, and may have reduced fecundity if reproducing late.
+However, quantifying these parameters in a comparative empirical approach across multiple taxa, or guilds along multiple environmental gradients, is difficult.
+We used proxies of plant traits to indicate resource availability as a predictor of body size.
+This was necessary because logistic constraints did not allow for quantifying true nectar availability, or insectivorous bird food supply, among others.
+The selection of proxies was not arbitrary; higher proportions of insect-pollinated plants should, on average, yield more nectar than lower ones.
+Higher cumulative body sizes of moths and bees should indicate higher availability of other prey insects eaten by birds.
+These relationships, while plausible, may not always hold: In certain habitats, chemically or physically well-defended insects could have a larger cumulative body size than the insects from other localities without increasing resource availability for birds.
+Abundant insect-pollinated plant species with heavy allocation to vegetative compared to reproductive biomass could provide less nectar than rare insect-pollinated species with stronger allocation to reproductive biomass.
+Eventually, this may lead to a divergence between the proxies and the actual traits measured.
+While this constraint needs to be considered, the test of hypotheses with proxies may lead to new insights, if the relationships of proxies and true variables hold.
+This has been seen in the use of "soft" instead of "hard" traits to predict plant photosynthesis and carbon allocation [78], or the common use of precipitation instead of soil water availability to predict vegetation patterns [79].
+In summary, major effects of all abiotic predictors on plant functional traits could be confirmed.
+Temperature affected animal body sizes, albeit in different directions.
+The more-food hypothesis was, however, hardly supported by our data.
+If this hypothesis were correct, we should have found some coupling between leaf traits indicating palatability and body sizes of animals, particularly herbivorous guilds.
+There are several possible explanations.
+Firstly, the traits describing resource availability may not have been good enough proxies to reveal the true relationships.
+Secondly, using the community-weighted means (CWMs) of traits and body sizes may have lumped together many species that do not necessarily depend on the same resources.
+Moth caterpillars are known to be host-specific [70], and the relationship of plants and pollinators is characterized by a large variety of interactions from co-dependent plant-animal species pairs to generalist species [80].
+Also, frugivorous and insectivorous birds are likely to be specialized to some degree, making the use of CWMs inappropriate.
+The concept behind CWMs is that environmental conditions exert strong selective forces on a trait and filter only a small subset of the total trait expressions of the geographical species pool, leading to convergence of the trait values around a mean describing this subset [81–82].
+The large environmental variation along the slopes of Mt. Kilimanjaro, resulting in habitats as diverse as alpine vegetation, rainforests, savanna and fields favored the filtering of plant traits as evidenced by our structural equation model.
+CWMs have become increasingly popular in plant functional trait studies, mainly because trait means per plot can be directly linked to environmental variables characterizing the plot, thus making statistical analyses relatively easy.
+Plant-animal interactions, however, seem to be too species-specific to allow the use of community-weighted means, both in plants and animals.
+For future work, it appears more promising to study pairwise matching of plant and animal traits in ecological networks [83–85] and to correlate these matches with environmental conditions.
+We investigated the response of plant traits to the environment and their effect on the community-weighted mean body size of moths, bees, frugivorous birds, and insectivorous birds at Mount Kilimanjaro, Tanzania.
+Plant functional traits were selected to reflect resource availability for animals.
+Structural equation modeling confirmed the response of plant functional traits to the abiotic environment.
+However, not plant functional traits, but temperature and total plant biomass were the main drivers of mean body size in our study system.
+Temperature—body size relationships were not always in line with expectations, indicating multiple factors shape the body size distribution of the animal groups investigated.
+We found no support for the resource availability hypothesis.
+Possible reasons may be that (i) the plant traits used may not quantify food sources to the desirable detail and (ii) community-weighted means may not be suited to revealing plant-animal interactions sufficiently.
