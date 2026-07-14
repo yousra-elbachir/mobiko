@@ -22,7 +22,7 @@ from ontology import (
     PREDICATES, normalize_predicate,
 )
 from span_utils import (
-    resolve_span, span_text, locate_exact,
+    resolve_span, span_text, locate_exact, span_from_words,
     STATUS_UNRESOLVED, STATUS_NORMALIZED, STATUS_EDITED,
 )
 from triplet_store import (
@@ -299,19 +299,19 @@ def relation_input(current: str, keybase: str) -> str:
 def entity_editor(role: str, entity: dict, sentence: str, keybase: str) -> dict:
     """Render editor widgets for one entity; return the updated entity dict.
 
-    Text and span are reconciled through ``on_change`` callbacks (callbacks run
-    before widgets re-instantiate, the only safe time to write their state):
-
-      - Edit the **Text** → the app locates it as a whole word/phrase in the
-        sentence. Found → span moves to it (``edited``). Not found but a span
-        already exists → the typed text is kept as a *normalized* form and the
-        span still anchors the original mention (``normalized``, no warning).
-        Not found and no span → ``unresolved`` (flagged, but never trapping).
-      - Edit **start/end** → the text follows the new span slice.
-      - **Auto-detect span** → fuzzy "try harder" locate from the current text.
+    The **Text is authoritative** — it's whatever the annotator types and is
+    never rewritten by the app. Only the span (start/end) is adjusted to point
+    at where the text refers:
+      - Edit Text → the app locates it (whole word/phrase) and moves the span
+        there. A refinement of the current mention (shares text) keeps the span;
+        otherwise the span is cleared and the text is *unresolved*.
+      - Edit start/end → moves the pointer only; the Text does not change.
+      - When unresolved, the annotator types the **first** and **last word** the
+        text refers to and the span is computed from them.
+    Whichever control is edited last wins.
     """
-    kt, ks, ke = keybase + "_txt", keybase + "_start", keybase + "_end"
-    kms = keybase + "_ms"
+    kt, ks, ke, kms = keybase + "_txt", keybase + "_start", keybase + "_end", keybase + "_ms"
+    kfw, klw = keybase + "_fw", keybase + "_lw"
     n = len(sentence)
 
     def _clamp(v: int) -> int:
@@ -326,53 +326,68 @@ def entity_editor(role: str, entity: dict, sentence: str, keybase: str) -> dict:
     st.session_state.setdefault(kms, entity.get("match_status", ""))
 
     def _on_text_change():
-        loc = locate_exact(st.session_state.get(kt, ""), sentence)
+        txt = st.session_state.get(kt, "")
+        loc = locate_exact(txt, sentence)
         if loc:                                   # verbatim phrase -> move span to it
             st.session_state[ks], st.session_state[ke] = loc
             st.session_state[kms] = STATUS_EDITED
-        elif st.session_state.get(ks, -1) >= 0 and st.session_state.get(ke, -1) > st.session_state.get(ks, -1):
-            st.session_state[kms] = STATUS_NORMALIZED   # keep span anchor + typed text
-        else:                                     # nothing to anchor to
+            return
+        cs, ce = st.session_state.get(ks, -1), st.session_state.get(ke, -1)
+        prior = span_text(sentence, cs, ce) if (cs >= 0 and ce > cs) else ""
+        t, p = txt.strip().lower(), prior.lower()
+        if p and t and (p in t or t in p):        # a refinement of the same mention:
+            st.session_state[kms] = STATUS_NORMALIZED   # keep the anchor silently
+        else:                                     # can't tie it to the sentence -> ask
             st.session_state[ks], st.session_state[ke] = -1, -1
             st.session_state[kms] = STATUS_UNRESOLVED
 
-    def _on_span_change():
-        cs, ce = _clamp(st.session_state.get(ks, -1)), _clamp(st.session_state.get(ke, -1))
-        if cs >= 0 and ce > cs:                   # manual span -> text follows the slice
-            st.session_state[kt] = span_text(sentence, cs, ce)
-            st.session_state[kms] = STATUS_EDITED
+    def _apply_words():
+        s, e = span_from_words(sentence, st.session_state.get(kfw, ""),
+                               st.session_state.get(klw, ""))
+        st.session_state[ks], st.session_state[ke] = s, e
+        if s >= 0:                                # keep typed text; anchor to the named words
+            st.session_state[kms] = (STATUS_EDITED
+                                     if st.session_state.get(kt, "") == span_text(sentence, s, e)
+                                     else STATUS_NORMALIZED)
         else:
             st.session_state[kms] = STATUS_UNRESOLVED
 
-    def _auto_detect():
-        res = resolve_span(st.session_state.get(kt, ""), sentence)   # fuzzy fallback allowed
-        st.session_state[ks] = _clamp(res["start_char"])
-        st.session_state[ke] = _clamp(res["end_char"])
-        st.session_state[kms] = res["status"]
+    def _on_span_change():                        # manual start/end -> move the pointer only
+        cs, ce = _clamp(st.session_state.get(ks, -1)), _clamp(st.session_state.get(ke, -1))
+        if cs >= 0 and ce > cs:                    # Text is authoritative; never overwrite it
+            st.session_state[kms] = (STATUS_EDITED
+                                     if st.session_state.get(kt, "") == span_text(sentence, cs, ce)
+                                     else STATUS_NORMALIZED)
+        else:
+            st.session_state[kms] = STATUS_UNRESOLVED
 
     st.markdown(f'<span class="flabel">{role.capitalize()}</span>', unsafe_allow_html=True)
     text_val = st.text_input("Text", key=kt, on_change=_on_text_change)
     etype = type_selector("Type", entity.get("type", ""), keybase + "_type")
-    c1, c2, c3 = st.columns([1, 1, 1.3])
-    start = c1.number_input("start", min_value=-1, max_value=n, key=ks, on_change=_on_span_change)
-    end = c2.number_input("end", min_value=-1, max_value=n, key=ke, on_change=_on_span_change)
-    c3.button("Auto-detect span", key=keybase + "_auto", use_container_width=True,
-              on_click=_auto_detect)
+    s1, s2 = st.columns(2)
+    s1.number_input("start", min_value=-1, max_value=n, key=ks, on_change=_on_span_change)
+    s2.number_input("end", min_value=-1, max_value=n, key=ke, on_change=_on_span_change)
 
-    ms = st.session_state.get(kms, "")
-    if ms == STATUS_NORMALIZED and start >= 0 and end > start:
-        final_text = text_val          # corrected text; span still anchors the mention
-        st.caption(f"✎ normalized — span keeps “{span_text(sentence, start, end)}”")
-    elif start >= 0 and end > start:
-        final_text = span_text(sentence, start, end)   # grounded; text mirrors span
-        if not ms:
-            ms = entity.get("match_status", "")
+    start = st.session_state.get(ks, -1)
+    end = st.session_state.get(ke, -1)
+    resolved = start >= 0 and end > start
+
+    # Verbatim/refinement edits and manual start/end are handled directly. Only
+    # when the text can't be located at all do we ask the annotator to name the
+    # first & last word it refers to. Whichever control is edited last wins.
+    if not resolved:
+        st.caption("This text isn’t in the sentence, type the first and last word "
+                   "it refers to OR set start/end above:")
+        w1, w2 = st.columns(2)
+        w1.text_input("First word", key=kfw, on_change=_apply_words)
+        w2.text_input("Last word (optional)", key=klw, on_change=_apply_words)
+
+    start, end = st.session_state.get(ks, -1), st.session_state.get(ke, -1)
+    final_text = text_val              # the Text is authoritative; never derived from the span
+    if start >= 0 and end > start:
+        ms = st.session_state.get(kms) or entity.get("match_status", "")
     else:
-        final_text = text_val
         ms = STATUS_UNRESOLVED
-        st.markdown('<span class="warn">⚠ span unresolved — edit the text to a phrase in '
-                    'the sentence, set start/end, or Auto-detect</span>',
-                    unsafe_allow_html=True)
     return {"text": final_text, "type": etype, "start_char": int(start), "end_char": int(end),
             "match_status": ms}
 

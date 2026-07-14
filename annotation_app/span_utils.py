@@ -63,6 +63,35 @@ def trim_edges(text: str, start: int, end: int) -> Tuple[int, int]:
     return start, end
 
 
+def span_from_words(sentence: str, first: str, last: str = "") -> Tuple[int, int]:
+    """Span from the annotator naming the first and last word of the anchor.
+
+    Finds ``first`` (whole word, case-insensitive), then ``last`` at or after it,
+    and returns the punctuation-trimmed span from the start of ``first`` to the
+    end of ``last``. If ``last`` is empty, the span is just ``first``. Returns
+    (-1, -1) if a word can't be found (so the UI keeps asking).
+    """
+    first = _clean_query(first)
+    last = _clean_query(last)
+    if not first:
+        return (-1, -1)
+    m1 = re.search(r"(?<!\w)" + re.escape(first) + r"(?!\w)", sentence, re.IGNORECASE)
+    if not m1:
+        return (-1, -1)
+    start, end = m1.start(), m1.end()
+    if last:
+        m2 = None
+        for m in re.finditer(r"(?<!\w)" + re.escape(last) + r"(?!\w)", sentence, re.IGNORECASE):
+            if m.start() >= m1.start():
+                m2 = m
+                break
+        if not m2:
+            return (-1, -1)
+        end = m2.end()
+    s, e = trim_edges(sentence, start, end)
+    return (s, e) if e > s else (-1, -1)
+
+
 def _clean_query(entity_text: str) -> str:
     return entity_text.strip().strip("".join(_EDGE_CHARS)).strip()
 
