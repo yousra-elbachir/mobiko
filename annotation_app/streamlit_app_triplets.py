@@ -21,7 +21,10 @@ from ontology import (
     ENTITY_TYPES, type_color,
     PREDICATES, normalize_predicate,
 )
-from span_utils import resolve_span, span_text, STATUS_UNRESOLVED
+from span_utils import (
+    resolve_span, span_text, locate_exact,
+    STATUS_UNRESOLVED, STATUS_NORMALIZED, STATUS_EDITED,
+)
 from triplet_store import (
     TripletStore, load_extractions, extraction_views,
     PENDING, VALIDATED, IGNORED, EDITED, ADDED, DONE,
@@ -296,12 +299,19 @@ def relation_input(current: str, keybase: str) -> str:
 def entity_editor(role: str, entity: dict, sentence: str, keybase: str) -> dict:
     """Render editor widgets for one entity; return the updated entity dict.
 
-    The text/start/end widgets are driven purely through session_state (no
-    ``value=`` default), so the *Auto-detect span* button can update the offsets
-    from an ``on_click`` callback — callbacks run before the widgets are
-    re-instantiated, which is the only safe time to write their session_state.
+    Text and span are reconciled through ``on_change`` callbacks (callbacks run
+    before widgets re-instantiate, the only safe time to write their state):
+
+      - Edit the **Text** → the app locates it as a whole word/phrase in the
+        sentence. Found → span moves to it (``edited``). Not found but a span
+        already exists → the typed text is kept as a *normalized* form and the
+        span still anchors the original mention (``normalized``, no warning).
+        Not found and no span → ``unresolved`` (flagged, but never trapping).
+      - Edit **start/end** → the text follows the new span slice.
+      - **Auto-detect span** → fuzzy "try harder" locate from the current text.
     """
     kt, ks, ke = keybase + "_txt", keybase + "_start", keybase + "_end"
+    kms = keybase + "_ms"
     n = len(sentence)
 
     def _clamp(v: int) -> int:
@@ -313,29 +323,58 @@ def entity_editor(role: str, entity: dict, sentence: str, keybase: str) -> dict:
     st.session_state.setdefault(kt, entity.get("text", ""))
     st.session_state.setdefault(ks, _clamp(entity.get("start_char", -1)))
     st.session_state.setdefault(ke, _clamp(entity.get("end_char", -1)))
+    st.session_state.setdefault(kms, entity.get("match_status", ""))
+
+    def _on_text_change():
+        loc = locate_exact(st.session_state.get(kt, ""), sentence)
+        if loc:                                   # verbatim phrase -> move span to it
+            st.session_state[ks], st.session_state[ke] = loc
+            st.session_state[kms] = STATUS_EDITED
+        elif st.session_state.get(ks, -1) >= 0 and st.session_state.get(ke, -1) > st.session_state.get(ks, -1):
+            st.session_state[kms] = STATUS_NORMALIZED   # keep span anchor + typed text
+        else:                                     # nothing to anchor to
+            st.session_state[ks], st.session_state[ke] = -1, -1
+            st.session_state[kms] = STATUS_UNRESOLVED
+
+    def _on_span_change():
+        cs, ce = _clamp(st.session_state.get(ks, -1)), _clamp(st.session_state.get(ke, -1))
+        if cs >= 0 and ce > cs:                   # manual span -> text follows the slice
+            st.session_state[kt] = span_text(sentence, cs, ce)
+            st.session_state[kms] = STATUS_EDITED
+        else:
+            st.session_state[kms] = STATUS_UNRESOLVED
 
     def _auto_detect():
-        res = resolve_span(st.session_state.get(kt, ""), sentence)
+        res = resolve_span(st.session_state.get(kt, ""), sentence)   # fuzzy fallback allowed
         st.session_state[ks] = _clamp(res["start_char"])
         st.session_state[ke] = _clamp(res["end_char"])
+        st.session_state[kms] = res["status"]
 
     st.markdown(f'<span class="flabel">{role.capitalize()}</span>', unsafe_allow_html=True)
-    text_val = st.text_input("Text", key=kt)
+    text_val = st.text_input("Text", key=kt, on_change=_on_text_change)
     etype = type_selector("Type", entity.get("type", ""), keybase + "_type")
     c1, c2, c3 = st.columns([1, 1, 1.3])
-    start = c1.number_input("start", min_value=-1, max_value=n, key=ks)
-    end = c2.number_input("end", min_value=-1, max_value=n, key=ke)
+    start = c1.number_input("start", min_value=-1, max_value=n, key=ks, on_change=_on_span_change)
+    end = c2.number_input("end", min_value=-1, max_value=n, key=ke, on_change=_on_span_change)
     c3.button("Auto-detect span", key=keybase + "_auto", use_container_width=True,
               on_click=_auto_detect)
-    # Keep text consistent with the chosen span (punctuation already excluded by resolver).
-    if start >= 0 and end > start:
-        final_text = span_text(sentence, start, end)
+
+    ms = st.session_state.get(kms, "")
+    if ms == STATUS_NORMALIZED and start >= 0 and end > start:
+        final_text = text_val          # corrected text; span still anchors the mention
+        st.caption(f"✎ normalized — span keeps “{span_text(sentence, start, end)}”")
+    elif start >= 0 and end > start:
+        final_text = span_text(sentence, start, end)   # grounded; text mirrors span
+        if not ms:
+            ms = entity.get("match_status", "")
     else:
-        st.markdown('<span class="warn">⚠ span unresolved — set start/end or auto-detect</span>',
-                    unsafe_allow_html=True)
         final_text = text_val
+        ms = STATUS_UNRESOLVED
+        st.markdown('<span class="warn">⚠ span unresolved — edit the text to a phrase in '
+                    'the sentence, set start/end, or Auto-detect</span>',
+                    unsafe_allow_html=True)
     return {"text": final_text, "type": etype, "start_char": int(start), "end_char": int(end),
-            "match_status": entity.get("match_status", "")}
+            "match_status": ms}
 
 
 # --------------------------------------------------------------------------- #
@@ -663,6 +702,8 @@ def main():
         m[0].metric("Validated", stt[VALIDATED]); m[1].metric("Added", stt[ADDED])
         m2 = st.columns(2)
         m2[0].metric("Ignored", stt[IGNORED]); m2[1].metric("Flagged", stt["flagged"])
+        m3 = st.columns(2)
+        m3[0].metric("Edited", stt[EDITED]); m3[1].metric("Unresolved", stt["unresolved"])
 
         st.divider()
         st.markdown('<span class="smallcap">Navigate</span>', unsafe_allow_html=True)
@@ -678,6 +719,13 @@ def main():
             nxt = store.next_flagged(idx, n)
             if nxt is None:
                 st.toast("No flagged triplets", icon="🚩")
+            else:
+                st.session_state.cur_idx = nxt
+                st.rerun()
+        if st.button("🔎 Next unresolved triplet", use_container_width=True):
+            nxt = store.next_unresolved(idx, n)
+            if nxt is None:
+                st.toast("No unresolved spans", icon="✅")
             else:
                 st.session_state.cur_idx = nxt
                 st.rerun()
@@ -752,16 +800,32 @@ def main():
         (t["subject"].get("start_char", -1) < 0 or t["object"].get("start_char", -1) < 0)
         for t in triplets)
 
+    def _finish_sentence():
+        store.set_status(idx, DONE)
+        store.save(snapshot=True)
+        st.session_state.pop(f"confirm_unres_{idx}", None)
+        st.session_state.cur_idx = min(n - 1, idx + 1)
+        st.rerun()
+
     done_label = "Confirm no triplets ▶" if not has_triplets else "Done ▶"
     if done_c.button(done_label, type="primary", use_container_width=True):
-        if pending > 0:
+        if pending > 0:                       # hard block: every triplet must be reviewed
             st.warning(f"{pending} triplet(s) still pending — validate, ignore, or edit them first.")
-        elif unresolved:
-            st.warning("Some kept triplets have unresolved spans — fix them before marking done.")
+        elif unresolved:                      # soft block: confirm, don't trap
+            st.session_state[f"confirm_unres_{idx}"] = True
         else:
-            store.set_status(idx, DONE)
-            store.save(snapshot=True)
-            st.session_state.cur_idx = min(n - 1, idx + 1)
+            _finish_sentence()
+
+    # Soft "proceed anyway" for unresolved spans (offsets couldn't be located).
+    if st.session_state.get(f"confirm_unres_{idx}"):
+        st.warning("Some kept triplets have an **unresolved span** (their text isn't located "
+                   "in the sentence). Fix them, Ignore them, or proceed — they'll be saved "
+                   "flagged as `unresolved` for a later pass.")
+        cc = st.columns([1, 1, 3])
+        if cc[0].button("Proceed anyway ▶", key=f"proceed_{idx}", type="primary"):
+            _finish_sentence()
+        if cc[1].button("Go back", key=f"back_{idx}"):
+            st.session_state.pop(f"confirm_unres_{idx}", None)
             st.rerun()
 
     if skip_c.button("Skip ▶", use_container_width=True, disabled=idx >= n - 1):

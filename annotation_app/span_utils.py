@@ -25,6 +25,33 @@ STATUS_FUZZY = "fuzzy"
 STATUS_UNRESOLVED = "unresolved"
 # Offsets supplied directly by the input file (already resolved upstream).
 STATUS_GIVEN = "given"
+# Annotator kept a corrected/normalized text while the span still anchors the
+# original surface mention (text != sentence[start:end], intentionally).
+STATUS_NORMALIZED = "normalized"
+# Annotator set the text to a verbatim phrase; the span was relocated to match.
+STATUS_EDITED = "edited"
+
+
+def locate_exact(query: str, sentence: str) -> Optional[Tuple[int, int]]:
+    """Locate `query` as a whole word/phrase (word-boundaried), case-sensitive
+    first then case-insensitive. Returns a punctuation-trimmed (start, end) or
+    None.
+
+    Word boundaries matter: they stop a normalization like "area" from matching
+    *inside* "areas" — so a genuine sub/re-phrasing falls through to the
+    normalized-text path instead of being mistaken for a shorter span.
+    """
+    q = _clean_query(query)
+    if not q or not sentence:
+        return None
+    pattern = r"(?<!\w)" + re.escape(q) + r"(?!\w)"
+    for flags in (0, re.IGNORECASE):
+        m = re.search(pattern, sentence, flags)
+        if m:
+            s, e = trim_edges(sentence, m.start(), m.end())
+            if e > s:
+                return (s, e)
+    return None
 
 
 def trim_edges(text: str, start: int, end: int) -> Tuple[int, int]:
