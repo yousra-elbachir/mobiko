@@ -22,7 +22,7 @@ from ontology import (
     PREDICATES, normalize_predicate,
 )
 from span_utils import (
-    resolve_span, span_text, locate_exact, span_from_words,
+    span_text, locate_exact, span_from_words,
     STATUS_UNRESOLVED, STATUS_NORMALIZED, STATUS_EDITED,
 )
 from triplet_store import (
@@ -517,19 +517,24 @@ def add_triplet_panel(store: TripletStore, idx: int, sentence: str):
             if not s_txt.strip() or not o_txt.strip():
                 st.warning("Subject and object text are required.")
             else:
-                subj = resolve_span(s_txt, sentence)
-                obj = resolve_span(o_txt, sentence)
+                # Text is authoritative (same rule as editing): keep the typed
+                # text, locate its span as a whole word/phrase. If it isn't found,
+                # leave the span unresolved — the annotator anchors it via Edit
+                # (and Done stays blocked until then).
+                def _entity(txt: str, typ: str) -> dict:
+                    loc = locate_exact(txt, sentence)
+                    if loc:
+                        return {"text": txt, "type": typ, "start_char": loc[0],
+                                "end_char": loc[1], "match_status": STATUS_EDITED}
+                    return {"text": txt, "type": typ, "start_char": -1, "end_char": -1,
+                            "match_status": STATUS_UNRESOLVED}
                 from triplet_store import new_uid
                 rec = store.get_sentence(idx)
                 rec["triplets"].append({
                     "uid": new_uid(), "source": "human", "decision": ADDED,
-                    "subject": {"text": subj["text"], "type": s_typ,
-                                "start_char": subj["start_char"], "end_char": subj["end_char"],
-                                "match_status": subj["status"]},
+                    "subject": _entity(s_txt.strip(), s_typ),
                     "relation": rel, "predicate": pred,
-                    "object": {"text": obj["text"], "type": o_typ,
-                               "start_char": obj["start_char"], "end_char": obj["end_char"],
-                               "match_status": obj["status"]},
+                    "object": _entity(o_txt.strip(), o_typ),
                     "notes": "", "flagged": False, "original": None,
                 })
                 store.save()
@@ -718,7 +723,7 @@ def main():
         m2 = st.columns(2)
         m2[0].metric("Ignored", stt[IGNORED]); m2[1].metric("Flagged", stt["flagged"])
         m3 = st.columns(2)
-        m3[0].metric("Edited", stt[EDITED]); m3[1].metric("Unresolved", stt["unresolved"])
+        m3[0].metric("Edited", stt[EDITED])
 
         st.divider()
         st.markdown('<span class="smallcap">Navigate</span>', unsafe_allow_html=True)
@@ -734,13 +739,6 @@ def main():
             nxt = store.next_flagged(idx, n)
             if nxt is None:
                 st.toast("No flagged triplets", icon="🚩")
-            else:
-                st.session_state.cur_idx = nxt
-                st.rerun()
-        if st.button("🔎 Next unresolved triplet", use_container_width=True):
-            nxt = store.next_unresolved(idx, n)
-            if nxt is None:
-                st.toast("No unresolved spans", icon="✅")
             else:
                 st.session_state.cur_idx = nxt
                 st.rerun()
@@ -815,32 +813,18 @@ def main():
         (t["subject"].get("start_char", -1) < 0 or t["object"].get("start_char", -1) < 0)
         for t in triplets)
 
-    def _finish_sentence():
-        store.set_status(idx, DONE)
-        store.save(snapshot=True)
-        st.session_state.pop(f"confirm_unres_{idx}", None)
-        st.session_state.cur_idx = min(n - 1, idx + 1)
-        st.rerun()
-
     done_label = "Confirm no triplets ▶" if not has_triplets else "Done ▶"
     if done_c.button(done_label, type="primary", use_container_width=True):
-        if pending > 0:                       # hard block: every triplet must be reviewed
+        if pending > 0:                       # every triplet must be reviewed
             st.warning(f"{pending} triplet(s) still pending — validate, ignore, or edit them first.")
-        elif unresolved:                      # soft block: confirm, don't trap
-            st.session_state[f"confirm_unres_{idx}"] = True
+        elif unresolved:                      # hard block: the span must be resolved first
+            st.warning("Some kept triplets have an unresolved span — fix them "
+                       "(edit the text, set start/end, or name the first/last word), "
+                       "or Ignore/Delete them, before marking this sentence done.")
         else:
-            _finish_sentence()
-
-    # Soft "proceed anyway" for unresolved spans (offsets couldn't be located).
-    if st.session_state.get(f"confirm_unres_{idx}"):
-        st.warning("Some kept triplets have an **unresolved span** (their text isn't located "
-                   "in the sentence). Fix them, Ignore them, or proceed — they'll be saved "
-                   "flagged as `unresolved` for a later pass.")
-        cc = st.columns([1, 1, 3])
-        if cc[0].button("Proceed anyway ▶", key=f"proceed_{idx}", type="primary"):
-            _finish_sentence()
-        if cc[1].button("Go back", key=f"back_{idx}"):
-            st.session_state.pop(f"confirm_unres_{idx}", None)
+            store.set_status(idx, DONE)
+            store.save(snapshot=True)
+            st.session_state.cur_idx = min(n - 1, idx + 1)
             st.rerun()
 
     if skip_c.button("Skip ▶", use_container_width=True, disabled=idx >= n - 1):

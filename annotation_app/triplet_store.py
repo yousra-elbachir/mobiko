@@ -22,7 +22,7 @@ import uuid
 from typing import Any, Dict, List, Optional, Tuple
 
 from ontology import normalize_type, normalize_predicate
-from span_utils import resolve_span, STATUS_GIVEN, STATUS_UNRESOLVED
+from span_utils import resolve_span, STATUS_GIVEN
 
 MAX_SNAPSHOTS = 50
 # Minimum seconds between remote (GitHub) pushes for per-click autosaves;
@@ -298,28 +298,10 @@ class TripletStore:
                 return i
         return None
 
-    def next_unresolved(self, from_idx: int, n_sentences: int) -> Optional[int]:
-        """Index of the next sentence after `from_idx` (wrapping around) with a
-        kept triplet whose subject/object span is unresolved. None if none."""
-        if n_sentences <= 0:
-            return None
-        for step in range(1, n_sentences + 1):
-            i = (from_idx + step) % n_sentences
-            rec = self.data["sentences"].get(str(i))
-            if rec and any(
-                t.get("decision") != IGNORED and any(
-                    e.get("start_char", -1) < 0 or e.get("match_status") == STATUS_UNRESOLVED
-                    for e in (t.get("subject", {}), t.get("object", {}))
-                )
-                for t in rec.get("triplets", [])
-            ):
-                return i
-        return None
-
     # ----------------------------- stats ------------------------------------ #
     def stats(self) -> Dict[str, int]:
         counts = {VALIDATED: 0, IGNORED: 0, ADDED: 0, EDITED: 0, PENDING: 0,
-                  "done_sentences": 0, "flagged": 0, "unresolved": 0}
+                  "done_sentences": 0, "flagged": 0}
         for rec in self.data["sentences"].values():
             if rec.get("status") == DONE:
                 counts["done_sentences"] += 1
@@ -327,12 +309,6 @@ class TripletStore:
                 counts[t.get("decision", PENDING)] = counts.get(t.get("decision", PENDING), 0) + 1
                 if t.get("flagged"):
                     counts["flagged"] += 1
-                # Kept triplet with an unlocatable subject/object span (data-quality flag).
-                if t.get("decision") != IGNORED and any(
-                    e.get("start_char", -1) < 0 or e.get("match_status") == STATUS_UNRESOLVED
-                    for e in (t.get("subject", {}), t.get("object", {}))
-                ):
-                    counts["unresolved"] += 1
         return counts
 
 
