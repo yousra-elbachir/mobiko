@@ -157,20 +157,22 @@ def _github_backend():
     return GitHubBackend.from_config(cfg)
 
 
-def _discover_annotators(data_dir: str) -> list[str]:
-    """Subfolders of DATA_DIR that hold at least one *_*.json extraction file."""
-    if not os.path.isdir(data_dir):
-        return []
-    out = []
-    for name in sorted(os.listdir(data_dir)):
-        d = os.path.join(data_dir, name)
-        if os.path.isdir(d) and any(f.endswith(".json") for f in os.listdir(d)):
-            out.append(name)
-    return out
+def _norm_name(name: str) -> str:
+    """Normalize an annotator name (trim + lowercase) so 'Mark'/'mark'/' Mark '
+    all map to the same annotator and one output file."""
+    return " ".join((name or "").split()).lower()
 
 
-def _input_path(data_dir: str, name: str, task_key: str) -> str:
-    return os.path.join(data_dir, name, f"{task_key}_{name}.json")
+def _input_path(data_dir: str, task_key: str, annotator: str) -> str:
+    """Input file for a (task, annotator).
+
+    - relations: per-annotator ``relations_<annotator>.json`` (only some
+      annotators have one — they annotate their own extracted entities).
+    - triplets:  a single shared ``triplets.json`` for everyone.
+    """
+    if task_key == "relations":
+        return os.path.join(data_dir, f"relations_{annotator}.json")
+    return os.path.join(data_dir, f"{task_key}.json")
 
 
 # --------------------------------------------------------------------------- #
@@ -301,13 +303,14 @@ def entity_editor(role: str, entity: dict, sentence: str, keybase: str) -> dict:
 
     The **Text is authoritative** — it's whatever the annotator types and is
     never rewritten by the app. Only the span (start/end) is adjusted to point
-    at where the text refers:
-      - Edit Text → the app locates it (whole word/phrase) and moves the span
-        there. A refinement of the current mention (shares text) keeps the span;
-        otherwise the span is cleared and the text is *unresolved*.
+    at where the text refers, live as you edit:
+      - Edit Text → the app locates it (whole word/phrase) and the start/end
+        boxes adapt. A refinement of the current mention keeps the span;
+        otherwise the span clears and the text is *unresolved*.
       - Edit start/end → moves the pointer only; the Text does not change.
-      - When unresolved, the annotator types the **first** and **last word** the
-        text refers to and the span is computed from them.
+      - When the span can't be resolved, the "first/last word" boxes appear so
+        the annotator can name the anchor. Once used, they stay open (with
+        start/end adapting) so the annotator can keep adjusting them.
     Whichever control is edited last wins.
     """
     kt, ks, ke, kms = keybase + "_txt", keybase + "_start", keybase + "_end", keybase + "_ms"
@@ -324,6 +327,8 @@ def entity_editor(role: str, entity: dict, sentence: str, keybase: str) -> dict:
     st.session_state.setdefault(ks, _clamp(entity.get("start_char", -1)))
     st.session_state.setdefault(ke, _clamp(entity.get("end_char", -1)))
     st.session_state.setdefault(kms, entity.get("match_status", ""))
+    st.session_state.setdefault(kfw, "")
+    st.session_state.setdefault(klw, "")
 
     def _on_text_change():
         txt = st.session_state.get(kt, "")
@@ -342,8 +347,10 @@ def entity_editor(role: str, entity: dict, sentence: str, keybase: str) -> dict:
             st.session_state[kms] = STATUS_UNRESOLVED
 
     def _apply_words():
-        s, e = span_from_words(sentence, st.session_state.get(kfw, ""),
-                               st.session_state.get(klw, ""))
+        fw_, lw_ = st.session_state.get(kfw, ""), st.session_state.get(klw, "")
+        if not fw_.strip():                       # cleared -> don't clobber the span
+            return
+        s, e = span_from_words(sentence, fw_, lw_)
         st.session_state[ks], st.session_state[ke] = s, e
         if s >= 0:                                # keep typed text; anchor to the named words
             st.session_state[kms] = (STATUS_EDITED
@@ -371,13 +378,13 @@ def entity_editor(role: str, entity: dict, sentence: str, keybase: str) -> dict:
     start = st.session_state.get(ks, -1)
     end = st.session_state.get(ke, -1)
     resolved = start >= 0 and end > start
-
-    # Verbatim/refinement edits and manual start/end are handled directly. Only
-    # when the text can't be located at all do we ask the annotator to name the
-    # first & last word it refers to. Whichever control is edited last wins.
-    if not resolved:
-        st.caption("This text isn’t in the sentence, type the first and last word "
-                   "it refers to OR set start/end above:")
+    # Show the first/last-word helper when the span isn't resolved, and KEEP it
+    # open once the annotator has engaged it (so filling it doesn't hide it).
+    fw_val, lw_val = st.session_state.get(kfw, ""), st.session_state.get(klw, "")
+    if not resolved or fw_val.strip() or lw_val.strip():
+        if not resolved:                          # only while the span is unresolved
+            st.caption("This text isn’t a phrase in the sentence — type the first and last "
+                       "word it refers to (or set start/end above):")
         w1, w2 = st.columns(2)
         w1.text_input("First word", key=kfw, on_change=_apply_words)
         w2.text_input("Last word (optional)", key=klw, on_change=_apply_words)
@@ -597,30 +604,27 @@ def _startup_gate() -> bool:
     st.title("Triplet Annotator")
     st.caption("Review and curate LLM-extracted subject → relation → object triplets.")
 
-    annotators = _discover_annotators(DATA_DIR)
-    if annotators:
-        name = st.selectbox("Your name", annotators, index=None,
-                            placeholder="Select your name", key="gate_name")
-    else:
-        st.info(f"No annotator folders found under `{DATA_DIR}`. "
-                "Expected `<name>/<task>_<name>.json`.")
-        name = st.text_input("Your name", key="gate_name")
-
+    # Any annotator: type your name (returning annotators resume by typing the
+    # same name again — their saved work is loaded automatically).
+    name = st.text_input("Your name", key="gate_name",
+                         placeholder="Type your name to begin")
     task_label = st.radio("What do you want to annotate?", list(TASKS),
                           horizontal=True, key="gate_task")
 
     if st.button("Start", type="primary"):
-        name = (name or "").strip()
-        if not name:
+        annotator = _norm_name(name)
+        if not annotator:
             st.warning("Please enter your name.")
         else:
             task_key = TASKS[task_label]
-            path = _input_path(DATA_DIR, name, task_key)
-            if not os.path.exists(path):
-                st.error(f"No file found for **{name}** / **{task_label}**.\n\n"
-                         f"Expected: `{path}`")
+            path = _input_path(DATA_DIR, task_key, annotator)
+            if task_key == "relations" and not os.path.exists(path):
+                st.error("You can only annotate the **triplets** — there's no relations "
+                         "file for this name. Choose **Extract joint triplets** above.")
+            elif not os.path.exists(path):
+                st.error(f"No input file for **{task_label}**.\n\nExpected: `{path}`")
             else:
-                st.session_state.annotator = name
+                st.session_state.annotator = annotator
                 st.session_state.task = task_key
                 st.session_state.task_label = task_label
                 st.rerun()
@@ -641,8 +645,8 @@ def main():
     annotator = st.session_state.annotator
     task = st.session_state.task
     task_label = st.session_state.get("task_label", task)
-    doc_id = f"{task}_{annotator}"
-    path = _input_path(DATA_DIR, annotator, task)
+    doc_id = f"{task}_{annotator}"          # keeps each annotator's OUTPUT separate
+    path = _input_path(DATA_DIR, task, annotator)   # relations: per-annotator; triplets: shared
 
     if not os.path.exists(path):
         st.error(f"Input file no longer found: {path}")

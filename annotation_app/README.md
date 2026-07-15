@@ -42,22 +42,30 @@ file and you begin annotating.
 
 ### Inputs
 
-The app reads one self-contained extraction file per **(annotator, task)**:
+Two input models, one per task (both files share the same
+`{text, spans, triplets}` schema):
 
 ```
-extracted_triplets/<name>/<task>_<name>.json      task ∈ { relations, triplets }
+extracted_triplets/relations_<name>.json   ← "Extract relations" — PER annotator
+extracted_triplets/triplets.json           ← "Extract joint triplets" — SHARED by all
 ```
 
-e.g. `extracted_triplets/davnah/relations_davnah.json`. The start screen only
-offers names that have at least one such file. Both task variants share the
-**same schema**; only the filename prefix differs.
+- **Relations** is per-annotator: each annotator reviews the relations over
+  *their own* previously-extracted entities. Only annotators who have a
+  `relations_<name>.json` file can pick this task; anyone else is told
+  "You can only annotate the triplets."
+- **Triplets** is one shared `triplets.json` for everyone.
+
+Login is a free-text name box (case-insensitive); the chosen task + name
+determine which file loads. Each annotator's *output* is always separate
+(`<task>_<name>_annotated.json`).
 
 ### Paths (override via env vars)
 
 | Env var               | Default                       | Purpose                                   |
 |-----------------------|-------------------------------|-------------------------------------------|
 | `ANNOTATION_PASSWORD` | *(required)*                  | Shared password gating the whole app.     |
-| `ANNOTATION_DATA_DIR` | `./extracted_triplets`        | Root holding `<name>/<task>_<name>.json`. |
+| `ANNOTATION_DATA_DIR` | `./extracted_triplets`        | Holds the shared `relations.json` / `triplets.json`. |
 | `ANNOTATION_SAVE_DIR` | `./annotations`               | Per-(task, annotator) saves + snapshots.  |
 | `GITHUB_REPO` / `GITHUB_TOKEN` / `GITHUB_BRANCH` | *(unset)* | Optional durable storage (see *Persistence*). |
 
@@ -183,9 +191,9 @@ edited/added spans are trimmed so they never start/end on punctuation.
 
 ## Features
 
-- **Startup gate:** pick your name (from detected annotator folders) and the
-  task (*Extract relations* / *Extract joint triplets*); switch either at any
-  time from the sidebar.
+- **Startup gate:** type any name (case-insensitive; returning annotators resume
+  by re-entering the same name) and pick the task (*Extract relations* /
+  *Extract joint triplets*); switch either at any time from the sidebar.
 - **Context band:** previous sentence (muted) above the current sentence, which
   is highlighted NER-style — color by entity-type family, **solid** underline for
   subjects, **dotted** for objects.

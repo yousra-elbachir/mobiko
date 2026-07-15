@@ -23,14 +23,15 @@ kubectl apply -n <NAMESPACE> -f deploy/k8s.yaml      # creates the PVC (and the 
 
 # Copy inputs into the volume via the running pod once it's up (step 3),
 # or with a throwaway pod. Target layout on the PVC (/data):
-#   /data/extracted_triplets/<name>/<task>_<name>.json  <- extraction files
-#   /data/saves/                                        <- created automatically; annotations + snapshots/
+#   /data/extracted_triplets/relations.json  <- shared input (Extract relations)
+#   /data/extracted_triplets/triplets.json   <- shared input (Extract joint triplets)
+#   /data/saves/                             <- created automatically; annotations + snapshots/
 POD=$(kubectl get pod -n <NAMESPACE> -l app=mobiko-annotator -o name | head -1)
 kubectl cp extracted_triplets <NAMESPACE>/${POD##*/}:/data/extracted_triplets
 ```
 
-(If no extraction files are present the start screen reports that no annotator
-folders were found — handy to confirm the deploy works before loading real data.)
+(If a task's file is missing the start screen shows an error for that task —
+handy to confirm the deploy works before loading real data.)
 
 ## 3. Apply & access
 
