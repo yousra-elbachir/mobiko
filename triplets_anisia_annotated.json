@@ -1,0 +1,155 @@
+{
+  "doc_id": "triplets_anisia",
+  "annotator": "anisia",
+  "task": "triplets",
+  "created": "2026-07-15T13:44:08Z",
+  "updated": "2026-07-15T13:44:08Z",
+  "progress": {
+    "last_sentence_idx": 0,
+    "done_count": 0
+  },
+  "sentences": {
+    "0": {
+      "text": "Abstract Conservation areas encompassing elevation gradients are biodiversity hotspots because they contain a wide range of habitat types in a relatively small space.",
+      "doc": "PMC11004549",
+      "status": "in_progress",
+      "spans": [
+        {
+          "text": "Conservation areas",
+          "type": "SPATIAL ENTITY",
+          "start_char": 9,
+          "end_char": 27,
+          "match_status": "exact"
+        },
+        {
+          "text": "elevation gradients",
+          "type": "SPATIAL PROPERTY",
+          "start_char": 41,
+          "end_char": 60,
+          "match_status": "exact"
+        },
+        {
+          "text": "biodiversity hotspots",
+          "type": "CONCEPT",
+          "start_char": 65,
+          "end_char": 86,
+          "match_status": "exact"
+        },
+        {
+          "text": "habitat types",
+          "type": "BIOTIC ENTITY",
+          "start_char": 124,
+          "end_char": 137,
+          "match_status": "exact"
+        }
+      ],
+      "triplets": [
+        {
+          "uid": "ad593c1881",
+          "source": "llm",
+          "decision": "pending",
+          "subject": {
+            "text": "Conservation areas",
+            "type": "SPATIAL ENTITY",
+            "start_char": 9,
+            "end_char": 27,
+            "match_status": "given"
+          },
+          "relation": "encompassing",
+          "predicate": "HAS_PROPERTY",
+          "object": {
+            "text": "elevation gradients",
+            "type": "SPATIAL PROPERTY",
+            "start_char": 41,
+            "end_char": 60,
+            "match_status": "given"
+          },
+          "notes": "",
+          "flagged": false,
+          "original": {
+            "subject": "Conservation areas",
+            "subject_type": "SPATIAL ENTITY",
+            "subject_start_char": 9,
+            "subject_end_char": 27,
+            "relation": "encompassing",
+            "predicate": "HAS_PROPERTY",
+            "object": "elevation gradients",
+            "object_type": "SPATIAL PROPERTY",
+            "object_start_char": 41,
+            "object_end_char": 60
+          }
+        },
+        {
+          "uid": "39ed8a5a42",
+          "source": "llm",
+          "decision": "pending",
+          "subject": {
+            "text": "Conservation areas",
+            "type": "SPATIAL ENTITY",
+            "start_char": 9,
+            "end_char": 27,
+            "match_status": "given"
+          },
+          "relation": "are",
+          "predicate": "RELATED_TO",
+          "object": {
+            "text": "biodiversity hotspots",
+            "type": "CONCEPT",
+            "start_char": 65,
+            "end_char": 86,
+            "match_status": "given"
+          },
+          "notes": "",
+          "flagged": false,
+          "original": {
+            "subject": "Conservation areas",
+            "subject_type": "SPATIAL ENTITY",
+            "subject_start_char": 9,
+            "subject_end_char": 27,
+            "relation": "are",
+            "predicate": "RELATED_TO",
+            "object": "biodiversity hotspots",
+            "object_type": "CONCEPT",
+            "object_start_char": 65,
+            "object_end_char": 86
+          }
+        },
+        {
+          "uid": "058459a61b",
+          "source": "llm",
+          "decision": "pending",
+          "subject": {
+            "text": "Conservation areas",
+            "type": "SPATIAL ENTITY",
+            "start_char": 9,
+            "end_char": 27,
+            "match_status": "given"
+          },
+          "relation": "contain",
+          "predicate": "RELATED_TO",
+          "object": {
+            "text": "habitat types",
+            "type": "BIOTIC ENTITY",
+            "start_char": 124,
+            "end_char": 137,
+            "match_status": "given"
+          },
+          "notes": "",
+          "flagged": false,
+          "original": {
+            "subject": "Conservation areas",
+            "subject_type": "SPATIAL ENTITY",
+            "subject_start_char": 9,
+            "subject_end_char": 27,
+            "relation": "contain",
+            "predicate": "RELATED_TO",
+            "object": "habitat types",
+            "object_type": "BIOTIC ENTITY",
+            "object_start_char": 124,
+            "object_end_char": 137
+          }
+        }
+      ]
+    }
+  }
+}
