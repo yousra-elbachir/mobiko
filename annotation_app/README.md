@@ -73,15 +73,7 @@ determine which file loads. Each annotator's *output* is always separate
 
 The whole app sits behind one shared password. Set it via the
 `ANNOTATION_PASSWORD` env var (preferred for deployment) **or** `app_password` in
-`.streamlit/secrets.toml` (copy `.streamlit/secrets.toml.example`). Share the
-link **and** the password with your annotators; anyone without it is stopped at
-the password screen. If no password is configured the app refuses to start
-(fail-closed), so it can't be deployed wide open by accident.
-
-> This is lightweight, single-secret access control — everyone shares the same
-> password and picks their own name (an unauthenticated label). It keeps casual
-> visitors out; it is **not** per-user authentication. For stronger guarantees,
-> also enforce auth at the ingress/host (see `DEPLOY.md`).
+`.streamlit/secrets.toml` (copy `.streamlit/secrets.toml.example`). 
 
 ### Persistence (durable storage)
 
