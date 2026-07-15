@@ -1,0 +1,281 @@
+{
+  "doc_id": "relations_davnah",
+  "annotator": "davnah",
+  "task": "relations",
+  "created": "2026-07-15T13:30:12Z",
+  "updated": "2026-07-15T13:30:13Z",
+  "progress": {
+    "last_sentence_idx": 0,
+    "done_count": 0
+  },
+  "sentences": {
+    "0": {
+      "text": "We find that centres of species richness correlate with areas of high temperatures, annual rainfall and topographic relief, supporting previous studies.",
+      "doc": "",
+      "status": "in_progress",
+      "spans": [
+        {
+          "text": "centres of",
+          "type": "SPATIAL ENTITY",
+          "start_char": 13,
+          "end_char": 23,
+          "uid": "e0f4fa6ea4"
+        },
+        {
+          "text": "species richness",
+          "type": "BIOTIC PROPERTY",
+          "start_char": 24,
+          "end_char": 40,
+          "uid": "cd43e1707c"
+        },
+        {
+          "text": "areas",
+          "type": "SPATIAL ENTITY",
+          "start_char": 56,
+          "end_char": 61,
+          "uid": "e0ee99b99c"
+        },
+        {
+          "text": "high",
+          "type": "QUALITATIVE PROPERTY",
+          "start_char": 65,
+          "end_char": 69,
+          "uid": "33563bb98e"
+        },
+        {
+          "text": "temperatures",
+          "type": "ABIOTIC PROPERTY",
+          "start_char": 70,
+          "end_char": 82,
+          "uid": "da96bf6c01"
+        },
+        {
+          "text": "annual rainfall",
+          "type": "ABIOTIC PROPERTY",
+          "start_char": 84,
+          "end_char": 99,
+          "uid": "fb10beefa7"
+        },
+        {
+          "text": "topographic relief",
+          "type": "ABIOTIC PROPERTY",
+          "start_char": 104,
+          "end_char": 122,
+          "uid": "079ea2f10d"
+        }
+      ],
+      "triplets": [
+        {
+          "uid": "b97deda46a",
+          "source": "llm",
+          "decision": "pending",
+          "subject": {
+            "text": "centres of",
+            "type": "SPATIAL ENTITY",
+            "start_char": 13,
+            "end_char": 23,
+            "match_status": "given"
+          },
+          "relation": "of",
+          "predicate": "HAS_PROPERTY",
+          "object": {
+            "text": "species richness",
+            "type": "BIOTIC PROPERTY",
+            "start_char": 24,
+            "end_char": 40,
+            "match_status": "given"
+          },
+          "notes": "",
+          "flagged": false,
+          "original": {
+            "subject": "centres of",
+            "subject_type": "SPATIAL ENTITY",
+            "subject_start_char": 13,
+            "subject_end_char": 23,
+            "relation": "of",
+            "predicate": "HAS_PROPERTY",
+            "object": "species richness",
+            "object_type": "BIOTIC PROPERTY",
+            "object_start_char": 24,
+            "object_end_char": 40
+          }
+        },
+        {
+          "uid": "ec8e86fbe3",
+          "source": "llm",
+          "decision": "pending",
+          "subject": {
+            "text": "centres of",
+            "type": "SPATIAL ENTITY",
+            "start_char": 13,
+            "end_char": 23,
+            "match_status": "given"
+          },
+          "relation": "correlate with",
+          "predicate": "RELATED_TO",
+          "object": {
+            "text": "areas",
+            "type": "SPATIAL ENTITY",
+            "start_char": 56,
+            "end_char": 61,
+            "match_status": "given"
+          },
+          "notes": "",
+          "flagged": false,
+          "original": {
+            "subject": "centres of",
+            "subject_type": "SPATIAL ENTITY",
+            "subject_start_char": 13,
+            "subject_end_char": 23,
+            "relation": "correlate with",
+            "predicate": "RELATED_TO",
+            "object": "areas",
+            "object_type": "SPATIAL ENTITY",
+            "object_start_char": 56,
+            "object_end_char": 61
+          }
+        },
+        {
+          "uid": "e0da268427",
+          "source": "llm",
+          "decision": "pending",
+          "subject": {
+            "text": "areas",
+            "type": "SPATIAL ENTITY",
+            "start_char": 56,
+            "end_char": 61,
+            "match_status": "given"
+          },
+          "relation": "of",
+          "predicate": "HAS_PROPERTY",
+          "object": {
+            "text": "temperatures",
+            "type": "ABIOTIC PROPERTY",
+            "start_char": 70,
+            "end_char": 82,
+            "match_status": "given"
+          },
+          "notes": "",
+          "flagged": false,
+          "original": {
+            "subject": "areas",
+            "subject_type": "SPATIAL ENTITY",
+            "subject_start_char": 56,
+            "subject_end_char": 61,
+            "relation": "of",
+            "predicate": "HAS_PROPERTY",
+            "object": "temperatures",
+            "object_type": "ABIOTIC PROPERTY",
+            "object_start_char": 70,
+            "object_end_char": 82
+          }
+        },
+        {
+          "uid": "1c830e363e",
+          "source": "llm",
+          "decision": "pending",
+          "subject": {
+            "text": "areas",
+            "type": "SPATIAL ENTITY",
+            "start_char": 56,
+            "end_char": 61,
+            "match_status": "given"
+          },
+          "relation": "of",
+          "predicate": "HAS_PROPERTY",
+          "object": {
+            "text": "annual rainfall",
+            "type": "ABIOTIC PROPERTY",
+            "start_char": 84,
+            "end_char": 99,
+            "match_status": "given"
+          },
+          "notes": "",
+          "flagged": false,
+          "original": {
+            "subject": "areas",
+            "subject_type": "SPATIAL ENTITY",
+            "subject_start_char": 56,
+            "subject_end_char": 61,
+            "relation": "of",
+            "predicate": "HAS_PROPERTY",
+            "object": "annual rainfall",
+            "object_type": "ABIOTIC PROPERTY",
+            "object_start_char": 84,
+            "object_end_char": 99
+          }
+        },
+        {
+          "uid": "6a19b46ae2",
+          "source": "llm",
+          "decision": "pending",
+          "subject": {
+            "text": "areas",
+            "type": "SPATIAL ENTITY",
+            "start_char": 56,
+            "end_char": 61,
+            "match_status": "given"
+          },
+          "relation": "of",
+          "predicate": "HAS_PROPERTY",
+          "object": {
+            "text": "topographic relief",
+            "type": "ABIOTIC PROPERTY",
+            "start_char": 104,
+            "end_char": 122,
+            "match_status": "given"
+          },
+          "notes": "",
+          "flagged": false,
+          "original": {
+            "subject": "areas",
+            "subject_type": "SPATIAL ENTITY",
+            "subject_start_char": 56,
+            "subject_end_char": 61,
+            "relation": "of",
+            "predicate": "HAS_PROPERTY",
+            "object": "topographic relief",
+            "object_type": "ABIOTIC PROPERTY",
+            "object_start_char": 104,
+            "object_end_char": 122
+          }
+        },
+        {
+          "uid": "0eac438a08",
+          "source": "llm",
+          "decision": "pending",
+          "subject": {
+            "text": "temperatures",
+            "type": "ABIOTIC PROPERTY",
+            "start_char": 70,
+            "end_char": 82,
+            "match_status": "given"
+          },
+          "relation": "high",
+          "predicate": "HAS_PROPERTY",
+          "object": {
+            "text": "high",
+            "type": "QUALITATIVE PROPERTY",
+            "start_char": 65,
+            "end_char": 69,
+            "match_status": "given"
+          },
+          "notes": "",
+          "flagged": false,
+          "original": {
+            "subject": "temperatures",
+            "subject_type": "ABIOTIC PROPERTY",
+            "subject_start_char": 70,
+            "subject_end_char": 82,
+            "relation": "high",
+            "predicate": "HAS_PROPERTY",
+            "object": "high",
+            "object_type": "QUALITATIVE PROPERTY",
+            "object_start_char": 65,
+            "object_end_char": 69
+          }
+        }
+      ]
+    }
+  }
+}
